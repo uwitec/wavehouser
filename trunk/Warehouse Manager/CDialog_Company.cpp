@@ -1,0 +1,84 @@
+// CDialog_Company.cpp : 实现文件
+//
+
+#include "stdafx.h"
+#include "Warehouse Manager.h"
+#include "CDialog_Company.h"
+
+
+// CDialog_Company 对话框
+
+IMPLEMENT_DYNAMIC(CDialog_Company, CDialog)
+
+CDialog_Company::CDialog_Company(CWnd* pParent /*=NULL*/)
+	: CDialog(CDialog_Company::IDD, pParent)
+{
+
+}
+
+CDialog_Company::~CDialog_Company()
+{
+}
+
+void CDialog_Company::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_EDIT1, m_edit_companyName);
+	DDX_Control(pDX, IDC_EDIT2, m_edit_wareName);
+	DDX_Control(pDX, IDC_EDIT3, m_edit_address);
+	DDX_Control(pDX, IDC_EDIT6, m_edit_tellPhone);
+	DDX_Control(pDX, IDC_EDIT4, m_edit_tellMan);
+	DDX_Control(pDX, IDC_EDIT7, m_edit_detail);
+}
+
+
+BEGIN_MESSAGE_MAP(CDialog_Company, CDialog)
+	ON_BN_CLICKED(IDC_BTB_SAVE, &CDialog_Company::OnBnClickedBtbSave)
+	ON_BN_CLICKED(IDC_BTB_QUIT, &CDialog_Company::OnBnClickedBtbQuit)
+END_MESSAGE_MAP()
+
+
+// CDialog_Company 消息处理程序
+
+void CDialog_Company::OnBnClickedBtbSave()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	m_edit_companyName.GetWindowText(m_company.m_companyName);
+	if(m_company.m_companyName.IsEmpty())
+	{
+		MessageBox("请输入正确的公司名字");
+		return;
+	}
+	m_edit_wareName.GetWindowText(m_company.m_wareName);
+	if(m_company.m_wareName.IsEmpty())
+	{
+		MessageBox("请输入正确的仓库名字");
+		return;
+	}
+	m_edit_address.GetWindowText(m_company.m_address);
+	if(m_company.m_address.IsEmpty())
+	{
+		MessageBox("请输入正确的公司地址");
+		return;
+	}
+	m_edit_tellPhone.GetWindowText(m_company.m_tellPhone);
+	if(m_company.m_tellPhone.IsEmpty())
+	{
+		MessageBox("请输入正确的公司电话");
+		return;
+	}
+	m_edit_tellMan.GetWindowText(m_company.m_tellMan);
+	if(m_company.m_tellMan.IsEmpty())
+	{
+		MessageBox("请输入正确的联系人");
+		return;
+	}
+	m_edit_detail.GetWindowText(m_company.m_detail);
+	
+}
+
+void CDialog_Company::OnBnClickedBtbQuit()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	OnCancel();
+}
