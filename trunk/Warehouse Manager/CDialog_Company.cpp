@@ -46,31 +46,31 @@ void CDialog_Company::OnBnClickedBtbSave()
 	m_edit_companyName.GetWindowText(m_company.m_companyName);
 	if(m_company.m_companyName.IsEmpty())
 	{
-		MessageBox("请输入正确的公司名字");
+		CRuntimeMessageBox::RunMessageBox("请输入正确的公司名字");
 		return;
 	}
 	m_edit_wareName.GetWindowText(m_company.m_wareName);
 	if(m_company.m_wareName.IsEmpty())
 	{
-		MessageBox("请输入正确的仓库名字");
+		CRuntimeMessageBox::RunMessageBox("请输入正确的仓库名字");
 		return;
 	}
 	m_edit_address.GetWindowText(m_company.m_address);
 	if(m_company.m_address.IsEmpty())
 	{
-		MessageBox("请输入正确的公司地址");
+		CRuntimeMessageBox::RunMessageBox("请输入正确的公司地址");
 		return;
 	}
 	m_edit_tellPhone.GetWindowText(m_company.m_tellPhone);
 	if(m_company.m_tellPhone.IsEmpty())
 	{
-		MessageBox("请输入正确的公司电话");
+		CRuntimeMessageBox::RunMessageBox("请输入正确的公司电话");
 		return;
 	}
 	m_edit_tellMan.GetWindowText(m_company.m_tellMan);
 	if(m_company.m_tellMan.IsEmpty())
 	{
-		MessageBox("请输入正确的联系人");
+		CRuntimeMessageBox::RunMessageBox("请输入正确的联系人");
 		return;
 	}
 	m_edit_detail.GetWindowText(m_company.m_detail);

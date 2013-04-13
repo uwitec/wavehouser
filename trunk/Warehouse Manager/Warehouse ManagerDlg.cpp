@@ -63,6 +63,16 @@ BEGIN_MESSAGE_MAP(CWarehouseManagerDlg, CDialog)
 	ON_WM_QUERYDRAGICON()
 	//}}AFX_MSG_MAP
 	ON_COMMAND(ID_32775, &CWarehouseManagerDlg::OnCompanyBtn)
+	ON_COMMAND(ID_32772, &CWarehouseManagerDlg::OnUserInfoBtn)
+	ON_COMMAND(ID_32773, &CWarehouseManagerDlg::OnMaterialBtn)
+	ON_COMMAND(ID_32771, &CWarehouseManagerDlg::OnWareHouseBtn)
+	ON_COMMAND(ID_32777, &CWarehouseManagerDlg::OnAddMatrtial)
+	ON_COMMAND(ID_32778, &CWarehouseManagerDlg::OnEditMaterial)
+	ON_COMMAND(ID_32779, &CWarehouseManagerDlg::OnSearchMaterial)
+	ON_COMMAND(ID_32780, &CWarehouseManagerDlg::OnSearchMaterialState)
+	ON_COMMAND(ID_32776, &CWarehouseManagerDlg::OnExit)
+	ON_COMMAND(ID_32781, &CWarehouseManagerDlg::OnAddBuyBtn)
+	ON_COMMAND(ID_32793, &CWarehouseManagerDlg::OnAddPayBtn)
 END_MESSAGE_MAP()
 
 
@@ -95,10 +105,19 @@ BOOL CWarehouseManagerDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
-	ShowWindow(SW_MAXIMIZE);
+	ShowWindow(SW_NORMAL);
 
 	// TODO: 在此添加额外的初始化代码
+	m_checkLisk = new CDialog_Check_List(this);
+	m_checkLisk->Create(IDD_DLG_CHECK_LIST);
+	m_checkLisk->SetParent(this);//设置dialog1为父窗口
+	m_checkLisk->ShowWindow(SW_SHOW);
 
+	//m_MaterialList = new CDialog_Material_List(this);
+	//m_MaterialList->Create(IDD_DLG_MATERIAL_LIST);
+	//m_MaterialList->SetParent(this);//设置dialog1为父窗口
+	////m_MaterialList->InitList();
+	//m_MaterialList->ShowWindow(SW_SHOW);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
@@ -156,5 +175,79 @@ void CWarehouseManagerDlg::OnCompanyBtn()
 {
 	// TODO: 在此添加命令处理程序代码
 	CDialog_Company dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnUserInfoBtn()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_UserInfo dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnMaterialBtn()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_Material dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnWareHouseBtn()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_WareHouse dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnAddMatrtial()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_Material dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnEditMaterial()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_Material dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnSearchMaterial()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CWarehouseManagerDlg::OnSearchMaterialState()
+{
+	// TODO: 在此添加命令处理程序代码
+}
+
+
+void CWarehouseManagerDlg::OnExit()
+{
+	// TODO: 在此添加命令处理程序代码
+	OnCancel();
+}
+
+void CWarehouseManagerDlg::OnAddBuyBtn()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_Check dlg;
+	dlg.DoModal();
+}
+
+
+void CWarehouseManagerDlg::OnAddPayBtn()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_Check dlg(FALSE);
 	dlg.DoModal();
 }

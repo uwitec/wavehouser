@@ -9,7 +9,7 @@ CControl_bace::~CControl_bace(void)
 {
 }
 
-void CControl_bace::SetData(const CData_bace *data )
+void CControl_bace::SetData(const CDate_base *data )
 {
 	//m_data = data;
 }

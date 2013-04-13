@@ -9,7 +9,7 @@ CControl_company::~CControl_company(void)
 {
 }
 
-void CControl_company::SetData( const CData_Company *data )
+void CControl_company::SetData( const CDate_Company *data )
 {
 	//m_data = data;
 }
