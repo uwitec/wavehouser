@@ -2,6 +2,7 @@
 #include "stdafx.h"
 #include <string>
 #include <fstream>
+#include <vector>
 using namespace std;
 typedef vector<CString>     VECCSTRING;
 typedef vector<int>         VECINT;

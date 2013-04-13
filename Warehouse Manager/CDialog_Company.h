@@ -1,6 +1,6 @@
 #pragma once
 
-#include "CData_Company.h"
+#include "CDate_Company.h"
 #include "afxwin.h"
 // CDialog_Company ¶Ô»°¿ò
 
@@ -21,7 +21,7 @@ protected:
 	DECLARE_MESSAGE_MAP()
 
 private:
-	CData_Company m_company;
+	CDate_Company m_company;
 public:
 	afx_msg void OnBnClickedBtbSave();
 	CEdit m_edit_companyName;
