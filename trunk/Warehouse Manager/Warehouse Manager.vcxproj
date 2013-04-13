@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25A8F228-9ED7-4F68-9A0D-DA8A503EB5C7}</ProjectGuid>
+    <RootNamespace>WarehouseManager</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>false</ValidateAllParameters>
+    </Midl>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CAdeptControl.cpp" />
+    <ClCompile Include="CControl_material.cpp" />
+    <ClCompile Include="CControl_user.cpp" />
+    <ClCompile Include="CControl_warehouse.cpp" />
+    <ClCompile Include="CDate_check.cpp" />
+    <ClCompile Include="CDate_Class.cpp" />
+    <ClCompile Include="CDialog_Check.cpp" />
+    <ClCompile Include="CDialog_Check_List.cpp" />
+    <ClCompile Include="CDialog_CLass.cpp" />
+    <ClCompile Include="CDialog_Company.cpp" />
+    <ClCompile Include="CDialog_Material.cpp" />
+    <ClCompile Include="CDialog_Material_List.cpp" />
+    <ClCompile Include="CDialog_UserInfo.cpp" />
+    <ClCompile Include="CDialog_WareHouse.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Warehouse Manager.cpp" />
+    <ClCompile Include="Warehouse ManagerDlg.cpp" />
+    <ClCompile Include="CDate_admin.cpp" />
+    <ClCompile Include="CDate_base.cpp" />
+    <ClCompile Include="CDate_Company.cpp" />
+    <ClCompile Include="CDate_Material.cpp" />
+    <ClCompile Include="CDate_User.cpp" />
+    <ClCompile Include="CDate_Warehouse.cpp" />
+    <ClCompile Include="CControl_bace.cpp" />
+    <ClCompile Include="CControl_company.cpp" />
+    <ClCompile Include="CControl_DB.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAdeptControl.h" />
+    <ClInclude Include="CControl_material.h" />
+    <ClInclude Include="CControl_user.h" />
+    <ClInclude Include="CControl_warehouse.h" />
+    <ClInclude Include="CDate_check.h" />
+    <ClInclude Include="CDate_Class.h" />
+    <ClInclude Include="CDialog_Check.h" />
+    <ClInclude Include="CDialog_Check_List.h" />
+    <ClInclude Include="CDialog_CLass.h" />
+    <ClInclude Include="CDialog_Company.h" />
+    <ClInclude Include="CDialog_Material.h" />
+    <ClInclude Include="CDialog_Material_List.h" />
+    <ClInclude Include="CDialog_UserInfo.h" />
+    <ClInclude Include="CDialog_WareHouse.h" />
+    <ClInclude Include="CRuntimeMessageBox.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Warehouse Manager.h" />
+    <ClInclude Include="Warehouse ManagerDlg.h" />
+    <ClInclude Include="CDate_admin.h" />
+    <ClInclude Include="CDate_base.h" />
+    <ClInclude Include="CDate_Company.h" />
+    <ClInclude Include="CDate_Material.h" />
+    <ClInclude Include="CDate_User.h" />
+    <ClInclude Include="CDate_Warehouse.h" />
+    <ClInclude Include="CControl_bace.h" />
+    <ClInclude Include="CControl_company.h" />
+    <ClInclude Include="CControl_DB.h" />
+    <ClInclude Include="CStringTransform.h" />
+    <ClInclude Include="uuidSet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\Warehouse Manager.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Warehouse Manager.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\WarehouseManager.rc2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="Warehouse Manager.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
