@@ -46,7 +46,27 @@ BOOL CDialog_Check_List::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
+	InitList();
 	return TRUE;
+}
+
+void CDialog_Check_List::InitList()
+{
+	SetWindowLong(m_list.m_hWnd, GWL_STYLE, GetWindowLong(m_list.m_hWnd, GWL_STYLE) |LVS_REPORT);
+	DWORD dwStyles = m_list.GetExStyle();
+	dwStyles &= ~LVS_EX_CHECKBOXES;
+	m_list.SetExtendedStyle(dwStyles|LVS_EX_FULLROWSELECT|LVS_EX_GRIDLINES);
+	
+	m_list.InsertColumn(0, _T( "序号" ),LVCFMT_LEFT, 50);
+	m_list.InsertColumn(1, _T( "收支" ),LVCFMT_LEFT, 50);
+	m_list.InsertColumn(2, _T( "材料名称" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(3, _T( "部门" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(4, _T( "操作员" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(5, _T( "材料型号" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(6, _T( "数量" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(7, _T( "金额" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(8, _T( "日期" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(9, _T( "详细" ),LVCFMT_LEFT, 500);
 }
 
 void CDialog_Check_List::OnBnClickedSearchBtn()
