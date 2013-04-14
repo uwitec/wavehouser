@@ -17,6 +17,9 @@
 #define IDD_DLG_CHECK                   135
 #define IDD_DLG_CLASS                   136
 #define IDD_DLG_CHECK_LIST              137
+#define IDD_DLG_CHECK_STATS             138
+#define IDD_DIALOG1                     139
+#define IDD_DLG_LOGIN                   139
 #define IDC_EDIT1                       1000
 #define IDC_EDIT2                       1001
 #define IDC_EDIT3                       1002
@@ -36,6 +39,7 @@
 #define IDC_BUTTON3                     1015
 #define IDC_DATETIMEPICKER1             1016
 #define IDC_DATETIMEPICKER2             1017
+#define IDC_STATIC_S                    1018
 #define ID_32771                        32771
 #define ID_32772                        32772
 #define ID_32773                        32773
@@ -64,9 +68,9 @@
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        138
+#define _APS_NEXT_RESOURCE_VALUE        140
 #define _APS_NEXT_COMMAND_VALUE         32794
-#define _APS_NEXT_CONTROL_VALUE         1017
+#define _APS_NEXT_CONTROL_VALUE         1019
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

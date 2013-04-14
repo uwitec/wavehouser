@@ -10,6 +10,7 @@
 #include "CDialog_Material_List.h"
 #include "CDialog_Check.h"
 #include "CDialog_Check_list.h"
+#include "CDialog_Check_Stats.h"
 // CWarehouseManagerDlg ¶Ô»°¿ò
 class CWarehouseManagerDlg : public CDialog
 {
@@ -47,8 +48,20 @@ public:
 
 private:
 	CDialog_Material_List *m_MaterialList;
+	CDialog_Check_Stats *m_MaterialStats;
+
 	CDialog_Check_List *m_checkLisk;
+	CDialog_Check_Stats *m_checkStats;
+		
 public:
 	afx_msg void OnAddBuyBtn();
 	afx_msg void OnAddPayBtn();
+	afx_msg void OnCheckSearchBtn();
+	afx_msg void OnCheckStats();
+	afx_msg void OnOutM();
+	afx_msg void OnOutUser();
+	afx_msg void OnOutCheck();
+	afx_msg void OnSetSystem();
+	afx_msg void OnHelp();
+	afx_msg void OnAbout();
 };

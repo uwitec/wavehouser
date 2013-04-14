@@ -37,4 +37,6 @@ public:
 private:
 	CDate_search m_searcher;
 	CStringTransform m_dateChange;
+
+	void InitList();
 };
