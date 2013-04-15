@@ -15,4 +15,5 @@ public:
 	CString m_tellPhone;
 	CString m_email;
 	CString m_detail;
+	CString m_pass;
 };

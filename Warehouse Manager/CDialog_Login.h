@@ -1,6 +1,7 @@
 #pragma once
 #include "afxwin.h"
 
+#include "CDate_User.h"
 
 // CDialog_Login 对话框
 
@@ -18,6 +19,7 @@ public:
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
+	CDate_User m_user;
 	DECLARE_MESSAGE_MAP()
 public:
 	CEdit m_user_ctrl;

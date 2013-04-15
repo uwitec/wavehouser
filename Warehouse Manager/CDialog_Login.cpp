@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Login.h"
+#include "CControl_Login.h"
 //#include "afxdialogex.h"
 
 
@@ -42,6 +43,24 @@ void CDialog_Login::OnBnClickedLogin()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	//CDialog::OnOK();
+
+	m_user_ctrl.GetWindowText(m_user.m_name);
+	if(m_user.m_name.IsEmpty())
+	{
+		CRuntimeMessageBox::RunMessageBox("请输入用户名");
+		return;
+	}
+	m_pass_ctrl.GetWindowText(m_user.m_pass);
+	if(m_user.m_pass.IsEmpty())
+	{
+		CRuntimeMessageBox::RunMessageBox("请输入密码");
+		return;
+	}
+	
+	CControl_Login tmp;
+	tmp.SetData(&m_user);
+
+	tmp.Search();
 }
 
 

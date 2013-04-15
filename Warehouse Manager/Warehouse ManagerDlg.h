@@ -57,6 +57,9 @@ private:
 	CDialog_Check_Stats *m_checkStats;
 		
 	CDialog_User_List *m_UserList;
+
+	bool LoginUser();
+
 public:
 	afx_msg void OnAddBuyBtn();
 	afx_msg void OnAddPayBtn();
