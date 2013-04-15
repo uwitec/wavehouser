@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "CControl_Login.h"
-#include "ADOOperate.h"
+#include "CControl_DB.h"
 
 CControl_Login::CControl_Login(void)
 {
@@ -23,7 +23,9 @@ bool CControl_Login::Search()
 	sql += "' and admin_password='";
 	sql +=  m_dataChange.CStringtostring(m_loginUser.m_pass);
 
-	_RecordsetPtr tmp;
+	//_RecordsetPtr tmp;
 
-	return CADOOperate::GetRecordsCount(tmp,sql) == 1;
+	//return CADOOperate::GetRecordsCount(tmp,sql) == 1;
+
+	return false;
 }

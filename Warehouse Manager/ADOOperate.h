@@ -22,7 +22,7 @@ public:
 private:
 
 	CADOOperate();
-	virtual ~CADOOperate();
+	~CADOOperate();
 	static CADOOperate *s_pADOOperate;
 };
 
