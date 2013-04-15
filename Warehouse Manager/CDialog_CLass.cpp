@@ -4,15 +4,15 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_CLass.h"
-#include "afxdialogex.h"
+//#include "afxdialogex.h"
 
 
 // CDialog_CLass ¶Ô»°¿ò
 
-IMPLEMENT_DYNAMIC(CDialog_CLass, CDialogEx)
+IMPLEMENT_DYNAMIC(CDialog_CLass, CDialog)
 
 CDialog_CLass::CDialog_CLass(CWnd* pParent /*=NULL*/)
-	: CDialogEx(CDialog_CLass::IDD, pParent)
+	: CDialog(CDialog_CLass::IDD, pParent)
 {
 
 }
@@ -23,7 +23,7 @@ CDialog_CLass::~CDialog_CLass()
 
 void CDialog_CLass::DoDataExchange(CDataExchange* pDX)
 {
-	CDialogEx::DoDataExchange(pDX);
+	CDialog::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_EDIT1, m_name_ctrl);
 	DDX_Control(pDX, IDC_EDIT2, m_pName_ctrl);
 	DDX_Control(pDX, IDC_EDIT3, m_num_ctrl);
@@ -33,7 +33,7 @@ void CDialog_CLass::DoDataExchange(CDataExchange* pDX)
 }
 
 
-BEGIN_MESSAGE_MAP(CDialog_CLass, CDialogEx)
+BEGIN_MESSAGE_MAP(CDialog_CLass, CDialog)
 	ON_BN_CLICKED(IDC_BTB_SAVE, &CDialog_CLass::OnBnClickedBtbSave)
 	ON_BN_CLICKED(IDC_BTB_QUIT, &CDialog_CLass::OnBnClickedBtbQuit)
 END_MESSAGE_MAP()

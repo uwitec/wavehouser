@@ -4,7 +4,7 @@
 #include "afxwin.h"
 // CDialog_CLass ¶Ô»°¿ò
 
-class CDialog_CLass : public CDialogEx
+class CDialog_CLass : public CDialog
 {
 	DECLARE_DYNAMIC(CDialog_CLass)
 

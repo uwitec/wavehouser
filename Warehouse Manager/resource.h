@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ 生成的包含文件。
-// 供 Warehouse Manager.rc 使用
+// Microsoft Visual C++ generated include file.
+// Used by Warehouse Manager.rc
 //
 #define IDM_ABOUTBOX                    0x0010
 #define IDD_ABOUTBOX                    100
@@ -20,6 +20,7 @@
 #define IDD_DLG_CHECK_STATS             138
 #define IDD_DIALOG1                     139
 #define IDD_DLG_LOGIN                   139
+#define IDD_DLG_USER_LIST               140
 #define IDC_EDIT1                       1000
 #define IDC_EDIT2                       1001
 #define IDC_EDIT3                       1002
@@ -27,15 +28,19 @@
 #define IDC_EDIT5                       1004
 #define IDC_EDIT6                       1005
 #define IDC_BTB_SAVE                    1006
+#define IDC_EDIT9                       1006
 #define IDC_BTB_QUIT                    1007
+#define IDC_EDIT10                      1007
 #define IDC_EDIT7                       1008
 #define IDC_LIST1                       1009
 #define IDC_EDIT8                       1009
 #define IDC_BUTTON1                     1010
 #define IDC_COMBO1                      1011
+#define IDC_BUTTON4                     1011
 #define IDC_COMBO2                      1012
 #define IDC_COMBO3                      1013
 #define IDC_BUTTON2                     1014
+#define IDC_BUTTON5                     1014
 #define IDC_BUTTON3                     1015
 #define IDC_DATETIMEPICKER1             1016
 #define IDC_DATETIMEPICKER2             1017

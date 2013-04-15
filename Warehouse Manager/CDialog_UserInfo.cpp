@@ -5,7 +5,6 @@
 #include "Warehouse Manager.h"
 #include "CDialog_UserInfo.h"
 
-
 // CDialog_UserInfo ¶Ô»°¿ò
 
 IMPLEMENT_DYNAMIC(CDialog_UserInfo, CDialog)

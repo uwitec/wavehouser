@@ -7,7 +7,7 @@
 
 // CDialog_Check ¶Ô»°¿ò
 
-class CDialog_Check : public CDialogEx
+class CDialog_Check : public CDialog
 {
 	DECLARE_DYNAMIC(CDialog_Check)
 

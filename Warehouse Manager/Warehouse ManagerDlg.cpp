@@ -52,9 +52,12 @@ CWarehouseManagerDlg::CWarehouseManagerDlg(CWnd* pParent /*=NULL*/)
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
 	m_MaterialList = NULL;
+	m_MaterialList_out = NULL;
 	m_MaterialStats = NULL;
-	m_checkLisk = NULL;
+	m_checkList = NULL;
+	m_checkList_out = NULL;
 	m_checkStats = NULL;
+	m_UserList = NULL;
 }
 
 void CWarehouseManagerDlg::DoDataExchange(CDataExchange* pDX)
@@ -228,7 +231,7 @@ void CWarehouseManagerDlg::OnSearchMaterial()
 
 	if(m_MaterialList == NULL)
 	{
-		m_MaterialList = new CDialog_Material_List(this);
+		m_MaterialList = new CDialog_Material_List();
 		m_MaterialList->Create(IDD_DLG_MATERIAL_LIST);
 		m_MaterialList->SetParent(this);//设置dialog1为父窗口
 		m_MaterialList->ShowWindow(SW_HIDE);
@@ -276,14 +279,14 @@ void CWarehouseManagerDlg::OnAddPayBtn()
 void CWarehouseManagerDlg::OnCheckSearchBtn()
 {
 	// TODO: 在此添加命令处理程序代码
-	if(m_checkLisk == NULL)
+	if(m_checkList == NULL)
 	{
-		m_checkLisk = new CDialog_Check_List(this);
-		m_checkLisk->Create(IDD_DLG_CHECK_LIST);
-		m_checkLisk->SetParent(this);//设置dialog1为父窗口
-		m_checkLisk->ShowWindow(SW_HIDE);
+		m_checkList = new CDialog_Check_List();
+		m_checkList->Create(IDD_DLG_CHECK_LIST);
+		m_checkList->SetParent(this);//设置dialog1为父窗口
+		m_checkList->ShowWindow(SW_HIDE);
 	}
-	CDialog_Update::UpdateDlg(m_checkLisk);
+	CDialog_Update::UpdateDlg(m_checkList);
 }
 
 
@@ -304,18 +307,44 @@ void CWarehouseManagerDlg::OnCheckStats()
 void CWarehouseManagerDlg::OnOutM()
 {
 	// TODO: 在此添加命令处理程序代码
+	
+	if(m_MaterialList_out == NULL)
+	{
+		m_MaterialList_out = new CDialog_Material_List(true);
+		m_MaterialList_out->Create(IDD_DLG_MATERIAL_LIST);
+		m_MaterialList_out->SetParent(this);//设置dialog1为父窗口
+		m_MaterialList_out->ShowWindow(SW_HIDE);
+	}
+	CDialog_Update::UpdateDlg(m_MaterialList_out);
 }
 
 
 void CWarehouseManagerDlg::OnOutUser()
 {
 	// TODO: 在此添加命令处理程序代码
+	if(m_UserList == NULL)
+	{
+		m_UserList = new CDialog_User_List(true);
+		m_UserList->Create(IDD_DLG_USER_LIST);
+		m_UserList->SetParent(this);//设置dialog1为父窗口
+		m_UserList->ShowWindow(SW_HIDE);
+	}
+	CDialog_Update::UpdateDlg(m_UserList);
 }
 
 
 void CWarehouseManagerDlg::OnOutCheck()
 {
 	// TODO: 在此添加命令处理程序代码
+
+	if(m_checkList_out == NULL)
+	{
+		m_checkList_out = new CDialog_Check_List(true);
+		m_checkList_out->Create(IDD_DLG_CHECK_LIST);
+		m_checkList_out->SetParent(this);//设置dialog1为父窗口
+		m_checkList_out->ShowWindow(SW_HIDE);
+	}
+	CDialog_Update::UpdateDlg(m_checkList_out);
 }
 
 

@@ -21,7 +21,7 @@
 			IntermediateDirectory="$(ConfigurationName)"
 			ConfigurationType="1"
 			UseOfMFC="2"
-			CharacterSet="2"
+			CharacterSet="1"
 			>
 			<Tool
 				Name="VCPreBuildEventTool"
@@ -194,7 +194,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CDialog_Check.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Check_List.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Check_Stats.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_CLass.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CDialog_Company.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Login.cpp"
 				>
 			</File>
 			<File
@@ -202,7 +222,23 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CDialog_Material_List.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Piechart.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_User_List.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CDialog_UserInfo.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_WareHouse.cpp"
 				>
 			</File>
 			<File
@@ -244,7 +280,27 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CDialog_Check.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Check_List.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Check_Stats.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_CLass.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CDialog_Company.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Login.h"
 				>
 			</File>
 			<File
@@ -252,7 +308,31 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CDialog_Material_List.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Piechart.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Update.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_User_List.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CDialog_UserInfo.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_WareHouse.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CRuntimeMessageBox.h"
 				>
 			</File>
 			<File
@@ -294,51 +374,67 @@
 			Name="DataClass"
 			>
 			<File
-				RelativePath=".\CData_admin.cpp"
+				RelativePath=".\CDate_admin.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_admin.h"
+				RelativePath=".\CDate_admin.h"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_bace.cpp"
+				RelativePath=".\CDate_base.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_bace.h"
+				RelativePath=".\CDate_base.h"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Company.cpp"
+				RelativePath=".\CDate_check.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Company.h"
+				RelativePath=".\CDate_check.h"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Material.cpp"
+				RelativePath=".\CDate_Class.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Material.h"
+				RelativePath=".\CDate_Class.h"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_User.cpp"
+				RelativePath=".\CDate_Company.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_User.h"
+				RelativePath=".\CDate_Company.h"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Warehouse.cpp"
+				RelativePath=".\CDate_Material.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\CData_Warehouse.h"
+				RelativePath=".\CDate_Material.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDate_User.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDate_User.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDate_Warehouse.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CDate_Warehouse.h"
 				>
 			</File>
 		</Filter>
@@ -367,6 +463,38 @@
 			</File>
 			<File
 				RelativePath=".\CControl_DB.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_Export.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_Export.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_material.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_material.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_user.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_user.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_warehouse.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_warehouse.h"
 				>
 			</File>
 			<File

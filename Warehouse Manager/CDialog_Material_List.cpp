@@ -4,16 +4,17 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Material_List.h"
-#include "afxdialogex.h"
+#include "CControl_Export.h"
+//#include "afxdialogex.h"
 
 // CDialog_Material_List 对话框
 
-IMPLEMENT_DYNAMIC(CDialog_Material_List, CDialogEx)
+IMPLEMENT_DYNAMIC(CDialog_Material_List, CDialog)
 
-CDialog_Material_List::CDialog_Material_List(CWnd* pParent /*=NULL*/)
+CDialog_Material_List::CDialog_Material_List(const bool &isExpot /*= false*/,CWnd* pParent /*=NULL*/)
 	: CDialog(CDialog_Material_List::IDD, pParent)
 {
-
+	m_isExport = isExpot;
 }
 
 CDialog_Material_List::~CDialog_Material_List()
@@ -36,6 +37,7 @@ void CDialog_Material_List::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CDialog_Material_List, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_Material_List::OnBnClickedSearchBtn)
 	ON_WM_CREATE()
+	ON_BN_CLICKED(IDC_BUTTON4, &CDialog_Material_List::OnBnClickedExport)
 END_MESSAGE_MAP()
 
 
@@ -45,6 +47,8 @@ BOOL CDialog_Material_List::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
+	if(!m_isExport)
+		GetDlgItem(IDC_BUTTON4)->ShowWindow(SW_HIDE);
 	InitList();
 	return TRUE;
 }
@@ -102,4 +106,10 @@ void CDialog_Material_List::InitList()
 	m_list.InsertColumn(4, _T( "采购单位" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(5, _T( "采购价格" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(7, _T( "材料详细" ),LVCFMT_LEFT, 500);
+}
+
+void CDialog_Material_List::OnBnClickedExport()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	//CControl_Export::ExportMaterial()
 }

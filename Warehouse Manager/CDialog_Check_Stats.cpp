@@ -4,15 +4,15 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Check_Stats.h"
-#include "afxdialogex.h"
+//#include "afxdialogex.h"
 
 
 // CDialog_Check_Stats ¶Ô»°¿ò
 
-IMPLEMENT_DYNAMIC(CDialog_Check_Stats, CDialogEx)
+IMPLEMENT_DYNAMIC(CDialog_Check_Stats, CDialog)
 
 CDialog_Check_Stats::CDialog_Check_Stats(CWnd* pParent /*=NULL*/)
-	: CDialogEx(CDialog_Check_Stats::IDD, pParent)
+	: CDialog(CDialog_Check_Stats::IDD, pParent)
 {
 
 }
@@ -23,14 +23,14 @@ CDialog_Check_Stats::~CDialog_Check_Stats()
 
 void CDialog_Check_Stats::DoDataExchange(CDataExchange* pDX)
 {
-	CDialogEx::DoDataExchange(pDX);
+	CDialog::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_DATETIMEPICKER1, m_tBegin_ctrl);
 	DDX_Control(pDX, IDC_DATETIMEPICKER2, m_tEnd_ctrl);
 	DDX_Control(pDX, IDC_STATIC_S, m_pieChart_ctrl);
 }
 
 
-BEGIN_MESSAGE_MAP(CDialog_Check_Stats, CDialogEx)
+BEGIN_MESSAGE_MAP(CDialog_Check_Stats, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_Check_Stats::OnBnClickedSearchBtn)
 END_MESSAGE_MAP()
 
@@ -54,8 +54,26 @@ BOOL CDialog_Check_Stats::OnInitDialog()
 
 	//m_pieChart_ctrl.SetEPos(CRect(50,50,300,300));
 	m_pieChart_ctrl.SetEPos();
+	ShowEllipse();
 	return TRUE;
 }
 void CDialog_Check_Stats::OnBnClickedSearchBtn()
 {
+}
+
+void CDialog_Check_Stats::ShowEllipse()
+{
+	vector<PieData > datas;
+	float NUM = 0.0000;
+	for (int i=0;i< 21;i++)
+	{
+		PieData tmp;
+		tmp.PieName.Format(_T("Ä£¿é%d"),i + 1);
+		tmp.PieNum = i*30 + i*i + 10;
+
+		NUM += tmp.PieNum;
+		datas.push_back(tmp);
+	}
+
+	m_pieChart_ctrl.FormatStaticDatas(datas);
 }

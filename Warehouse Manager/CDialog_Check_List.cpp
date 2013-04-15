@@ -4,17 +4,18 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Check_List.h"
-#include "afxdialogex.h"
+#include "CControl_Export.h"
+//#include "afxdialogex.h"
 
 
 // CDialog_Check_List 对话框
 
 IMPLEMENT_DYNAMIC(CDialog_Check_List, CDialog)
 
-CDialog_Check_List::CDialog_Check_List(CWnd* pParent /*=NULL*/)
+CDialog_Check_List::CDialog_Check_List(const bool &isExpot /*= false*/,CWnd* pParent /*=NULL*/)
 	: CDialog(CDialog_Check_List::IDD, pParent)
 {
-
+	m_isExport = isExpot;
 }
 
 CDialog_Check_List::~CDialog_Check_List()
@@ -37,6 +38,7 @@ void CDialog_Check_List::DoDataExchange(CDataExchange* pDX)
 
 BEGIN_MESSAGE_MAP(CDialog_Check_List, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_Check_List::OnBnClickedSearchBtn)
+	ON_BN_CLICKED(IDC_BUTTON5, &CDialog_Check_List::OnBnClickedExport)
 END_MESSAGE_MAP()
 
 
@@ -46,6 +48,8 @@ BOOL CDialog_Check_List::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
+	if(!m_isExport)
+		GetDlgItem(IDC_BUTTON5)->ShowWindow(SW_HIDE);
 	InitList();
 	return TRUE;
 }
@@ -109,4 +113,10 @@ void CDialog_Check_List::OnBnClickedSearchBtn()
 	CString tmp;
 	m_keyWord_ctrl.GetWindowText(tmp);
 	m_searcher.SetKeyword(m_dateChange.CStringtostring(tmp));
+}
+
+void CDialog_Check_List::OnBnClickedExport()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	//CControl_Export::ExportCheck()
 }
