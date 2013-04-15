@@ -4,7 +4,7 @@
 
 // CDialog_Check_Stats ¶Ô»°¿ò
 
-class CDialog_Check_Stats : public CDialogEx
+class CDialog_Check_Stats : public CDialog
 {
 	DECLARE_DYNAMIC(CDialog_Check_Stats)
 
@@ -25,4 +25,8 @@ protected:
 	CDateTimeCtrl m_tEnd_ctrl;
 	afx_msg void OnBnClickedSearchBtn();
 	CDialog_Piechart m_pieChart_ctrl;
+
+private:
+	void ShowEllipse();
+
 };

@@ -11,10 +11,10 @@
 
 // CDialog_Check ¶Ô»°¿ò
 
-IMPLEMENT_DYNAMIC(CDialog_Check, CDialogEx)
+IMPLEMENT_DYNAMIC(CDialog_Check, CDialog)
 
 CDialog_Check::CDialog_Check(BOOL checkModal /*= TRUE*/,CWnd* pParent /*=NULL*/)
-	: CDialogEx(CDialog_Check::IDD, pParent)
+	: CDialog(CDialog_Check::IDD, pParent)
 {
 	m_checkModal =  checkModal;
 }
@@ -25,7 +25,7 @@ CDialog_Check::~CDialog_Check()
 
 void CDialog_Check::DoDataExchange(CDataExchange* pDX)
 {
-	CDialogEx::DoDataExchange(pDX);
+	CDialog::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_COMBO1, m_mName_ctrl);
 	DDX_Control(pDX, IDC_EDIT5, m_mNum_ctrl);
 	DDX_Control(pDX, IDC_EDIT2, m_total_ctrl);
@@ -37,7 +37,7 @@ void CDialog_Check::DoDataExchange(CDataExchange* pDX)
 }
 
 
-BEGIN_MESSAGE_MAP(CDialog_Check, CDialogEx)
+BEGIN_MESSAGE_MAP(CDialog_Check, CDialog)
 	//ON_WM_INITDIALOG()
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_Check::OnBnClickedAddMaterialBtn)
 	ON_BN_CLICKED(IDC_BUTTON2, &CDialog_Check::OnBnClickedAddClassBtn)

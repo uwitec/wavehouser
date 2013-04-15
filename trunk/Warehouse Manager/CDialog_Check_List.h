@@ -12,7 +12,7 @@ class CDialog_Check_List : public CDialog
 	DECLARE_DYNAMIC(CDialog_Check_List)
 
 public:
-	CDialog_Check_List(CWnd* pParent = NULL);   // 标准构造函数
+	CDialog_Check_List(const bool &isExpot = false,CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~CDialog_Check_List();
 
 // 对话框数据
@@ -38,5 +38,8 @@ private:
 	CDate_search m_searcher;
 	CStringTransform m_dateChange;
 
+	bool m_isExport;
 	void InitList();
+public:
+	afx_msg void OnBnClickedExport();
 };

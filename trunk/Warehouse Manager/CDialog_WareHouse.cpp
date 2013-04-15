@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_WareHouse.h"
-#include "afxdialogex.h"
+//#include "afxdialogex.h"
 
 
 // CDialog_WareHouse ¶Ô»°¿ò

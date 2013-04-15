@@ -11,6 +11,7 @@
 #include "CDialog_Check.h"
 #include "CDialog_Check_list.h"
 #include "CDialog_Check_Stats.h"
+#include "CDialog_User_List.h"
 // CWarehouseManagerDlg ¶Ô»°¿ò
 class CWarehouseManagerDlg : public CDialog
 {
@@ -48,11 +49,14 @@ public:
 
 private:
 	CDialog_Material_List *m_MaterialList;
+	CDialog_Material_List *m_MaterialList_out;
 	CDialog_Check_Stats *m_MaterialStats;
 
-	CDialog_Check_List *m_checkLisk;
+	CDialog_Check_List *m_checkList;
+	CDialog_Check_List *m_checkList_out;
 	CDialog_Check_Stats *m_checkStats;
 		
+	CDialog_User_List *m_UserList;
 public:
 	afx_msg void OnAddBuyBtn();
 	afx_msg void OnAddPayBtn();

@@ -11,7 +11,7 @@ class CDialog_Material_List : public CDialog
 	DECLARE_DYNAMIC(CDialog_Material_List)
 
 public:
-	CDialog_Material_List(CWnd* pParent = NULL);   // 标准构造函数
+	CDialog_Material_List(const bool &isExpot = false,CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~CDialog_Material_List();
 
 // 对话框数据
@@ -26,6 +26,7 @@ protected:
 private:
 	CDate_search m_searcher;
 	CStringTransform m_stringTranser;
+	bool m_isExport;
 public:
 	CEdit m_name_ctrl;
 	CEdit m_manufacturer_ctrl;
@@ -37,4 +38,5 @@ public:
 	afx_msg void OnBnClickedSearchBtn();
 	//afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	void InitList();
+	afx_msg void OnBnClickedExport();
 };

@@ -36,4 +36,9 @@ public:
 	CString m_pName;//»À‘±
 	CString m_tBegin;
 	CString m_tEnd;
+
+	CString m_phone;
+	CString m_aBegin;
+	CString m_aEnd;
+	CString m_email;
 };
