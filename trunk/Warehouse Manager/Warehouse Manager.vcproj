@@ -442,6 +442,14 @@
 			Name="ControlClass"
 			>
 			<File
+				RelativePath=".\ADOOperate.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\ADOOperate.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CControl_bace.cpp"
 				>
 			</File>
@@ -471,6 +479,14 @@
 			</File>
 			<File
 				RelativePath=".\CControl_Export.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_Login.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_Login.h"
 				>
 			</File>
 			<File

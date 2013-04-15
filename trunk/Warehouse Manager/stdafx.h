@@ -72,3 +72,6 @@
 
 
 #include "CRuntimeMessageBox.h"
+
+#import "C:\\Program Files\\Common Files\\System\\ado\\msado20.tlb" no_namespace\
+	rename("EOF","adoEOF")rename("BOF","adoBOF") //导入ADO动态链接库

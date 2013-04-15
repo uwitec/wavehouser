@@ -5,10 +5,18 @@
 #include "Warehouse Manager.h"
 #include "Warehouse ManagerDlg.h"
 #include "CDialog_Update.h"
+#include "CDialog_Login.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
+
+DWORD WINAPI LoginThread(LPVOID lpParam)
+{
+	CDialog_Login pInfo;
+	
+	return pInfo.DoModal();
+}
 
 // 用于应用程序“关于”菜单项的 CAboutDlg 对话框
 
@@ -121,9 +129,13 @@ BOOL CWarehouseManagerDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
-	ShowWindow(SW_NORMAL);
+	ShowWindow(SW_HIDE);
 
 	// TODO: 在此添加额外的初始化代码
+
+	if(!LoginUser())
+		OnCancel();
+	ShowWindow(SW_NORMAL);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
 
@@ -365,4 +377,16 @@ void CWarehouseManagerDlg::OnAbout()
 	// TODO: 在此添加命令处理程序代码
 	CAboutDlg dlg;
 	dlg.DoModal();
+}
+
+bool CWarehouseManagerDlg::LoginUser()
+{
+	HANDLE tmpHandle = CreateThread(NULL,NULL,LoginThread,NULL,0,NULL);
+
+	WaitForSingleObject(tmpHandle,INFINITE);
+
+	DWORD result;
+	GetExitCodeThread(tmpHandle,&result);
+
+	return result == IDOK;
 }
