@@ -1,6 +1,5 @@
 #include "stdafx.h"
 #include "ADOOperate.h"
-#include "CRuntimeMessageBox.h"
 
 CADOOperate *CADOOperate::s_pADOOperate = NULL;
 CADOOperate::CADOOperate()

@@ -442,14 +442,6 @@
 			Name="ControlClass"
 			>
 			<File
-				RelativePath=".\ADOOperate.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\ADOOperate.h"
-				>
-			</File>
-			<File
 				RelativePath=".\CControl_bace.cpp"
 				>
 			</File>
