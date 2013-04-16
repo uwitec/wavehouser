@@ -11,4 +11,7 @@ public:
 public:
 	CString m_user;
 	CString m_password;
+
+private:
+	CDate_base m_base;
 };

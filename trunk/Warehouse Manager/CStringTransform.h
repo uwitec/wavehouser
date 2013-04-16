@@ -17,6 +17,22 @@ public:
 	{
 
 	}
+	string Gb2312ToUnicode(string ins)
+	{ 
+		char *pText = (char *)ins.c_str();
+		WCHAR* pOut;
+		if((unsigned)pText[0]<0x80)
+		{        // ASCII  0x00 ~ 0x7f 
+			//pOut[0] = (WCHAR)pText[0]; 
+			return ins;
+		}
+		else
+		{ 
+			::MultiByteToWideChar(CP_ACP,MB_PRECOMPOSED,pText,2,pOut,1); 
+		} 
+
+		return wstring2string(wstring(pOut));
+	} 
     wstring m_wstr;
 	char * m_str;
 	string m_sstr;

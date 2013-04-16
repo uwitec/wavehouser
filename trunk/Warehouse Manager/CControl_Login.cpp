@@ -14,7 +14,34 @@ void CControl_Login::SetData( const CDate_User *data )
 {
 	m_loginUser = *data;
 }
+void CControl_Login::SetData( const CString &user,const CString &pass )
+{
+	m_loginUser.m_name = user;
+	m_loginUser.m_pass = pass;
+}
 
+bool CControl_Login::Search(const CString &user,const CString &pass )
+{
+	string sql = "select * from tab_admin where admin_name='";
+	sql += m_dataChange.CStringtostring(user);
+	sql += "' and admin_password='";
+	sql +=  m_dataChange.CStringtostring(pass);
+	sql += "'";
+
+	_RecordsetPtr tmp;
+
+	CADOOperate::OpenRecordset(tmp,sql);
+	while(!tmp->adoEOF)
+	{
+		CControl_bace::s_user.SetId(CADOOperate::GetCollectData(tmp,"id"));
+		CControl_bace::s_user.m_user = m_dataChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_name"));
+		CControl_bace::s_user.m_password = m_dataChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_password"));
+
+		break;
+	}
+
+	return !CControl_bace::s_user.GetId().empty();
+}
 bool CControl_Login::Search()
 {
 	CADOOperate::InitADO();

@@ -19,11 +19,16 @@ public:
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV Ö§³Ö
 
-	CDate_User m_user;
 	DECLARE_MESSAGE_MAP()
 public:
 	CEdit m_user_ctrl;
-	CEdit m_pass_ctrl;
 	afx_msg void OnBnClickedLogin();
 	afx_msg void OnBnClickedLoginOut();
+
+	virtual BOOL OnInitDialog();
+private:
+	CDate_User m_user;
+
+public:
+	CEdit m_ps_ctrl;
 };

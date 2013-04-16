@@ -1,6 +1,10 @@
 #include "StdAfx.h"
 #include "CControl_bace.h"
 
+CDate_admin CControl_bace::s_user;
+CDate_warehouse CControl_bace::s_wareHouse;
+CDate_Company CControl_bace::s_company;
+
 CControl_bace::CControl_bace(void)
 {
 }

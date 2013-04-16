@@ -9,8 +9,9 @@ public:
 	~CControl_Login(void);
 
 	void SetData(const CDate_User *data);
-
+	void SetData( const CString &user,const CString &pass );
 	bool Search();
+	bool Search(const CString &user,const CString &pass );
 private:
 	CDate_User m_loginUser;
 	CStringTransform m_dataChange;

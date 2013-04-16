@@ -3,7 +3,6 @@
 #include "uuidSet.h"
 CDate_base::CDate_base(void)
 {
-	CreateId();
 }
 
 CDate_base::~CDate_base(void)
