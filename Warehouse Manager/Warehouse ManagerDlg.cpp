@@ -6,6 +6,7 @@
 #include "Warehouse ManagerDlg.h"
 #include "CDialog_Update.h"
 #include "CDialog_Login.h"
+#include "CControl_DB.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
@@ -129,12 +130,8 @@ BOOL CWarehouseManagerDlg::OnInitDialog()
 	SetIcon(m_hIcon, TRUE);			// 设置大图标
 	SetIcon(m_hIcon, FALSE);		// 设置小图标
 
-	ShowWindow(SW_HIDE);
-
 	// TODO: 在此添加额外的初始化代码
 
-	if(!LoginUser())
-		OnCancel();
 	ShowWindow(SW_NORMAL);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -381,12 +378,17 @@ void CWarehouseManagerDlg::OnAbout()
 
 bool CWarehouseManagerDlg::LoginUser()
 {
-	HANDLE tmpHandle = CreateThread(NULL,NULL,LoginThread,NULL,0,NULL);
+	//HANDLE tmpHandle = CreateThread(NULL,NULL,LoginThread,NULL,0,NULL);
 
-	WaitForSingleObject(tmpHandle,INFINITE);
+	//WaitForSingleObject(tmpHandle,INFINITE);
 
-	DWORD result;
-	GetExitCodeThread(tmpHandle,&result);
+	//DWORD result;
+	//GetExitCodeThread(tmpHandle,&result);
 
-	return result == IDOK;
+	//CDialog_Login pInfo;
+
+	//return pInfo.DoModal() == IDOK;
+	//return result == IDOK;
+
+	return true;
 }

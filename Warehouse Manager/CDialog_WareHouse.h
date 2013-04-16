@@ -1,5 +1,6 @@
 #pragma once
-
+#include "afxwin.h"
+#include "CDate_Warehouse.h"
 
 // CDialog_WareHouse ¶Ô»°¿ò
 
@@ -19,6 +20,17 @@ protected:
 
 	DECLARE_MESSAGE_MAP()
 public:
+	virtual BOOL OnInitDialog();
+
 	afx_msg void OnBnClickedBtbSave();
 	afx_msg void OnBnClickedBtbQuit();
+	CEdit m_wName_ctrl;
+	CEdit m_cName_ctrl;
+	CEdit m_aName_ctrl;
+	CEdit m_tellPhone_ctrl;
+	CEdit m_email_ctrl;
+	CEdit m_detail_ctrl;
+
+private:
+	CDate_warehouse m_date;
 };

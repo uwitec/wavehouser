@@ -1,6 +1,10 @@
 #pragma once
 #include "CControl_DB.h"
 #include "CDate_base.h"
+#include "CDate_admin.h"
+#include "CDate_Warehouse.h"
+#include "CDate_Company.h"
+#include "CStringTransform.h"
 class CControl_bace
 {
 public:
@@ -13,6 +17,12 @@ public:
 	virtual bool Delete();
 	virtual bool Updata();
 	virtual bool Search();
+
+	CStringTransform m_dateChange;
+
+	static CDate_admin s_user;
+	static CDate_warehouse s_wareHouse;
+	static CDate_Company s_company;
 private:
 	CDate_base *m_data;
 };

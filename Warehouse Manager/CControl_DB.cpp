@@ -1,5 +1,6 @@
 #include "stdafx.h"
-#include "ADOOperate.h"
+#include "CControl_DB.h"
+#include "CStringTransform.h"
 
 CADOOperate *CADOOperate::s_pADOOperate = NULL;
 CADOOperate::CADOOperate()
@@ -29,12 +30,14 @@ bool CADOOperate::InitADOConn()
 	try
 	{
 		::CoInitialize(NULL);
-		HRESULT hr = s_pADOOperate->m_pConn.CreateInstance(_T("ADODB.Connection"));  //创建连接对象实例
+		HRESULT hr = m_pConn.CreateInstance(__uuidof(Connection));  //创建连接对象实例
 		if(SUCCEEDED(hr)) 
 		{
-			_bstr_t strConnect="Driver={ MySQL ODBC 5.1 Driver };Server= localhost;Database=warehouse_db;";
+			//_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=127.0.0.1;UID=root;PWD=haipe;DATABASE=warehouse_db;PORT=3306";
+			//_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=127.0.0.1;UID=root;PWD=haipe;DATABASE=warehouse_db;PORT=3306;CHARSET=GB2312";
+			_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=192.96.219.129;UID=haipe;PWD=haipe123;DATABASE=warehouse_db;PORT=80;CHARSET=GB2312";
 
-			m_pConn->Open(strConnect,_T("root"),_T("haipe"),adModeUnknown); //打开数据库
+			 hr = m_pConn->Open(strConnect,_T("haipe"),_T("haipe123"),adModeUnknown); //打开数据库
 
 			if(m_pConm == NULL)
 				m_pConm.CreateInstance(_T("ADODB.Command"));
@@ -128,7 +131,7 @@ bool CADOOperate::ExecuteSQL(string strSQL)
 
 LONG64 CADOOperate::GetRecordsCount( _RecordsetPtr &recordset,string strSQL )
 {
-	LONG64 count;
+	LONG64 count = 0;
 	try
 	{
 		if(s_pADOOperate->m_pConn==0X00000000)		// 判断连接是否断开
@@ -142,7 +145,10 @@ LONG64 CADOOperate::GetRecordsCount( _RecordsetPtr &recordset,string strSQL )
 		count = 0;
 	}
 
-	count =atoi((char*)(_bstr_t)recordset->GetCollect("count")) ;
+	if (!recordset->adoEOF)
+	{
+		count =atoi((char*)(_bstr_t)recordset->GetCollect("count")) ;
+	}
 
 	return count;	// 返回记录总数
 }
@@ -156,5 +162,7 @@ std::string CADOOperate::GetCollectData( _RecordsetPtr &recordset,string name )
 	if(var.vt != VT_NULL)
 		val = (string)_bstr_t(var);
 
+	//CStringTransform tmp;
+	//return tmp.Gb2312ToUnicode((char *)val.c_str());
 	return val;
 }

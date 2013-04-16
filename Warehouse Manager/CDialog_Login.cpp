@@ -26,7 +26,7 @@ void CDialog_Login::DoDataExchange(CDataExchange* pDX)
 {
 	CDialog::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_EDIT1, m_user_ctrl);
-	DDX_Control(pDX, IDC_EDIT2, m_pass_ctrl);
+	DDX_Control(pDX, IDC_EDIT2, m_ps_ctrl);
 }
 
 
@@ -44,23 +44,35 @@ void CDialog_Login::OnBnClickedLogin()
 	// TODO: 在此添加控件通知处理程序代码
 	//CDialog::OnOK();
 
-	m_user_ctrl.GetWindowText(m_user.m_name);
-	if(m_user.m_name.IsEmpty())
+	CDate_User tmpUser;
+	CString tmpu;
+	m_user_ctrl.GetWindowText(tmpu);
+	if(tmpu.IsEmpty())
 	{
 		CRuntimeMessageBox::RunMessageBox("请输入用户名");
 		return;
 	}
-	m_pass_ctrl.GetWindowText(m_user.m_pass);
-	if(m_user.m_pass.IsEmpty())
+	CString tmps;
+	m_ps_ctrl.GetWindowText(tmps);
+	if(tmps.IsEmpty())
 	{
 		CRuntimeMessageBox::RunMessageBox("请输入密码");
 		return;
 	}
 	
+	//m_user.m_name = tmpu;
+	//m_user.m_pass = tmps;
 	CControl_Login tmp;
-	tmp.SetData(&m_user);
+	//tmp.SetData(&m_user);
 
-	tmp.Search();
+	if(tmp.Search(tmpu,tmps) == 1)
+	{
+		OnOK();
+	}
+	else
+	{
+		CRuntimeMessageBox::RunMessageBox("登录失败");
+	}
 }
 
 
@@ -68,4 +80,14 @@ void CDialog_Login::OnBnClickedLoginOut()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	CDialog::OnCancel();
+}
+
+BOOL CDialog_Login::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	m_user_ctrl.SetWindowText(_T("admin"));
+	m_ps_ctrl.SetWindowText(_T("123456"));
+
+	return TRUE;
 }
