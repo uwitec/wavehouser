@@ -2,6 +2,9 @@
 #include "CControl_bace.h"
 #include "CDate_User.h"
 #include "CStringTransform.h"
+#include <string>
+
+using namespace std;
 class CControl_Login
 {
 public:

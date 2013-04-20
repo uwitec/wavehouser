@@ -16,7 +16,52 @@ public:
 	~CStringTransform()
 	{
 
-	}
+	} 
+	string Utf82Unicode(const string& utf8string)  
+	{  
+		int widesize = ::MultiByteToWideChar(CP_UTF8, 0, utf8string.c_str(), -1, NULL, 0);  
+		if (widesize == ERROR_NO_UNICODE_TRANSLATION)  
+		{  
+			throw exception("Invalid UTF-8 sequence.");  
+		}  
+		if (widesize == 0)  
+		{  
+			throw exception("Error in conversion.");  
+		}  
+
+		vector<wchar_t> resultstring(widesize);  
+
+		int convresult = ::MultiByteToWideChar(CP_UTF8, 0, utf8string.c_str(), -1, &resultstring[0], widesize);  
+
+		if (convresult != widesize)  
+		{  
+			throw exception("La falla!");  
+		}  
+
+		return wstring2string(&resultstring[0]);  
+	}  
+
+	string Unicode2Utf8(const string& instring)  
+	{  
+		wstring& widestring = string2wstring(instring);
+
+		int utf8size = ::WideCharToMultiByte(CP_UTF8, 0, widestring.c_str(), -1, NULL, 0, NULL, NULL);  
+		if (utf8size == 0)  
+		{  
+			throw std::exception("Error in conversion.");  
+		}  
+
+		vector<char> resultstring(utf8size);  
+
+		int convresult = ::WideCharToMultiByte(CP_UTF8, 0, widestring.c_str(), -1, &resultstring[0], utf8size, NULL, NULL);  
+
+		if (convresult != utf8size)  
+		{  
+			throw std::exception("La falla!");  
+		}  
+
+		return string(&resultstring[0]);  
+	}  
 	string Gb2312ToUnicode(string ins)
 	{ 
 		char *pText = (char *)ins.c_str();

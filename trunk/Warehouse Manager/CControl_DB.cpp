@@ -35,9 +35,9 @@ bool CADOOperate::InitADOConn()
 		{
 			//_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=127.0.0.1;UID=root;PWD=haipe;DATABASE=warehouse_db;PORT=3306";
 			//_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=127.0.0.1;UID=root;PWD=haipe;DATABASE=warehouse_db;PORT=3306;CHARSET=GB2312";
-			_bstr_t strConnect="Driver=MySQL ODBC 5.1 Driver;SERVER=192.96.219.129;UID=haipe;PWD=haipe123;DATABASE=warehouse_db;PORT=80;CHARSET=GB2312";
+			_bstr_t strConnect="Driver=SQLite3 ODBC Driver;Database=local.db";
 
-			 hr = m_pConn->Open(strConnect,_T("haipe"),_T("haipe123"),adModeUnknown); //打开数据库
+			 hr = m_pConn->Open(strConnect,_T(""),_T(""),adModeUnknown); //打开数据库
 
 			if(m_pConm == NULL)
 				m_pConm.CreateInstance(_T("ADODB.Command"));
@@ -71,6 +71,7 @@ bool CADOOperate::OpenRecordset( _RecordsetPtr &recordset,string strSQL )
 			s_pADOOperate->InitADOConn();		// 重新连接
 		}
 		recordset.CreateInstance("ADODB.Recordset");		//创建记录集对象实例
+		recordset->put_CursorLocation(adUseClient);   
 		recordset->Open((_bstr_t)strSQL.c_str(),s_pADOOperate->m_pConn.GetInterfacePtr(),adOpenDynamic,adLockOptimistic,adCmdText);
 
 	}
@@ -157,7 +158,8 @@ std::string CADOOperate::GetCollectData( _RecordsetPtr &recordset,string name )
 {
 	string val;
 
-	_variant_t var = recordset->GetCollect((_bstr_t)(char *)name.c_str());
+	//_variant_t var = recordset->GetCollect((_bstr_t)(char *)name.c_str());
+	_variant_t var = recordset->Fields->GetItem(name.c_str())->Value;
 
 	if(var.vt != VT_NULL)
 		val = (string)_bstr_t(var);
