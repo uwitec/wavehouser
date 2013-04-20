@@ -31,4 +31,5 @@ public:
 	CEdit m_edit_tellMan;
 	CEdit m_edit_detail;
 	afx_msg void OnBnClickedBtbQuit();
+	virtual BOOL OnInitDialog();
 };
