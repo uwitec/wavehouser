@@ -6,7 +6,7 @@
 #include "Warehouse ManagerDlg.h"
 #include "CDialog_Update.h"
 #include "CDialog_Login.h"
-#include "CControl_DB.h"
+//#include "CControl_DB.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif

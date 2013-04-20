@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "CControl_warehouse.h"
-#include "CControl_DB.h"
+//#include "CControl_DB.h"
 CControl_warehouse::CControl_warehouse(void)
 {
 }
@@ -23,7 +23,7 @@ bool CControl_warehouse::Save()
 		else
 			m_data->SetId(CControl_bace::s_wareHouse.GetId());
 
-		string sql = "insert into tab_warehouse value('";
+		string sql = "insert into tab_warehouse values('";
 		sql += m_data->GetId();
 		sql += "','";
 		sql += m_dateChange.CStringtostring(m_data->m_cname);
@@ -41,8 +41,9 @@ bool CControl_warehouse::Save()
 		sql += CControl_bace::s_user.GetId();
 		sql += "','";
 		sql += m_dateChange.GetCurTimes();
-		sql +="')";
-		return CADOOperate::ExecuteSQL(sql);
+		sql +="','0')";
+		//return CADOOperate::ExecuteSQL(sql);
+		return g_sqlite.DirectStatement(m_dateChange.Unicode2Utf8(sql));
 	}
 	else
 	{
@@ -63,18 +64,19 @@ bool CControl_warehouse::Updata()
 	sql += m_dateChange.CStringtostring(m_data->m_aname);
 	sql += "', warehouse_name='";
 	sql += m_dateChange.CStringtostring(m_data->m_name);
-	sql += "', telphone='";
+	sql += "', admin_tellphone='";
 	sql += m_dateChange.CStringtostring(m_data->m_tell);
-	sql += "', email='";
+	sql += "', admin_email='";
 	sql += m_dateChange.CStringtostring(m_data->m_email);
 	sql += "',detail='";
 	sql += m_dateChange.CStringtostring(m_data->m_detail);
 	sql += "',create_time='";
 	sql += m_dateChange.GetCurTimes();
 	sql +="' where id='";
-	sql += m_data->GetId();
+	sql += CControl_bace::s_wareHouse.GetId();
 	sql += "';";
-	return CADOOperate::ExecuteSQL(sql);
+	//return CADOOperate::ExecuteSQL(sql);
+	return g_sqlite.DirectStatement(m_dateChange.Unicode2Utf8(sql));
 }
 
 bool CControl_warehouse::Search()
@@ -83,20 +85,35 @@ bool CControl_warehouse::Search()
 	sql += CControl_bace::s_user.GetId();
 	sql += "'";
 
-	_RecordsetPtr tmp;
-	CADOOperate::OpenRecordset(tmp,sql);
-	while(!tmp->adoEOF)
+	SQLiteStatement* stmt=g_sqlite.Statement(sql);
+
+	while(stmt->NextRow())
 	{
-		CControl_bace::s_wareHouse.SetId(CADOOperate::GetCollectData(tmp,"id"));
-		CControl_bace::s_wareHouse.m_cname = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"company_name"));
-		CControl_bace::s_wareHouse.m_aname = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_name"));
-		CControl_bace::s_wareHouse.m_name = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"warehouse_name"));
-		CControl_bace::s_wareHouse.m_tell = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"telphone"));
-		CControl_bace::s_wareHouse.m_email = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"email"));
-		CControl_bace::s_wareHouse.m_detail = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"detail"));
+		CControl_bace::s_wareHouse.SetId(stmt->ValueString (0));
+		CControl_bace::s_wareHouse.m_cname  = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (1)));
+		CControl_bace::s_wareHouse.m_aname  = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (2)));
+		CControl_bace::s_wareHouse.m_name   = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
+		CControl_bace::s_wareHouse.m_tell   = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
+		CControl_bace::s_wareHouse.m_email  = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
+		CControl_bace::s_wareHouse.m_detail = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
 
 		break;
 	}
+// 
+// 	_RecordsetPtr tmp;
+// 	CADOOperate::OpenRecordset(tmp,sql);
+// 	while(!tmp->adoEOF)
+// 	{
+// 		CControl_bace::s_wareHouse.SetId(CADOOperate::GetCollectData(tmp,"id"));
+// 		CControl_bace::s_wareHouse.m_cname = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"company_name"));
+// 		CControl_bace::s_wareHouse.m_aname = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_name"));
+// 		CControl_bace::s_wareHouse.m_name = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"warehouse_name"));
+// 		CControl_bace::s_wareHouse.m_tell = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_tellphone"));
+// 		CControl_bace::s_wareHouse.m_email = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"admin_email"));
+// 		CControl_bace::s_wareHouse.m_detail = m_dateChange.stringToCstring(CADOOperate::GetCollectData(tmp,"detail"));
+// 
+// 		break;
+// 	}
 
 	return !CControl_bace::s_wareHouse.GetId().empty();
 }

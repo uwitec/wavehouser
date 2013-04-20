@@ -4,12 +4,14 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "Warehouse ManagerDlg.h"
-#include "CControl_DB.h"
+#include "CControl_DB_sqlite.h"
 #include "CDialog_Login.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
 #endif
 
+
+CControl_DB_sqlite g_sqlite;
 
 // CWarehouseManagerApp
 
@@ -59,7 +61,12 @@ BOOL CWarehouseManagerApp::InitInstance()
 	// 例如修改为公司或组织名
 	SetRegistryKey(_T("应用程序向导生成的本地应用程序"));
 
-	CADOOperate::InitADO();
+	//CADOOperate::InitADO();
+
+	if (!g_sqlite.Open("local.db"))
+	{
+		return FALSE;
+	}
 	CDialog_Login login;
 	if(login.DoModal() == IDOK)
 	{

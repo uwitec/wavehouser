@@ -1,5 +1,5 @@
 #pragma once
-#include "CControl_DB.h"
+//#include "CControl_DB.h"
 #include "CDate_base.h"
 #include "CDate_admin.h"
 #include "CDate_Warehouse.h"
