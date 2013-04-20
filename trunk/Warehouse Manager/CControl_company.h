@@ -7,7 +7,7 @@ public:
 	CControl_company(void);
 	virtual ~CControl_company(void);
 
-	void SetData(const CDate_Company *data);
+	void SetData(CDate_Company *data);
 
 	bool Save();
 	bool Delete();

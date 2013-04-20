@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_UserInfo.h"
-
+#include "CControl_user.h"
 // CDialog_UserInfo 对话框
 
 IMPLEMENT_DYNAMIC(CDialog_UserInfo, CDialog)
@@ -38,6 +38,23 @@ END_MESSAGE_MAP()
 
 
 // CDialog_UserInfo 消息处理程序
+
+BOOL CDialog_UserInfo::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	CControl_user tmp;
+	if (tmp.Search())
+	{
+		m_name_ctrl.SetWindowText(CControl_bace::s_userInfo.m_name);
+		m_cName_ctrl.SetWindowText(CControl_bace::s_userInfo.m_companyName);
+		m_age_ctrl.SetWindowText(CControl_bace::s_userInfo.m_age);
+		m_phone_ctrl.SetWindowText(CControl_bace::s_userInfo.m_tellPhone);
+		m_email_ctrl.SetWindowText(CControl_bace::s_userInfo.m_email);
+		m_detail_ctrl.SetWindowText(CControl_bace::s_userInfo.m_detail);
+	}
+	return FALSE;
+}
 
 
 void CDialog_UserInfo::OnBnClickedBtbSave()

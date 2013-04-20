@@ -14,4 +14,6 @@ public:
 	CString m_tellPhone;
 	CString m_tellMan;
 	CString m_detail;
+private:
+	CDate_base m_base;
 };

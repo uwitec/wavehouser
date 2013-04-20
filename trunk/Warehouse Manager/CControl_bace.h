@@ -4,6 +4,7 @@
 #include "CDate_admin.h"
 #include "CDate_Warehouse.h"
 #include "CDate_Company.h"
+#include "CDate_User.h"
 #include "CStringTransform.h"
 class CControl_bace
 {
@@ -23,6 +24,7 @@ public:
 	static CDate_admin s_user;
 	static CDate_warehouse s_wareHouse;
 	static CDate_Company s_company;
+	static CDate_User s_userInfo;
 private:
 	CDate_base *m_data;
 };

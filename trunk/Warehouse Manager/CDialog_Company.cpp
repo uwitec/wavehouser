@@ -4,7 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Company.h"
-
+#include "CControl_company.h"
 
 // CDialog_Company 对话框
 
@@ -40,6 +40,23 @@ END_MESSAGE_MAP()
 
 // CDialog_Company 消息处理程序
 
+BOOL CDialog_Company::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	CControl_company tmp;
+	if (tmp.Search())
+	{
+		m_edit_companyName.SetWindowText(CControl_bace::s_company.m_companyName);
+		m_edit_address.SetWindowText(CControl_bace::s_company.m_address);
+		m_edit_tellPhone.SetWindowText(CControl_bace::s_company.m_tellPhone);
+		m_edit_tellMan.SetWindowText(CControl_bace::s_company.m_tellMan);
+		m_edit_detail.SetWindowText(CControl_bace::s_company.m_detail);
+	}
+	m_edit_wareName.SetWindowText(CControl_bace::s_company.m_wareName);
+	return FALSE;
+}
+
 void CDialog_Company::OnBnClickedBtbSave()
 {
 	// TODO: 在此添加控件通知处理程序代码
@@ -74,7 +91,14 @@ void CDialog_Company::OnBnClickedBtbSave()
 		return;
 	}
 	m_edit_detail.GetWindowText(m_company.m_detail);
-	
+
+	CControl_company tmpc;
+	tmpc.SetData(&m_company);
+
+	if(tmpc.Save())
+		CRuntimeMessageBox::RunMessageBox("保存成功！");
+	else
+		CRuntimeMessageBox::RunMessageBox("保存失败！");
 }
 
 void CDialog_Company::OnBnClickedBtbQuit()
