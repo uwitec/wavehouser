@@ -60,6 +60,7 @@ private:
 
 	bool LoginUser();
 
+	void InitGDates();
 public:
 	afx_msg void OnAddBuyBtn();
 	afx_msg void OnAddPayBtn();

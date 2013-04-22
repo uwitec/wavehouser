@@ -6,6 +6,10 @@
 #include "Warehouse ManagerDlg.h"
 #include "CDialog_Update.h"
 #include "CDialog_Login.h"
+#include "CDialog_CLass.h"
+#include "CControl_warehouse.h"
+#include "CControl_user.h"
+#include "CControl_company.h"
 //#include "CControl_DB.h"
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -132,6 +136,7 @@ BOOL CWarehouseManagerDlg::OnInitDialog()
 
 	// TODO: 在此添加额外的初始化代码
 
+	InitGDates();
 	ShowWindow(SW_NORMAL);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -229,7 +234,7 @@ void CWarehouseManagerDlg::OnAddMatrtial()
 void CWarehouseManagerDlg::OnEditMaterial()
 {
 	// TODO: 在此添加命令处理程序代码
-	CDialog_Material dlg;
+	CDialog_Material dlg(true);
 	dlg.DoModal();
 }
 
@@ -391,4 +396,15 @@ bool CWarehouseManagerDlg::LoginUser()
 	//return result == IDOK;
 
 	return true;
+}
+
+void CWarehouseManagerDlg::InitGDates()
+{
+	CControl_warehouse tmp;
+	tmp.Search();
+	CControl_user tmp2;
+	tmp2.Search();
+	CControl_company tmp3;
+	tmp3.Search();
+
 }

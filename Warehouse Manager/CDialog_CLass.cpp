@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_CLass.h"
+#include "CControl_class.h"
 //#include "afxdialogex.h"
 
 
@@ -76,6 +77,18 @@ void CDialog_CLass::OnBnClickedBtbSave()
 		return;
 	}
 	m_detail_ctrl.GetWindowText(m_date.m_detail);
+	CControl_class tmp;
+	tmp.SetData(&m_date);
+	if (tmp.Save())
+	{
+		CRuntimeMessageBox::RunMessageBox("保存成功！");
+
+		OnOK();
+	}
+	else
+	{
+		CRuntimeMessageBox::RunMessageBox("保存失败！");
+	}
 }
 
 
@@ -83,4 +96,11 @@ void CDialog_CLass::OnBnClickedBtbQuit()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	OnCancel();
+}
+
+BOOL CDialog_CLass::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	return FALSE;
 }

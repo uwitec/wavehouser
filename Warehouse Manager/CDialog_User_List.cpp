@@ -5,8 +5,8 @@
 #include "Warehouse Manager.h"
 #include "CDialog_User_List.h"
 #include "CControl_Export.h"
-
-
+#include "CControl_user.h"
+#include "CDialog_UserInfo.h"
 // CDialog_User_List 对话框
 
 IMPLEMENT_DYNAMIC(CDialog_User_List, CDialog)
@@ -37,6 +37,10 @@ void CDialog_User_List::DoDataExchange(CDataExchange* pDX)
 BEGIN_MESSAGE_MAP(CDialog_User_List, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_User_List::OnBnClickedSearchBtn)
 	ON_BN_CLICKED(IDC_BUTTON4, &CDialog_User_List::OnBnClickedExport)
+	ON_NOTIFY(NM_RCLICK, IDC_LIST1, &CDialog_User_List::OnNMRclickList1)
+	ON_COMMAND(ID_CLISTMENU_ADD, &CDialog_User_List::OnClistmenuAdd)
+	ON_COMMAND(ID_CLISTMENU_EDIT, &CDialog_User_List::OnClistmenuEdit)
+	ON_COMMAND(ID_CLISTMENU_DEL, &CDialog_User_List::OnClistmenuDel)
 END_MESSAGE_MAP()
 
 
@@ -73,23 +77,8 @@ void CDialog_User_List::OnBnClickedSearchBtn()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	m_name_ctrl.GetWindowText(m_searcher.m_name);
-	if(m_searcher.m_name.IsEmpty())
-	{
-		CRuntimeMessageBox::RunMessageBox("请输入正确的人员名字");
-		return;
-	}
 	m_phone_ctrl.GetWindowText(m_searcher.m_phone);
-	if(m_searcher.m_phone.IsEmpty())
-	{
-		CRuntimeMessageBox::RunMessageBox("请输入正确的电话");
-		return;
-	}
 	m_email_ctrl.GetWindowText(m_searcher.m_email);
-	if(m_searcher.m_email.IsEmpty())
-	{
-		CRuntimeMessageBox::RunMessageBox("请输入正确的邮件");
-		return;
-	}
 	m_aBegin_ctrl.GetWindowText(m_searcher.m_aBegin);
 	m_aEnd_ctrl.GetWindowText(m_searcher.m_aEnd);
 	if(m_searcher.m_aBegin.IsEmpty())
@@ -103,22 +92,96 @@ void CDialog_User_List::OnBnClickedSearchBtn()
 	CString tmp;
 	m_keyWord_ctrl.GetWindowText(tmp);
 	m_searcher.SetKeyword(m_dateChange.CStringtostring(tmp));
+
+	CControl_user tmpc;
+	m_searchDates = tmpc.SearchList_UserInfo(m_searcher);
+
+	ListCtrlShow();
+
 }
 
 void CDialog_User_List::OnBnClickedExport()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	vector<CDate_User> dates;
-	for(int i=0;i<2;i++)
+// 	vector<CDate_User> dates;
+// 	for(int i=0;i<2;i++)
+// 	{
+// 		CDate_User tmp;
+// 		tmp.m_name = _T("大苏打");
+// 		tmp.m_companyName = _T("大苏打");
+// 		tmp.m_age = _T("11");
+// 		tmp.m_tellPhone = _T("12321312312312");
+// 		tmp.m_email = _T("sdadA2@163.com");
+// 		tmp.m_detail = _T("dsad大三大四大苏打打扫打扫");
+// 		dates.push_back(tmp);
+// 	}
+	CControl_Export::ExportUser(m_searchDates);
+}
+
+void CDialog_User_List::ListCtrlShow()
+{
+	m_list.DeleteAllItems();
+	for(int i = 0;i<m_searchDates.size();i++)
 	{
-		CDate_User tmp;
-		tmp.m_name = _T("大苏打");
-		tmp.m_companyName = _T("大苏打");
-		tmp.m_age = _T("11");
-		tmp.m_tellPhone = _T("12321312312312");
-		tmp.m_email = _T("sdadA2@163.com");
-		tmp.m_detail = _T("dsad大三大四大苏打打扫打扫");
-		dates.push_back(tmp);
+		int newRow = m_list.InsertItem(i,_T("新行"));
+		CString tmp;
+		tmp.Format(_T("%d"),i+1);
+		m_list.SetItemText(newRow,0,tmp);
+		m_list.SetItemText(newRow,1,m_searchDates[i].m_name);
+		m_list.SetItemText(newRow,2,m_searchDates[i].m_companyName);
+		m_list.SetItemText(newRow,3,m_searchDates[i].m_age);
+		m_list.SetItemText(newRow,4,m_searchDates[i].m_tellPhone);
+		m_list.SetItemText(newRow,5,m_searchDates[i].m_email);
+		m_list.SetItemText(newRow,6,m_searchDates[i].m_detail);
 	}
-	CControl_Export::ExportUser(dates);
+}
+
+void CDialog_User_List::OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	// TODO: 在此添加控件通知处理程序代码
+	CMenu menu; 
+	POINT pt = {0}; 
+	GetCursorPos(&pt);//得到鼠标点击位置 
+	menu.LoadMenu(IDR_LIST_MENU);//菜单资源ID 
+	menu.GetSubMenu(0)->TrackPopupMenu(0,pt.x,pt.y,this);     //m_newListCtrl是CListCtrl对象
+
+	NM_LISTVIEW* pNMListView = (NM_LISTVIEW*)pNMHDR; 
+	
+	if(pNMListView->iItem != -1) 
+	{ 
+		m_changeDate = m_searchDates.at(pNMListView->iItem);
+	} 
+	else
+	{
+		menu.EnableMenuItem(ID_CLISTMENU_EDIT,TRUE);
+		menu.EnableMenuItem(ID_CLISTMENU_DEL,TRUE);
+	}
+
+	*pResult = 0;
+}
+
+void CDialog_User_List::OnClistmenuAdd()
+{
+	// TODO: 在此添加命令处理程序代码
+	CDialog_UserInfo dlg(false);
+	dlg.DoModal();
+}
+
+void CDialog_User_List::OnClistmenuEdit()
+{
+	// TODO: 在此添加命令处理程序代码
+	if (m_changeDate.GetId().empty())
+		return ;
+	CDialog_UserInfo dlg(false);
+
+	dlg.SetDate(m_changeDate);
+	dlg.DoModal();
+}
+
+void CDialog_User_List::OnClistmenuDel()
+{
+	// TODO: 在此添加命令处理程序代码
+	CControl_user tmp;
+	tmp.SetData(&m_changeDate);
+	tmp.Delete();
 }

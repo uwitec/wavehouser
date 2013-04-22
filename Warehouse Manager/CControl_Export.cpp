@@ -137,11 +137,11 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 			else
 				dateLine += ",Ö§³ö";
 
-			dateLine += dateChange.CStringtostring(dates[i].m_mName);
+			dateLine += dateChange.CStringtostring(dates[i].m_material.m_name);
 			dateLine += ",";
-			dateLine += dateChange.CStringtostring(dates[i].m_operatePeople);
+			dateLine += dateChange.CStringtostring(dates[i].m_userInfo.m_name);
 			dateLine += ",";
-			dateLine += dateChange.CStringtostring(dates[i].m_operateClass);
+			dateLine += dateChange.CStringtostring(dates[i].m_class.m_name);
 			dateLine += ",";
 			CString tmp;
 			tmp.Format(_T("%d"),dates[i].m_num);

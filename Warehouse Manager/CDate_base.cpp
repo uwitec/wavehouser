@@ -32,7 +32,7 @@ void CDate_base::SetKeyword(const string &keyWord)
 	m_keyWord = keyWord;
 }
 
-string & CDate_base::GetKeyword()
+string CDate_base::GetKeyword()
 {
 	return m_keyWord;
 }

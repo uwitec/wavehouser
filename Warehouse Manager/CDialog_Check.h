@@ -2,8 +2,9 @@
 #include "afxwin.h"
 #include "CStringTransform.h"
 #include "CDate_check.h"
-#include "CDate_Material.h"
 #include "CDate_User.h"
+#include "CDate_Class.h"
+#include "CDate_Material.h"
 
 // CDialog_Check ¶Ô»°¿ò
 
@@ -38,10 +39,23 @@ public:
 	afx_msg void OnBnClickedBtbSave();
 	afx_msg void OnBnClickedBtbQuit();
 
+	void SetDate(const CDate_check &date)
+	{
+		m_date = date;
+	}
+	CDate_check GetDate()
+	{
+		return m_date;
+	}
 private:
 	BOOL m_checkModal;
 	CDate_check m_date;
 	CDate_Material m_material;
 	CDate_User m_user;
 	CStringTransform m_dateChange;
+	vector<CDate_User> m_allUser;
+	vector<CDate_Material> m_allMaterial;
+	vector<CDate_Class> m_allClass;
+
+	void InitComobox(const int &initFlag = -1);
 };

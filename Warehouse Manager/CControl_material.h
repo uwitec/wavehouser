@@ -7,12 +7,13 @@ public:
 	CControl_material(void);
 	virtual ~CControl_material(void);
 
-	void SetData(const CDate_Material *data);
+	void SetData(CDate_Material *data);
 
 	bool Save();
 	bool Delete();
 	bool Updata();
 	bool Search();
+	vector<CDate_Material> SearchList_Material(CDate_search condition);
 private:
 	CDate_Material *m_data;
 };

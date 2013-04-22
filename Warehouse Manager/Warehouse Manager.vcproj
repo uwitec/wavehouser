@@ -453,6 +453,22 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CControl_check.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_check.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_class.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\CControl_class.h"
+				>
+			</File>
+			<File
 				RelativePath=".\CControl_company.cpp"
 				>
 			</File>
