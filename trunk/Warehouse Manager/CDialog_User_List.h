@@ -3,7 +3,7 @@
 #include "CDate_base.h"
 #include "CStringTransform.h"
 #include "afxcmn.h"
-
+#include "CDate_User.h"
 // CDialog_User_List ¶Ô»°¿ò
 
 class CDialog_User_List : public CDialog
@@ -32,11 +32,18 @@ public:
 	virtual BOOL OnInitDialog();
 	afx_msg void OnBnClickedSearchBtn();
 	void InitList();
+	void ListCtrlShow();
 private:
 	CDate_search m_searcher;
 	CStringTransform m_dateChange;
 	bool m_isExport;
+	CDate_User m_changeDate;
+	vector<CDate_User > m_searchDates;
 public:
 	CListCtrl m_list;
 	afx_msg void OnBnClickedExport();
+	afx_msg void OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnClistmenuAdd();
+	afx_msg void OnClistmenuEdit();
+	afx_msg void OnClistmenuDel();
 };

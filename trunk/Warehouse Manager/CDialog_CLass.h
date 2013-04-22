@@ -26,10 +26,15 @@ public:
 	afx_msg void OnBnClickedBtbSave();
 	afx_msg void OnBnClickedBtbQuit();
 
+	virtual	BOOL OnInitDialog();
 	CEdit m_name_ctrl;
 	CEdit m_pName_ctrl;
 	CEdit m_num_ctrl;
 	CEdit m_telphone_ctrl;
 	CEdit m_contact_ctrl;
 	CEdit m_detail_ctrl;
+	CDate_Class GetDate()
+	{
+		return m_date;
+	}
 };

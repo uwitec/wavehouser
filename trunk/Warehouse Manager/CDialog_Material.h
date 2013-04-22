@@ -9,7 +9,7 @@ class CDialog_Material : public CDialog
 	DECLARE_DYNAMIC(CDialog_Material)
 
 public:
-	CDialog_Material(CWnd* pParent = NULL);   // 标准构造函数
+	CDialog_Material(const bool &isEdit = false,CWnd* pParent = NULL);   // 标准构造函数
 	virtual ~CDialog_Material();
 
 // 对话框数据
@@ -22,6 +22,7 @@ protected:
 
 private:
 	CDate_Material m_date;
+	bool m_isEdit;
 public:
 	CEdit m_name_ctrl;
 	CEdit m_modal_ctrl;
@@ -31,4 +32,8 @@ public:
 	CEdit m_detail_ctrl;
 	afx_msg void OnBnClickedBtbSave();
 	afx_msg void OnBnClickedBtbQuit();
+	virtual	BOOL OnInitDialog();
+
+	void SetDate(const CDate_Material &date);
+	CDate_Material GetDate();
 };

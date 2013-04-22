@@ -38,8 +38,19 @@ private:
 	CDate_search m_searcher;
 	CStringTransform m_dateChange;
 
+	CDate_check m_changeDate;
+	vector<CDate_check > m_searchDates;
+	vector<CDate_User> m_allUser;
+	vector<CDate_Class> m_allClass;
 	bool m_isExport;
+	void InitComobox(const int &initFlag = -1);
 	void InitList();
+
+	void ListCtrlShow();
 public:
 	afx_msg void OnBnClickedExport();
+	afx_msg void OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnClistmenuAdd();
+	afx_msg void OnClistmenuEdit();
+	afx_msg void OnClistmenuDel();
 };

@@ -27,6 +27,8 @@ private:
 	CDate_search m_searcher;
 	CStringTransform m_stringTranser;
 	bool m_isExport;
+	CDate_Material m_changeDate;
+	vector<CDate_Material > m_searchDates;
 public:
 	CEdit m_name_ctrl;
 	CEdit m_manufacturer_ctrl;
@@ -39,4 +41,9 @@ public:
 	//afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
 	void InitList();
 	afx_msg void OnBnClickedExport();
+	void ListCtrlShow();
+	afx_msg void OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnClistmenuAdd();
+	afx_msg void OnClistmenuEdit();
+	afx_msg void OnClistmenuDel();
 };

@@ -14,7 +14,7 @@ public:
 	string GetId();
 
 	void SetKeyword(const string &keyWord);
-	string &GetKeyword();
+	string GetKeyword();
 private:
 	string m_id;
 	string m_keyWord;
@@ -32,6 +32,7 @@ public:
 	CString m_unit;
 	CString m_price;
 
+	CString m_checkModal;
 	CString m_class;//部门
 	CString m_pName;//人员
 	CString m_tBegin;
@@ -41,4 +42,5 @@ public:
 	CString m_aBegin;
 	CString m_aEnd;
 	CString m_email;
+
 };

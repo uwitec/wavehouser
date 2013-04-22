@@ -21,6 +21,7 @@
 #define IDD_DIALOG1                     139
 #define IDD_DLG_LOGIN                   139
 #define IDD_DLG_USER_LIST               140
+#define IDR_LIST_MENU                   140
 #define IDC_EDIT1                       1000
 #define IDC_EDIT2                       1001
 #define IDC_EDIT3                       1002
@@ -68,13 +69,19 @@
 #define ID_32791                        32791
 #define ID_32792                        32792
 #define ID_32793                        32793
+#define ID_CLISTMENU_32794              32794
+#define ID_CLISTMENU_32795              32795
+#define ID_CLISTMENU_32796              32796
+#define ID_CLISTMENU_ADD                32797
+#define ID_CLISTMENU_EDIT               32798
+#define ID_CLISTMENU_DEL                32799
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        140
-#define _APS_NEXT_COMMAND_VALUE         32794
+#define _APS_NEXT_RESOURCE_VALUE        141
+#define _APS_NEXT_COMMAND_VALUE         32800
 #define _APS_NEXT_CONTROL_VALUE         1019
 #define _APS_NEXT_SYMED_VALUE           101
 #endif

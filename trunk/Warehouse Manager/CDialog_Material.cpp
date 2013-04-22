@@ -4,16 +4,16 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Material.h"
-
-
+#include "CControl_material.h"
+#include "CDialog_Material_List.h"
 // CDialog_Material 对话框
 
 IMPLEMENT_DYNAMIC(CDialog_Material, CDialog)
 
-CDialog_Material::CDialog_Material(CWnd* pParent /*=NULL*/)
-	: CDialog(CDialog_Material::IDD, pParent)
+CDialog_Material::CDialog_Material(const bool &isEdit/* = false*/,CWnd* pParent /*=NULL*/)
+: CDialog(CDialog_Material::IDD, pParent)
 {
-
+	m_isEdit = isEdit;
 }
 
 CDialog_Material::~CDialog_Material()
@@ -40,6 +40,21 @@ END_MESSAGE_MAP()
 
 // CDialog_Material 消息处理程序
 
+BOOL CDialog_Material::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	if(!m_date.GetId().empty())
+	{
+		m_name_ctrl.SetWindowText(m_date.m_name);
+		m_modal_ctrl.SetWindowText(m_date.m_modal);
+		m_manufacturer_ctrl.SetWindowText(m_date.m_manufacturer);
+		m_unit_ctrl.SetWindowText(m_date.m_unit);
+		m_price_ctrl.SetWindowText(m_date.m_price);
+		m_detail_ctrl.SetWindowText(m_date.m_detail);
+	}
+	return FALSE;
+}
 
 void CDialog_Material::OnBnClickedBtbSave()
 {
@@ -75,6 +90,19 @@ void CDialog_Material::OnBnClickedBtbSave()
 		return;
 	}
 	m_detail_ctrl.GetWindowText(m_date.m_detail);
+
+	CControl_material tmp;
+	tmp.SetData(&m_date);
+	if (tmp.Save())
+	{
+		CRuntimeMessageBox::RunMessageBox("保存成功！");
+
+		OnOK();
+	}
+	else
+	{
+		CRuntimeMessageBox::RunMessageBox("保存失败！");
+	}
 }
 
 
@@ -82,4 +110,14 @@ void CDialog_Material::OnBnClickedBtbQuit()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	OnCancel();
+}
+
+void CDialog_Material::SetDate( const CDate_Material &date )
+{
+	m_date = date;
+}
+
+CDate_Material CDialog_Material::GetDate()
+{
+	return m_date;
 }

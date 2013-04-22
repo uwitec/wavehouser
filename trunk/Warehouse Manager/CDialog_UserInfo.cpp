@@ -9,10 +9,10 @@
 
 IMPLEMENT_DYNAMIC(CDialog_UserInfo, CDialog)
 
-CDialog_UserInfo::CDialog_UserInfo(CWnd* pParent /*=NULL*/)
+CDialog_UserInfo::CDialog_UserInfo(const bool &isSelf/* = true*/,CWnd* pParent /*=NULL*/)
 	: CDialog(CDialog_UserInfo::IDD, pParent)
 {
-
+	m_isSelf = isSelf;
 }
 
 CDialog_UserInfo::~CDialog_UserInfo()
@@ -43,15 +43,30 @@ BOOL CDialog_UserInfo::OnInitDialog()
 {
 	CDialog::OnInitDialog();
 
-	CControl_user tmp;
-	if (tmp.Search())
+	if (!m_isSelf )
 	{
-		m_name_ctrl.SetWindowText(CControl_bace::s_userInfo.m_name);
-		m_cName_ctrl.SetWindowText(CControl_bace::s_userInfo.m_companyName);
-		m_age_ctrl.SetWindowText(CControl_bace::s_userInfo.m_age);
-		m_phone_ctrl.SetWindowText(CControl_bace::s_userInfo.m_tellPhone);
-		m_email_ctrl.SetWindowText(CControl_bace::s_userInfo.m_email);
-		m_detail_ctrl.SetWindowText(CControl_bace::s_userInfo.m_detail);
+		if(!m_date.GetId().empty())
+		{
+			m_name_ctrl.SetWindowText(m_date.m_name);
+			m_cName_ctrl.SetWindowText(m_date.m_companyName);
+			m_age_ctrl.SetWindowText(m_date.m_age);
+			m_phone_ctrl.SetWindowText(m_date.m_tellPhone);
+			m_email_ctrl.SetWindowText(m_date.m_email);
+			m_detail_ctrl.SetWindowText(m_date.m_detail);
+		}
+	}
+	else 
+	{
+		CControl_user tmp;
+		if (tmp.Search())
+		{
+			m_name_ctrl.SetWindowText(CControl_bace::s_userInfo.m_name);
+			m_cName_ctrl.SetWindowText(CControl_bace::s_userInfo.m_companyName);
+			m_age_ctrl.SetWindowText(CControl_bace::s_userInfo.m_age);
+			m_phone_ctrl.SetWindowText(CControl_bace::s_userInfo.m_tellPhone);
+			m_email_ctrl.SetWindowText(CControl_bace::s_userInfo.m_email);
+			m_detail_ctrl.SetWindowText(CControl_bace::s_userInfo.m_detail);
+		}
 	}
 	return FALSE;
 }
@@ -91,6 +106,19 @@ void CDialog_UserInfo::OnBnClickedBtbSave()
 		return;
 	}
 	m_detail_ctrl.GetWindowText(m_date.m_detail);
+
+	CControl_user tmp;
+	tmp.SetData(&m_date);
+	if (tmp.Save(m_isSelf))
+	{
+		CRuntimeMessageBox::RunMessageBox("保存成功！");
+
+		OnOK();
+	}
+	else
+	{
+		CRuntimeMessageBox::RunMessageBox("保存失败！");
+	}
 }
 
 
@@ -98,4 +126,9 @@ void CDialog_UserInfo::OnBnClickedBtbQuit()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	OnCancel();
+}
+
+void CDialog_UserInfo::SetDate( const CDate_User &date )
+{
+	m_date = date;
 }

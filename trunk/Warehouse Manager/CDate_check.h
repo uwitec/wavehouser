@@ -1,5 +1,8 @@
 #pragma once
 #include "CDate_base.h"
+#include "CDate_Class.h"
+#include "CDate_Material.h"
+#include "CDate_User.h"
 class CDate_check:public CDate_base
 {
 public:
@@ -9,15 +12,13 @@ public:
 public:
 	int m_checkModal;
 
-	CString m_operatePeople; //人
-	CString m_uId;
-	CString m_operateClass;  //部门
-	CString m_operateWare;   //仓库
-	CString m_mName;         //材料名称
-	CString m_mId;
-	int m_num;               //数量
+	CDate_User m_userInfo;    //人
+	CDate_Class m_class;      //部门
+	CDate_Material m_material;//材料名称
+	CString m_operateWare;    //仓库
+	int m_num;                //数量
 	double m_total;
-	CString m_time;          //数据
-	CString m_tellPhone;     //电话
-	CString m_detail;        //详细
+	CString m_time;           //数据
+	CString m_tellPhone;      //电话
+	CString m_detail;         //详细
 };
