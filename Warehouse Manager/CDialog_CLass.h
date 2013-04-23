@@ -33,6 +33,10 @@ public:
 	CEdit m_telphone_ctrl;
 	CEdit m_contact_ctrl;
 	CEdit m_detail_ctrl;
+	void SetDate(const CDate_Class &date)
+	{
+		m_date = date;
+	}
 	CDate_Class GetDate()
 	{
 		return m_date;

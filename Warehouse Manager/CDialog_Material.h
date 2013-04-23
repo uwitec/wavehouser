@@ -33,7 +33,6 @@ public:
 	afx_msg void OnBnClickedBtbSave();
 	afx_msg void OnBnClickedBtbQuit();
 	virtual	BOOL OnInitDialog();
-
 	void SetDate(const CDate_Material &date);
 	CDate_Material GetDate();
 };

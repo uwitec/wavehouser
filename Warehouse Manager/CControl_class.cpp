@@ -102,3 +102,27 @@ vector<CDate_Class> CControl_class::SearchList_Class( const CDate_search &condit
 	}
 	return result;
 }
+
+CDate_Class CControl_class::Search_byId( const string &id )
+{
+	CDate_Class result;
+
+	string sql = "select * from tab_class where id='";
+	sql += id;
+	sql += "'";
+
+	SQLiteStatement* stmt=g_sqlite.Statement(m_dateChange.Unicode2Utf8(sql));
+
+	while(stmt->NextRow())
+	{
+		result.SetId(stmt->ValueString (0));
+		result.m_name         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (1)));
+		result.m_pName        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (2)));
+		result.m_contact      = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
+		result.m_num          = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
+		result.m_tellPhone    = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
+		result.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+
+	}
+	return result;
+}

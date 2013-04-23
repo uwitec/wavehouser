@@ -13,6 +13,7 @@ public:
 	bool Delete();
 	bool Updata();
 	bool Search(const bool &isSelf = true);
+	CDate_User Search_byId(const string &id);
 	vector<CDate_User> SearchList_UserInfo(CDate_search condition);
 private:
 	CDate_User *m_data;

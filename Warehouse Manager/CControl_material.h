@@ -13,6 +13,7 @@ public:
 	bool Delete();
 	bool Updata();
 	bool Search();
+	CDate_Material Search_byId(const string &id);
 	vector<CDate_Material> SearchList_Material(CDate_search condition);
 private:
 	CDate_Material *m_data;
