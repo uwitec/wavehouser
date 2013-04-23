@@ -74,7 +74,7 @@ bool CControl_material::Updata()
 	sql += m_dateChange.CStringtostring(m_data->m_detail);
 	sql += "',create_time='";
 	sql += m_dateChange.GetCurTimes();
-	sql +="' where id='";
+	sql += "',del_flag='0' where id='";
 	sql += m_data->GetId();
 	sql += "';";
 	//return CADOOperate::ExecuteSQL(sql);
@@ -151,6 +151,7 @@ CDate_Material CControl_material::Search_byId( const string &id )
 		result.m_price        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
 		result.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
 
+		result.SetDel(stmt->ValueString (9) == "0");
 		break;
 	}
 

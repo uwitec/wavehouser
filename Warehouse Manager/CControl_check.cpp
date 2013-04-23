@@ -115,9 +115,9 @@ vector<CDate_check> CControl_check::SearchList_Check( CDate_search condition )
 	string sql = "SELECT ";
 	sql += "  tch.id,tma.id,tcl.id,tus.id,tch.modal,tma.material_name,tma.material_modal,tcl.class_name,tus.user_name,tch.tellphone,tch.num,tch.total,tch.create_time,tch.detail ";
 	sql += "FROM tab_check tch ";
-	sql += "LEFT JOIN tab_class tcl ON tch.c_id=tcl.id and tcl.del_flag='0' ";
-	sql += "LEFT JOIN tab_user tus ON tch.u_id = tus.id and tus.del_flag='0' ";
-	sql += "LEFT JOIN tab_material tma ON tch.m_id=tma.id  and tma.del_flag='0' ";
+	sql += "LEFT JOIN tab_class tcl ON tch.c_id=tcl.id ";//"and tcl.del_flag='0' ";
+	sql += "LEFT JOIN tab_user tus ON tch.u_id = tus.id ";//"and tus.del_flag='0' ";
+	sql += "LEFT JOIN tab_material tma ON tch.m_id=tma.id  ";//"and tma.del_flag='0' ";
 	sql += " where ";
 	if(!condition.m_name.IsEmpty()) //²ÄÁÏÃû
 		sql = sql + " tma.material_name like '%"+ m_dateChange.CStringtostring(condition.m_name) + "%' and ";
@@ -180,6 +180,7 @@ vector<CDate_check> CControl_check::SearchList_Check( CDate_search condition )
 		tmp.m_time             = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (12)));
 		tmp.m_detail           = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (13)));
 
+		//tmp.SetDel(m_dateChange.Utf82Unicode(stmt->ValueString (9) == "0"));
 		result.push_back(tmp);
 	}
 	return result;

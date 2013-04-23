@@ -14,7 +14,7 @@ public:
 	bool Updata();
 	bool Search();
 	CDate_Class Search_byId(const string &id);
-	vector<CDate_Class> SearchList_Class(const CDate_search &condition);
+	vector<CDate_Class> SearchList_Class(CDate_search &condition);
 private:
 	CDate_Class *m_data;
 };

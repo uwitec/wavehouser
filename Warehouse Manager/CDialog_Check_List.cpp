@@ -54,6 +54,7 @@ BEGIN_MESSAGE_MAP(CDialog_Check_List, CDialog)
 	ON_COMMAND(ID_CLISTMENU2_SMATERIAL, &CDialog_Check_List::OnClistmenu2Smaterial)
 	ON_COMMAND(ID_CLISTMENU2_EDIT, &CDialog_Check_List::OnClistmenu2Edit)
 	ON_COMMAND(ID_CLISTMENU2_DEL, &CDialog_Check_List::OnClistmenu2Del)
+	ON_BN_CLICKED(IDC_CHECK1, &CDialog_Check_List::OnBnClickedCheck1)
 END_MESSAGE_MAP()
 
 
@@ -135,15 +136,21 @@ void CDialog_Check_List::OnBnClickedSearchBtn()
 	m_searcher.m_class = m_class_ctrl.GetCurSel() == 0 ? _T("") : m_dateChange.stringToCstring(m_allClass.at(m_class_ctrl.GetCurSel() - 1).GetId());
 	m_searcher.m_pName = m_user_ctrl.GetCurSel() == 0 ? _T("") : m_dateChange.stringToCstring(m_allUser.at(m_user_ctrl.GetCurSel() - 1).GetId());
 
-	m_tBegin_ctrl.GetWindowText(m_searcher.m_tBegin);
-	m_tEnd_ctrl.GetWindowText(m_searcher.m_tEnd);
-	if(m_searcher.m_tBegin.IsEmpty() || m_searcher.m_tEnd.IsEmpty())
+
+	if(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK1 ))
 	{
-		CRuntimeMessageBox::RunMessageBox("请输入正确的时间");
-		return;
+		m_tBegin_ctrl.GetWindowText(m_searcher.m_tBegin);
+		m_tEnd_ctrl.GetWindowText(m_searcher.m_tEnd);
+		if(m_searcher.m_tBegin.IsEmpty() || m_searcher.m_tEnd.IsEmpty())
+		{
+			CRuntimeMessageBox::RunMessageBox("请输入正确的时间");
+			return;
+		}
 	}
 	else
 	{
+		m_searcher.m_aBegin.Empty();
+		m_searcher.m_tEnd.Empty();
 	}
 	CString tmp;
 	m_keyWord_ctrl.GetWindowText(tmp);
@@ -153,6 +160,8 @@ void CDialog_Check_List::OnBnClickedSearchBtn()
 	m_searchDates = tmpc.SearchList_Check(m_searcher);
 
 	ListCtrlShow();
+
+	GetDlgItem(IDC_BUTTON5)->EnableWindow(!m_searchDates.empty());
 }
 
 void CDialog_Check_List::OnBnClickedExport()
@@ -273,4 +282,12 @@ void CDialog_Check_List::OnClistmenu2Smaterial()
 	CDialog_Material dlg;
 	dlg.SetDate(m_changeDate.m_material);
 	dlg.DoModal();
+}
+
+void CDialog_Check_List::OnBnClickedCheck1()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	//if(GetDlgItem(IDC_CHECK1)->check)
+	m_tBegin_ctrl.EnableWindow(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK1 ));
+	m_tEnd_ctrl.EnableWindow(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK1 ));
 }

@@ -22,8 +22,8 @@
 #define IDD_DLG_LOGIN                   139
 #define IDD_DLG_USER_LIST               140
 #define IDR_LIST_MENU                   140
-#define IDR_MENU1                       141
 #define IDR_LIST_MENU2                  141
+#define IDD_DLG_CLASS_LIST              141
 #define IDC_EDIT1                       1000
 #define IDC_EDIT2                       1001
 #define IDC_EDIT3                       1002
@@ -48,6 +48,7 @@
 #define IDC_DATETIMEPICKER1             1016
 #define IDC_DATETIMEPICKER2             1017
 #define IDC_STATIC_S                    1018
+#define IDC_CHECK1                      1019
 #define ID_32771                        32771
 #define ID_32772                        32772
 #define ID_32773                        32773
@@ -91,14 +92,15 @@
 #define ID_CLISTMENU2_SMATERIAL         32811
 #define ID_CLISTMENU2_EDIT              32812
 #define ID_CLISTMENU2_DEL               32813
+#define ID_32814                        32814
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        142
-#define _APS_NEXT_COMMAND_VALUE         32814
-#define _APS_NEXT_CONTROL_VALUE         1019
+#define _APS_NEXT_COMMAND_VALUE         32815
+#define _APS_NEXT_CONTROL_VALUE         1020
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif

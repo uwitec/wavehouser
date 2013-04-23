@@ -57,4 +57,5 @@ public:
 	afx_msg void OnClistmenu2Smaterial();
 	afx_msg void OnClistmenu2Edit();
 	afx_msg void OnClistmenu2Del();
+	afx_msg void OnBnClickedCheck1();
 };

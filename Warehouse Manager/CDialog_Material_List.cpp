@@ -59,6 +59,22 @@ BOOL CDialog_Material_List::OnInitDialog()
 	return TRUE;
 }
 
+void CDialog_Material_List::InitList()
+{
+	SetWindowLong(m_list.m_hWnd, GWL_STYLE, GetWindowLong(m_list.m_hWnd, GWL_STYLE) |LVS_REPORT);
+	DWORD dwStyles = m_list.GetExStyle();
+	dwStyles &= ~LVS_EX_CHECKBOXES;
+	m_list.SetExtendedStyle(dwStyles|LVS_EX_FULLROWSELECT|LVS_EX_GRIDLINES);
+
+	m_list.InsertColumn(0, _T( "序号" ),LVCFMT_LEFT, 50);
+	m_list.InsertColumn(1, _T( "材料名称" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(2, _T( "生产厂家" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(3, _T( "材料型号" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(4, _T( "采购单位" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(5, _T( "采购价格" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(7, _T( "材料详细" ),LVCFMT_LEFT, 500);
+}
+
 void CDialog_Material_List::OnBnClickedSearchBtn()
 {
 	// TODO: 在此添加控件通知处理程序代码
@@ -75,6 +91,8 @@ void CDialog_Material_List::OnBnClickedSearchBtn()
 	m_searchDates = tmps.SearchList_Material(m_searcher);
 
 	ListCtrlShow();
+	
+	GetDlgItem(IDC_BUTTON4)->EnableWindow(!m_searchDates.empty());
 }
 
 void CDialog_Material_List::ListCtrlShow()
@@ -95,21 +113,6 @@ void CDialog_Material_List::ListCtrlShow()
 	}
 }
 
-void CDialog_Material_List::InitList()
-{
-	SetWindowLong(m_list.m_hWnd, GWL_STYLE, GetWindowLong(m_list.m_hWnd, GWL_STYLE) |LVS_REPORT);
-	DWORD dwStyles = m_list.GetExStyle();
-	dwStyles &= ~LVS_EX_CHECKBOXES;
-	m_list.SetExtendedStyle(dwStyles|LVS_EX_FULLROWSELECT|LVS_EX_GRIDLINES);
-
-	m_list.InsertColumn(0, _T( "序号" ),LVCFMT_LEFT, 50);
-	m_list.InsertColumn(1, _T( "材料名称" ),LVCFMT_LEFT, 100);
-	m_list.InsertColumn(2, _T( "生产厂家" ),LVCFMT_LEFT, 100);
-	m_list.InsertColumn(3, _T( "材料型号" ),LVCFMT_LEFT, 100);
-	m_list.InsertColumn(4, _T( "采购单位" ),LVCFMT_LEFT, 100);
-	m_list.InsertColumn(5, _T( "采购价格" ),LVCFMT_LEFT, 100);
-	m_list.InsertColumn(7, _T( "材料详细" ),LVCFMT_LEFT, 500);
-}
 
 void CDialog_Material_List::OnBnClickedExport()
 {
