@@ -50,7 +50,11 @@ private:
 public:
 	afx_msg void OnBnClickedExport();
 	afx_msg void OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult);
-	afx_msg void OnClistmenuAdd();
-	afx_msg void OnClistmenuEdit();
-	afx_msg void OnClistmenuDel();
+	afx_msg void OnClistmenu2Addin();
+	afx_msg void OnClistmenu2Addout();
+	afx_msg void OnClistmenu2Sclass();
+	afx_msg void OnClistmenu2Suser();
+	afx_msg void OnClistmenu2Smaterial();
+	afx_msg void OnClistmenu2Edit();
+	afx_msg void OnClistmenu2Del();
 };

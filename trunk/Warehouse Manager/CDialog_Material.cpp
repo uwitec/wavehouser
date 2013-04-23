@@ -46,6 +46,11 @@ BOOL CDialog_Material::OnInitDialog()
 
 	if(!m_date.GetId().empty())
 	{
+		if(m_date.m_modal.IsEmpty())
+		{
+			CControl_material tmp;
+			m_date = tmp.Search_byId(m_date.GetId());
+		}
 		m_name_ctrl.SetWindowText(m_date.m_name);
 		m_modal_ctrl.SetWindowText(m_date.m_modal);
 		m_manufacturer_ctrl.SetWindowText(m_date.m_manufacturer);

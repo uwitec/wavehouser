@@ -527,6 +527,22 @@ BEGIN
     END
 END
 
+IDR_LIST_MENU2 MENU 
+BEGIN
+    POPUP "CLISTMENU2"
+    BEGIN
+        MENUITEM "增加购进",                        ID_CLISTMENU2_ADDIN
+        MENUITEM "增加支出",                        ID_CLISTMENU2_ADDOUT
+        MENUITEM SEPARATOR
+        MENUITEM "查看部门信息",                      ID_CLISTMENU2_SCLASS
+        MENUITEM "查看操作员信息",                     ID_CLISTMENU2_SUSER
+        MENUITEM "查看材料信息",                      ID_CLISTMENU2_SMATERIAL
+        MENUITEM SEPARATOR
+        MENUITEM "修改",                          ID_CLISTMENU2_EDIT
+        MENUITEM "删除",                          ID_CLISTMENU2_DEL
+    END
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //

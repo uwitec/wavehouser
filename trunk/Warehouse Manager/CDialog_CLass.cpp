@@ -42,6 +42,27 @@ END_MESSAGE_MAP()
 
 // CDialog_CLass 消息处理程序
 
+BOOL CDialog_CLass::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	if(!m_date.GetId().empty())
+	{
+		if(m_date.m_pName.IsEmpty())
+		{
+			CControl_class tmp;
+			m_date = tmp.Search_byId(m_date.GetId());
+		}
+		m_name_ctrl.SetWindowText(m_date.m_name);
+		m_pName_ctrl.SetWindowText(m_date.m_pName);
+		m_num_ctrl.SetWindowText(m_date.m_num);
+		m_telphone_ctrl.SetWindowText(m_date.m_tellPhone);
+		m_contact_ctrl.SetWindowText(m_date.m_contact);
+		m_detail_ctrl.SetWindowText(m_date.m_detail);
+	}
+
+	return FALSE;
+}
 
 void CDialog_CLass::OnBnClickedBtbSave()
 {
@@ -96,11 +117,4 @@ void CDialog_CLass::OnBnClickedBtbQuit()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	OnCancel();
-}
-
-BOOL CDialog_CLass::OnInitDialog()
-{
-	CDialog::OnInitDialog();
-
-	return FALSE;
 }

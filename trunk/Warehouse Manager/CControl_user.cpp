@@ -252,3 +252,28 @@ vector<CDate_User> CControl_user::SearchList_UserInfo( CDate_search condition )
 	
 	return result;
 }
+
+CDate_User CControl_user::Search_byId( const string &id )
+{
+	CDate_User result ;
+	string sql = "select * from tab_user where id='";
+	sql += id;
+	sql += "'";
+
+	SQLiteStatement* stmt=g_sqlite.Statement(sql);
+
+	while(stmt->NextRow())
+	{
+		result.SetId(stmt->ValueString (0));
+		result.m_name        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (2)));
+		result.m_companyName = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
+		result.m_age         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
+		result.m_tellPhone   = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
+		result.m_email       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+		result.m_detail      = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (7)));
+
+		break;
+	}
+
+	return result;
+}

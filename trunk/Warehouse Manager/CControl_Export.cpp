@@ -129,13 +129,13 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 		for (int i=0;i<dates.size();i++)
 		{
 			memset(cTmp,0,10);
-			itoa(i,cTmp,10);
+			itoa(i+1,cTmp,10);
 			string dateLine = cTmp;
 
 			if(dates[i].m_checkModal)
-				dateLine += ",采购";
+				dateLine += ",采购,";
 			else
-				dateLine += ",支出";
+				dateLine += ",支出,";
 
 			dateLine += dateChange.CStringtostring(dates[i].m_material.m_name);
 			dateLine += ",";
@@ -147,7 +147,7 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 			tmp.Format(_T("%d"),dates[i].m_num);
 			dateLine += dateChange.CStringtostring(tmp);
 			dateLine += ",";
-			tmp.Format(_T("%ld"),dates[i].m_total);
+			tmp.Format(_T("%.2lf"),dates[i].m_total);
 			dateLine += dateChange.CStringtostring(tmp);
 			dateLine += ",";
 			dateLine += dateChange.CStringtostring(dates[i].m_time);

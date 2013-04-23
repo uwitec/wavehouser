@@ -131,3 +131,29 @@ vector<CDate_Material> CControl_material::SearchList_Material( CDate_search cond
 	}
 	return result;
 }
+
+CDate_Material CControl_material::Search_byId( const string &id )
+{
+	CDate_Material result;
+	string sql = "select * from tab_material where id='";
+	sql += id;
+	sql += "'";
+
+	SQLiteStatement* stmt=g_sqlite.Statement(sql);
+
+	while(stmt->NextRow())
+	{
+		result.SetId(stmt->ValueString (0));
+		result.m_name         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (1)));
+		result.m_modal        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (2)));
+		result.m_manufacturer = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
+		result.m_unit         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
+		result.m_price        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
+		result.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+
+		break;
+	}
+
+	return result;
+
+}

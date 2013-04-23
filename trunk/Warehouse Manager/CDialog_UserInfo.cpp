@@ -10,7 +10,7 @@
 IMPLEMENT_DYNAMIC(CDialog_UserInfo, CDialog)
 
 CDialog_UserInfo::CDialog_UserInfo(const bool &isSelf/* = true*/,CWnd* pParent /*=NULL*/)
-	: CDialog(CDialog_UserInfo::IDD, pParent)
+: CDialog(CDialog_UserInfo::IDD, pParent)
 {
 	m_isSelf = isSelf;
 }
@@ -45,8 +45,14 @@ BOOL CDialog_UserInfo::OnInitDialog()
 
 	if (!m_isSelf )
 	{
-		if(!m_date.GetId().empty())
+		if(!m_date.GetId().empty() )
 		{
+			if(m_date.m_tellPhone.IsEmpty())
+			{
+				CControl_user tmp;
+				m_date = tmp.Search_byId(m_date.GetId());
+			}
+
 			m_name_ctrl.SetWindowText(m_date.m_name);
 			m_cName_ctrl.SetWindowText(m_date.m_companyName);
 			m_age_ctrl.SetWindowText(m_date.m_age);
