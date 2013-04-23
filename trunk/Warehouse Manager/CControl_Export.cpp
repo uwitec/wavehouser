@@ -165,3 +165,50 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 
 	return false;
 }
+
+bool CControl_Export::ExportClass( const vector<CDate_Class > &dates )
+{
+	CStringTransform dateChange;
+	//显示文件打开对话框
+	CFileDialog dlg(FALSE, _T("CSV"),_T("*.csv"),OFN_HIDEREADONLY|OFN_OVERWRITEPROMPT,_T("CSV Files(*.csv)|*.csv")); 
+	if ( dlg.DoModal()!=IDOK ) 
+		return false;
+	//获取文件的绝对路径
+	CString sFileName=dlg.GetPathName();
+
+	ofstream outfile;
+	outfile.open(sFileName);
+	if (outfile.is_open())
+	{
+		string title = "序号,部门名称,负责人,部门人数,联系人,联系电话,详细信息\r";
+		outfile.write(title.c_str(),title.length());
+
+		char cTmp[10];
+		for (int i=0;i<dates.size();i++)
+		{
+			memset(cTmp,0,10);
+			itoa(i,cTmp,10);
+			string dateLine = cTmp;
+
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_name);
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_pName);
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_num);
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_contact);
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_tellPhone);
+			dateLine += ",";
+			dateLine += dateChange.CStringtostring(dates[i].m_detail);
+			dateLine += "\r";
+			outfile.write(dateLine.c_str(),dateLine.length());
+		}
+		outfile.close();
+
+		return true;
+	}
+
+	return false;
+}

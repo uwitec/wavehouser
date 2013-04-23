@@ -12,6 +12,7 @@
 #include "CDialog_Check_list.h"
 #include "CDialog_Check_Stats.h"
 #include "CDialog_User_List.h"
+#include "CDialog_Class_List.h"
 // CWarehouseManagerDlg ¶Ô»°¿ò
 class CWarehouseManagerDlg : public CDialog
 {
@@ -48,9 +49,10 @@ public:
 	afx_msg void OnExit();
 
 private:
+	CDialog_Class_List    *m_ClassList;
 	CDialog_Material_List *m_MaterialList;
 	CDialog_Material_List *m_MaterialList_out;
-	CDialog_Check_Stats *m_MaterialStats;
+	CDialog_Check_Stats   *m_MaterialStats;
 
 	CDialog_Check_List *m_checkList;
 	CDialog_Check_List *m_checkList_out;
@@ -72,4 +74,5 @@ public:
 	afx_msg void OnSetSystem();
 	afx_msg void OnHelp();
 	afx_msg void OnAbout();
+	afx_msg void OnOutClass();
 };

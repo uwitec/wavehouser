@@ -67,6 +67,9 @@ BOOL CDialog_CLass::OnInitDialog()
 void CDialog_CLass::OnBnClickedBtbSave()
 {
 	// TODO: 在此添加控件通知处理程序代码
+	if(!m_date.GetDel())
+		if(::MessageBox(::GetActiveWindow(),_T("此信息已经被删除了，是否重新保存恢复？"),_T("提示"),MB_YESNO) == IDNO)
+			return ;
 	m_name_ctrl.GetWindowText(m_date.m_name);
 	if(m_date.m_name.IsEmpty())
 	{

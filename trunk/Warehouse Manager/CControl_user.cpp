@@ -113,7 +113,7 @@ bool CControl_user::Updata()
 	sql += m_dateChange.CStringtostring(m_data->m_detail);
 	sql += "',create_time='";
 	sql += m_dateChange.GetCurTimes();
-	sql +="' where id='";
+	sql += "',del_flag='0' where id='";
 	sql += m_data->GetId();
 	sql += "';";
 	//return CADOOperate::ExecuteSQL(sql);
@@ -272,6 +272,7 @@ CDate_User CControl_user::Search_byId( const string &id )
 		result.m_email       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
 		result.m_detail      = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (7)));
 
+		result.SetDel(stmt->ValueString (10) == "0");
 		break;
 	}
 

@@ -39,6 +39,7 @@ public:
 // 实现
 protected:
 	DECLARE_MESSAGE_MAP()
+public:
 };
 
 CAboutDlg::CAboutDlg() : CDialog(CAboutDlg::IDD)
@@ -64,6 +65,7 @@ CWarehouseManagerDlg::CWarehouseManagerDlg(CWnd* pParent /*=NULL*/)
 {
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 
+	m_ClassList = NULL;
 	m_MaterialList = NULL;
 	m_MaterialList_out = NULL;
 	m_MaterialStats = NULL;
@@ -102,6 +104,7 @@ BEGIN_MESSAGE_MAP(CWarehouseManagerDlg, CDialog)
 	ON_COMMAND(ID_32788, &CWarehouseManagerDlg::OnSetSystem)
 	ON_COMMAND(ID_32790, &CWarehouseManagerDlg::OnHelp)
 	ON_COMMAND(ID_32789, &CWarehouseManagerDlg::OnAbout)
+	ON_COMMAND(ID_32814, &CWarehouseManagerDlg::OnOutClass)
 END_MESSAGE_MAP()
 
 
@@ -407,4 +410,16 @@ void CWarehouseManagerDlg::InitGDates()
 	CControl_company tmp3;
 	tmp3.Search();
 
+}
+void CWarehouseManagerDlg::OnOutClass()
+{
+	// TODO: 在此添加命令处理程序代码
+	if(m_ClassList == NULL)
+	{
+		m_ClassList = new CDialog_Class_List();
+		m_ClassList->Create(IDD_DLG_CLASS_LIST);
+		m_ClassList->SetParent(this);//设置dialog1为父窗口
+		m_ClassList->ShowWindow(SW_HIDE);
+	}
+	CDialog_Update::UpdateDlg(m_ClassList);
 }

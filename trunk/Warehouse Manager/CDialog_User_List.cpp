@@ -98,6 +98,7 @@ void CDialog_User_List::OnBnClickedSearchBtn()
 
 	ListCtrlShow();
 
+	GetDlgItem(IDC_BUTTON4)->EnableWindow(!m_searchDates.empty());
 }
 
 void CDialog_User_List::OnBnClickedExport()

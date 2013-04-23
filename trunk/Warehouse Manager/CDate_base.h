@@ -15,9 +15,13 @@ public:
 
 	void SetKeyword(const string &keyWord);
 	string GetKeyword();
+
+	void SetDel(const bool &del){ m_del = del; };
+	bool GetDel(){ return m_del; };
 private:
 	string m_id;
 	string m_keyWord;
+	bool m_del;
 };
 
 class CDate_search : public CDate_base
@@ -43,4 +47,7 @@ public:
 	CString m_aEnd;
 	CString m_email;
 
+	CString m_cpName;
+	CString m_coName;
+	CString m_tellPhone;
 };
