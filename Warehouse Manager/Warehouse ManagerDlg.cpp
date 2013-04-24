@@ -262,8 +262,8 @@ void CWarehouseManagerDlg::OnSearchMaterialState()
 	// TODO: 在此添加命令处理程序代码
 	if(m_MaterialStats == NULL)
 	{
-		m_MaterialStats = new CDialog_Check_Stats();
-		m_MaterialStats->Create(IDD_DLG_CHECK_STATS);
+		m_MaterialStats = new CDialog_Material_Stats();
+		m_MaterialStats->Create(IDD_DLG_MATERIAL_STATS);
 		m_MaterialStats->SetParent(this);//设置dialog1为父窗口
 		m_MaterialStats->ShowWindow(SW_HIDE);
 	}

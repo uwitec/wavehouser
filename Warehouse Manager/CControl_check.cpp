@@ -132,7 +132,7 @@ vector<CDate_check> CControl_check::SearchList_Check( CDate_search condition )
 		if (condition.m_tBegin.IsEmpty() == condition.m_tEnd)
 			sql = sql + "tch.create_time == '" + m_dateChange.CStringtostring(condition.m_tBegin) + "' and ";
 		else
-			sql = sql + "tch.create_time >= '" + m_dateChange.CStringtostring(condition.m_tBegin) + " 00:00:00' and tch.create_time <= '" + m_dateChange.CStringtostring(condition.m_tEnd) + "23:59:59' and ";
+			sql = sql + "tch.create_time >= '" + m_dateChange.CStringtostring(condition.m_tBegin) + " 00:00:00' and tch.create_time <= '" + m_dateChange.CStringtostring(condition.m_tEnd) + " 23:59:59' and ";
 	}
 	if(!condition.GetKeyword().empty())
 	{

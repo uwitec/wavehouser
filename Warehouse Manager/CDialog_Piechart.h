@@ -69,6 +69,7 @@ private:
 	CRect m_ClientRect;
 	CRect m_EllipseRect;
 	CRect m_DetaiRect;
+	CRect m_TotalRect;
 	CFont m_TextFont, m_TextFont2;
 	float m_R,m_EllipseR;
 	CPoint m_OPoint;

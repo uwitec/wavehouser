@@ -4,6 +4,7 @@
 #include "stdafx.h"
 #include "Warehouse Manager.h"
 #include "CDialog_Check_Stats.h"
+#include "CControl_check.h"
 //#include "afxdialogex.h"
 
 
@@ -27,11 +28,13 @@ void CDialog_Check_Stats::DoDataExchange(CDataExchange* pDX)
 	DDX_Control(pDX, IDC_DATETIMEPICKER1, m_tBegin_ctrl);
 	DDX_Control(pDX, IDC_DATETIMEPICKER2, m_tEnd_ctrl);
 	DDX_Control(pDX, IDC_STATIC_S, m_pieChart_ctrl);
+	DDX_Control(pDX, IDC_COMBO1, m_modal);
 }
 
 
 BEGIN_MESSAGE_MAP(CDialog_Check_Stats, CDialog)
 	ON_BN_CLICKED(IDC_BUTTON1, &CDialog_Check_Stats::OnBnClickedSearchBtn)
+	ON_BN_CLICKED(IDC_CHECK2, &CDialog_Check_Stats::OnBnClickedCheck2)
 END_MESSAGE_MAP()
 
 
@@ -40,7 +43,15 @@ END_MESSAGE_MAP()
 BOOL CDialog_Check_Stats::OnInitDialog()
 {
 	CDialog::OnInitDialog();
-	
+
+	m_modal.AddString(_T("类型"));
+	m_modal.AddString(_T("材料"));
+	m_modal.AddString(_T("部门"));
+	m_modal.AddString(_T("人员"));
+	m_modal.AddString(_T("日期"));
+	m_modal.AddString(_T("金额"));
+
+	m_modal.SetCurSel(0);
 	//CRect dlgRect;
 	//m_pieChart_ctrl.GetClientRect(dlgRect);
 	//
@@ -54,13 +65,124 @@ BOOL CDialog_Check_Stats::OnInitDialog()
 
 	//m_pieChart_ctrl.SetEPos(CRect(50,50,300,300));
 	m_pieChart_ctrl.SetEPos();
-	ShowEllipse();
+	//ShowEllipse();
+	OnBnClickedSearchBtn();
 	return TRUE;
 }
 void CDialog_Check_Stats::OnBnClickedSearchBtn()
 {
+
+	if(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK2 ))
+	{
+		m_tBegin_ctrl.GetWindowText(m_searcher.m_tBegin);
+		m_tEnd_ctrl.GetWindowText(m_searcher.m_tEnd);
+		if(m_searcher.m_tBegin.IsEmpty() || m_searcher.m_tEnd.IsEmpty())
+		{
+			CRuntimeMessageBox::RunMessageBox("请输入正确的时间");
+			return;
+		}
+	}
+	else
+	{
+		m_searcher.m_aBegin.Empty();
+		m_searcher.m_tEnd.Empty();
+	}
+	CControl_check tmp;
+	m_searchDates = tmp.SearchList_Check(m_searcher);
+
+	FormatSearchDates(m_modal.GetCurSel());
 }
 
+
+void CDialog_Check_Stats::FormatSearchDates( const int &modal /*= 0*/ )
+{
+	vector<PieData > datas;
+	for (int i=0 ; i<m_searchDates.size();i++)
+	{
+		PieData tmp;
+		tmp.PieNum = 1;
+		if( (modal == 0 /*&& !m_searchDates[i].m_checkModal*/ ) ||//名称
+			(modal == 1 && !m_searchDates[i].m_material.m_name.IsEmpty()) ||
+			(modal == 2 && !m_searchDates[i].m_class.m_name.IsEmpty()) ||
+			(modal == 3 && !m_searchDates[i].m_userInfo.m_name.IsEmpty()) ||
+			(modal == 4 && !m_searchDates[i].m_time.IsEmpty()) ||
+			(modal == 5 ))
+		{
+			for (int j = 0;j < m_searchDates.size() ; j++)
+			{
+				if (i == j)
+					continue;
+				if(modal == 0 && m_searchDates[i].m_checkModal == m_searchDates[j].m_checkModal && m_searchDates[j].m_checkModal == -1) //名称
+				{
+					tmp.PieName = m_searchDates[j].m_checkModal == 1 ? _T("购进") :_T("支出");
+					m_searchDates[j].m_checkModal = -1;
+					tmp.PieNum ++;					
+				}
+				else if(modal == 1 && m_searchDates[i].m_material.m_name == m_searchDates[j].m_material.m_name && !m_searchDates[j].m_material.m_name.IsEmpty())
+				{
+					tmp.PieName = m_searchDates[j].m_material.m_name;
+					m_searchDates[j].m_material.m_name.Empty();
+					tmp.PieNum ++;	
+				}
+				else if (modal == 2 && m_searchDates[i].m_class.m_name == m_searchDates[j].m_class.m_name && !m_searchDates[j].m_class.m_name.IsEmpty())
+				{
+					tmp.PieName = m_searchDates[j].m_class.m_name;
+					m_searchDates[j].m_class.m_name.Empty();
+					tmp.PieNum ++;	
+				}
+				else if (modal == 3 && m_searchDates[i].m_userInfo.m_name == m_searchDates[j].m_userInfo.m_name && !m_searchDates[j].m_userInfo.m_name.IsEmpty())
+				{
+					tmp.PieName = m_searchDates[j].m_userInfo.m_name;
+					m_searchDates[j].m_userInfo.m_name.Empty();
+					tmp.PieNum ++;	
+				}
+				else if (modal == 4 && m_searchDates[i].m_time == m_searchDates[j].m_time && !m_searchDates[j].m_time.IsEmpty())
+				{
+					tmp.PieName = m_searchDates[j].m_time;
+					m_searchDates[j].m_time.Empty();
+					tmp.PieNum ++;	
+				}
+				else if (modal == 5 && m_searchDates[i].m_total == m_searchDates[j].m_total && !m_searchDates[j].m_total != -1)
+				{
+					tmp.PieName.Format(_T("%.2lf"),m_searchDates[i].m_total);
+					m_searchDates[j].m_total = -1;
+					tmp.PieNum ++;	
+				}
+			}
+			if(tmp.PieName.IsEmpty())
+			{
+				switch(modal)
+				{
+				case 0:
+					tmp.PieName = m_searchDates[i].m_checkModal == 1?_T("购进") :_T("支出");
+					break;
+				case 1:
+					tmp.PieName = m_searchDates[i].m_material.m_name;
+					break;
+				case 2:
+					tmp.PieName = m_searchDates[i].m_class.m_name;
+					break;
+				case 3:
+					tmp.PieName = m_searchDates[i].m_userInfo.m_name;
+					break;
+				case 4:
+					tmp.PieName = m_searchDates[i].m_time;
+					break;
+				default:
+					tmp.PieName.Format(_T("%.2lf"),m_searchDates[i].m_total);
+					break;
+				}
+			}
+			if (!tmp.PieName.IsEmpty() )
+			{
+				tmp.PieNum = tmp.PieNum == 1 ? 1 : tmp.PieNum; 
+
+				datas.push_back(tmp);
+			}
+		}
+	}	
+	m_pieChart_ctrl.FormatStaticDatas(datas);
+}
 void CDialog_Check_Stats::ShowEllipse()
 {
 	vector<PieData > datas;
@@ -76,4 +198,11 @@ void CDialog_Check_Stats::ShowEllipse()
 	}
 
 	m_pieChart_ctrl.FormatStaticDatas(datas);
+}
+
+void CDialog_Check_Stats::OnBnClickedCheck2()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	m_tBegin_ctrl.EnableWindow(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK2 ));
+	m_tEnd_ctrl.EnableWindow(BST_CHECKED == IsDlgButtonChecked( IDC_CHECK2 ));
 }

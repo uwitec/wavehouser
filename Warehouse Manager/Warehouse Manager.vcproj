@@ -236,6 +236,10 @@
 				>
 			</File>
 			<File
+				RelativePath=".\CDialog_Material_Stats.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\CDialog_Piechart.cpp"
 				>
 			</File>
@@ -323,6 +327,10 @@
 			</File>
 			<File
 				RelativePath=".\CDialog_Material_List.h"
+				>
+			</File>
+			<File
+				RelativePath=".\CDialog_Material_Stats.h"
 				>
 			</File>
 			<File
