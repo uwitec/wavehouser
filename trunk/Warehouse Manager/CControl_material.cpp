@@ -101,6 +101,13 @@ vector<CDate_Material> CControl_material::SearchList_Material( CDate_search cond
 		sql = sql + "material_price like '%" + m_dateChange.CStringtostring(condition.m_price) + "%' and ";
 	if(!condition.m_unit.IsEmpty())
 		sql = sql + "material_unit like '%" + m_dateChange.CStringtostring(condition.m_unit) + "%' and ";
+	if(!condition.m_tBegin.IsEmpty() && !condition.m_tEnd.IsEmpty())
+	{
+		if (condition.m_tBegin.IsEmpty() == condition.m_tEnd)
+			sql = sql + "create_time == '" + m_dateChange.CStringtostring(condition.m_tBegin) + "' and ";
+		else
+			sql = sql + "create_time >= '" + m_dateChange.CStringtostring(condition.m_tBegin) + " 00:00:00' and create_time <= '" + m_dateChange.CStringtostring(condition.m_tEnd) + " 23:59:59' and ";
+	}
 	if(!condition.GetKeyword().empty())
 	{
 		sql = sql + "( material_name like '%" + condition.GetKeyword() + "%' or ";

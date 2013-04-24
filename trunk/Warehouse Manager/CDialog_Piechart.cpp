@@ -57,9 +57,9 @@ void CDialog_Piechart::SetEPos()
 	{
 		GetClientRect(m_EllipseRect);
 		m_EllipseRect.top += 50;
-		m_EllipseRect.left = m_EllipseRect.top;
+		m_EllipseRect.left = 100;
 		m_EllipseRect.bottom -= 50;
-		m_EllipseRect.right = m_EllipseRect.bottom;
+		m_EllipseRect.right = m_EllipseRect.bottom - m_EllipseRect.top + m_EllipseRect.left;
 	}
 	if(m_DetaiRect.IsRectEmpty())
 	{
@@ -69,6 +69,17 @@ void CDialog_Piechart::SetEPos()
 		m_DetaiRect.bottom -= 50;
 		m_DetaiRect.right = m_DetaiRect.right - 50;
 	}
+	if (m_TotalRect.IsRectEmpty())
+	{
+		m_TotalRect.left   = m_DetaiRect.left;
+		m_TotalRect.right  = m_DetaiRect.right;
+		m_TotalRect.bottom = m_DetaiRect.top - 5;
+		m_TotalRect.top    = m_TotalRect.bottom - 20;
+	}
+
+	GetClientRect(m_ClientRect);
+
+	m_AreaBkColor = RGB(255,255,255);
 
 	m_OPoint.x = ( m_EllipseRect.right - m_EllipseRect.left ) / 2 + m_EllipseRect.left;
 	m_OPoint.y = ( m_EllipseRect.bottom - m_EllipseRect.top ) / 2 + m_EllipseRect.top;
@@ -99,7 +110,7 @@ void CDialog_Piechart::OnPaint()
 	//if(!m_eRect.IsRectEmpty())
 	//	dc.Ellipse(m_eRect);
 
-	dc.FillSolidRect(&m_ClientRect,m_AreaBkColor);  //背景颜色
+	dc.FillSolidRect(&m_ClientRect,RGB(255,255,255));  //背景颜色
 	dc.SelectObject(&m_TextFont);
 
 	DoPaintEllipse(dc);
@@ -112,7 +123,7 @@ void CDialog_Piechart::DoPaintEllipse( CPaintDC &pDc )
 	pen.CreatePen( PS_SOLID, 1,m_AreaBkColor);  //边框设置与背景同色
 	HGDIOBJ hOldPen = pDc.SelectObject(pen);
 	//pDc.Ellipse(&m_EllipseRect);
-	CPoint oPoint(m_EllipseRect.bottom / 2,m_EllipseRect.right / 2);
+	CPoint oPoint( ( m_EllipseRect.bottom - m_EllipseRect.top ) / 2,( m_EllipseRect.right - m_EllipseRect.left ) / 2);
 	pDc.SetPixel(oPoint,m_AreaBkColor);  //画原点
 
 	for (int i = 0 ;i<m_PieDatas.size() ;i++)
@@ -179,6 +190,11 @@ void CDialog_Piechart::DoPaintDetail( CPaintDC &pDc )
 		rectNumTmp.top = rectPercenTmp.top ;
 		rectNumTmp.bottom = rectPercenTmp.bottom ;
 	}
+	pDc.SelectObject(m_TextFont2);
+	ItemPerTmp.Format(_T("总共 %d 条记录"),m_DataNum);
+	pDc.DrawText(ItemPerTmp,ItemPerTmp.GetLength(),m_TotalRect,DT_LEFT | DT_VCENTER  );
+
+	pDc.SelectObject(m_TextFont);
 }
 
 
@@ -189,6 +205,7 @@ void CDialog_Piechart::OnBnClickedButton1()
 
 void CDialog_Piechart::FormatStaticDatas( const vector<PieData > &dates )
 {
+	m_PieDatas.clear();
 	SortDates(dates);
 
 	m_DataNum = 0;
@@ -237,7 +254,7 @@ void CDialog_Piechart::FormatStaticDatas( const vector<PieData > &dates )
 	}
 
 	iAngleTmp = 360;
-	CPoint sPoint(m_EllipseRect.top,m_EllipseRect.left);
+	CPoint sPoint(m_EllipseRect.left,m_EllipseRect.top);
 
 	for (int i= 0;i<m_PieDatas.size();i++)
 	{
@@ -315,6 +332,8 @@ void CDialog_Piechart::FormatStaticDatas( const vector<PieData > &dates )
 
 		m_PieDatas[i].pPoint = tmp;
 	}
+
+	Invalidate();
 }
 
 void CDialog_Piechart::SortDates( const vector<PieData > &dates )
@@ -334,6 +353,7 @@ void CDialog_Piechart::SortDates( const vector<PieData > &dates )
 	vector<PieData>::iterator delIndex;
 	int maxNum = 0;
 	int nNum = 0;
+	int nNum9 = 0;
 	int index = 0;
 
 	for (int i=0;i < 10 ; i++)
@@ -354,22 +374,26 @@ void CDialog_Piechart::SortDates( const vector<PieData > &dates )
 			}
 
 			tmpP = tmp[index];
-			nNum += tmpP.PieNum;
+			nNum9 += tmpP.PieNum;
 			tmp.erase(delIndex + index);
 		}
 		tmpP.PieColor = RGB(25 * i * 10,21 * i * 5,50 * (i+1) * 40);
 		m_PieDatas.push_back(tmpP);
 	}
 
+	bool isChange = false;
 	for (int i = 0; i < dates.size(); i ++)
 	{
-		if(nNum <= 0)
-			nNum += dates[i].PieNum;
+		if(isChange)
+			nNum9 += dates[i].PieNum;
 		else
-			nNum -= dates[i].PieNum;
+		{
+			nNum9 -= dates[i].PieNum;
+			isChange = nNum9 <= 0;
+		}
 	}
 
-	m_PieDatas[9].PieNum = nNum;
+	m_PieDatas[9].PieNum = nNum9;
 	m_PieDatas[9].PieName = _T("其他");
 }
 

@@ -1,7 +1,9 @@
 #pragma once
 
 #include "CDialog_Piechart.h"
-
+#include "afxwin.h"
+#include "CDate_base.h"
+#include "CDate_check.h"
 // CDialog_Check_Stats ¶Ô»°¿ò
 
 class CDialog_Check_Stats : public CDialog
@@ -28,5 +30,11 @@ protected:
 
 private:
 	void ShowEllipse();
+	void FormatSearchDates( const int &modal =0 );
+	CDate_search m_searcher;
+	vector<CDate_check> m_searchDates;
 
+public:
+	CComboBox m_modal;
+	afx_msg void OnBnClickedCheck2();
 };

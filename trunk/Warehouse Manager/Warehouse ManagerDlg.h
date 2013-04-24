@@ -8,6 +8,7 @@
 #include "CDialog_UserInfo.h"
 #include "CDialog_WareHouse.h"
 #include "CDialog_Material_List.h"
+#include "CDialog_Material_Stats.h"
 #include "CDialog_Check.h"
 #include "CDialog_Check_list.h"
 #include "CDialog_Check_Stats.h"
@@ -52,7 +53,7 @@ private:
 	CDialog_Class_List    *m_ClassList;
 	CDialog_Material_List *m_MaterialList;
 	CDialog_Material_List *m_MaterialList_out;
-	CDialog_Check_Stats   *m_MaterialStats;
+	CDialog_Material_Stats *m_MaterialStats;
 
 	CDialog_Check_List *m_checkList;
 	CDialog_Check_List *m_checkList_out;
