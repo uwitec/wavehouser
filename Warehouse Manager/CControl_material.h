@@ -12,6 +12,7 @@ public:
 	bool Save();
 	bool Delete();
 	bool Updata();
+	bool UpdataTotal(CDate_Material *data = NULL);
 	bool Search();
 	CDate_Material Search_byId(const string &id);
 	vector<CDate_Material> SearchList_Material(CDate_search condition);

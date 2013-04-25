@@ -33,6 +33,8 @@ bool CControl_material::Save()
 		sql += "','";
 		sql += m_dateChange.CStringtostring(m_data->m_price);
 		sql += "','";
+		sql += m_dateChange.CStringtostring(m_data->m_total.IsEmpty() ? _T("0") : m_data->m_total );
+		sql += "','";
 		sql += m_dateChange.CStringtostring(m_data->m_detail);
 		sql += "','";
 		sql += CControl_bace::s_user.GetId();
@@ -60,7 +62,9 @@ bool CControl_material::Delete()
 
 bool CControl_material::Updata()
 {
-	string sql = "update tab_material set material_name='";
+	string sql = "update tab_material set ";
+	if(!m_data->m_name.IsEmpty())
+	sql += "material_name='";
 	sql += m_dateChange.CStringtostring(m_data->m_name);
 	sql += "', material_modal='";
 	sql += m_dateChange.CStringtostring(m_data->m_modal);
@@ -70,12 +74,30 @@ bool CControl_material::Updata()
 	sql += m_dateChange.CStringtostring(m_data->m_unit);
 	sql += "', material_price='";
 	sql += m_dateChange.CStringtostring(m_data->m_price);
+	sql += "', material_total='";
+	sql += m_dateChange.CStringtostring(m_data->m_total.IsEmpty() ? _T("0") : m_data->m_total );
 	sql += "',detail='";
 	sql += m_dateChange.CStringtostring(m_data->m_detail);
 	sql += "',create_time='";
 	sql += m_dateChange.GetCurTimes();
 	sql += "',del_flag='0' where id='";
 	sql += m_data->GetId();
+	sql += "';";
+	//return CADOOperate::ExecuteSQL(sql);
+	return g_sqlite.DirectStatement(m_dateChange.Unicode2Utf8(sql));
+}
+
+bool CControl_material::UpdataTotal(CDate_Material *data /*= NULL*/)
+{
+	if(data == NULL)
+		return false;
+
+	string sql = "update tab_material set material_total='";
+	sql += m_dateChange.CStringtostring(data->m_total.IsEmpty() ? _T("0") : data->m_total );
+	sql += "',create_time='";
+	sql += m_dateChange.GetCurTimes();
+	sql += "',del_flag='0' where id='";
+	sql += data->GetId();
 	sql += "';";
 	//return CADOOperate::ExecuteSQL(sql);
 	return g_sqlite.DirectStatement(m_dateChange.Unicode2Utf8(sql));
@@ -132,7 +154,8 @@ vector<CDate_Material> CControl_material::SearchList_Material( CDate_search cond
 		tmp.m_manufacturer = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
 		tmp.m_unit         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
 		tmp.m_price        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
-		tmp.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+		tmp.m_total        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+		tmp.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (7)));
 
 		result.push_back(tmp);
 	}
@@ -156,7 +179,8 @@ CDate_Material CControl_material::Search_byId( const string &id )
 		result.m_manufacturer = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (3)));
 		result.m_unit         = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (4)));
 		result.m_price        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (5)));
-		result.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+		result.m_total        = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (6)));
+		result.m_detail       = m_dateChange.stringToCstring(m_dateChange.Utf82Unicode(stmt->ValueString (7)));
 
 		result.SetDel(stmt->ValueString (9) == "0");
 		break;

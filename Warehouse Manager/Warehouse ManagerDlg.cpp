@@ -140,6 +140,9 @@ BOOL CWarehouseManagerDlg::OnInitDialog()
 	// TODO: 在此添加额外的初始化代码
 
 	InitGDates();
+
+	OnCheckSearchBtn();
+
 	ShowWindow(SW_NORMAL);
 	return TRUE;  // 除非将焦点设置到控件，否则返回 TRUE
 }
@@ -254,6 +257,7 @@ void CWarehouseManagerDlg::OnSearchMaterial()
 		m_MaterialList->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_MaterialList);
+	SetWindowText(_T("仓库管理系统-材料查询"));
 }
 
 
@@ -268,6 +272,7 @@ void CWarehouseManagerDlg::OnSearchMaterialState()
 		m_MaterialStats->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_MaterialStats);
+	SetWindowText(_T("仓库管理系统-材料统计"));
 }
 
 
@@ -304,6 +309,8 @@ void CWarehouseManagerDlg::OnCheckSearchBtn()
 		m_checkList->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_checkList);
+
+	SetWindowText(_T("仓库管理系统-收支查询"));
 }
 
 
@@ -318,6 +325,8 @@ void CWarehouseManagerDlg::OnCheckStats()
 		m_checkStats->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_checkStats);
+
+	SetWindowText(_T("仓库管理系统-收支统计"));
 }
 
 
@@ -333,6 +342,7 @@ void CWarehouseManagerDlg::OnOutM()
 		m_MaterialList_out->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_MaterialList_out);
+	SetWindowText(_T("仓库管理系统-导出材料信息"));
 }
 
 
@@ -347,6 +357,7 @@ void CWarehouseManagerDlg::OnOutUser()
 		m_UserList->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_UserList);
+	SetWindowText(_T("仓库管理系统-导出人员信息"));
 }
 
 
@@ -362,6 +373,7 @@ void CWarehouseManagerDlg::OnOutCheck()
 		m_checkList_out->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_checkList_out);
+	SetWindowText(_T("仓库管理系统-导出收支信息"));
 }
 
 
@@ -422,4 +434,6 @@ void CWarehouseManagerDlg::OnOutClass()
 		m_ClassList->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_ClassList);
+
+	SetWindowText(_T("仓库管理系统-导出部门信息"));
 }

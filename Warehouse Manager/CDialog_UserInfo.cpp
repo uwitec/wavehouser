@@ -73,6 +73,7 @@ BOOL CDialog_UserInfo::OnInitDialog()
 			m_email_ctrl.SetWindowText(CControl_bace::s_userInfo.m_email);
 			m_detail_ctrl.SetWindowText(CControl_bace::s_userInfo.m_detail);
 		}
+		m_cName_ctrl.SetReadOnly(TRUE);
 	}
 	return FALSE;
 }

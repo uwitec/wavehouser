@@ -95,6 +95,7 @@ BOOL CDialog_Check::OnInitDialog()
 		m_detail_ctrl.SetWindowText(m_date.m_detail);
 	}
 
+	m_wName_ctrl.SetWindowText(CControl_bace::s_wareHouse.m_aname);
 	return TRUE;
 }
 
@@ -245,6 +246,22 @@ void CDialog_Check::OnBnClickedBtbSave()
 	m_date.m_checkModal = m_checkModal;
 
 	CControl_check tmpc;
+
+	int haveNum = tmpc.VerCheckMaterial(m_date.m_material.GetId()) ;
+	if( !m_checkModal && haveNum < m_date.m_num)
+	{
+		CRuntimeMessageBox::RunMessageBox("保存失败：此材料库存不足，无法支出！");
+
+		return;
+	}
+	else if( !m_checkModal)
+	{
+		m_date.m_num -= haveNum;
+	}
+	else
+	{
+		m_date.m_num += haveNum;
+	}
 
 	tmpc.SetData(&m_date);
 	if (tmpc.Save())

@@ -15,4 +15,5 @@ public:
 	CString m_unit;
 	CString m_price;
 	CString m_detail;
+	CString m_total;
 };

@@ -17,8 +17,10 @@ public:
 // 对话框数据
 	enum { IDD = IDD_DLG_CHECK_STATS };
 
-protected:
 	virtual BOOL OnInitDialog();
+	virtual void OnOK(){ return  ;};
+	virtual void OnCancel(){ return  ;};
+protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV 支持
 
 	DECLARE_MESSAGE_MAP()

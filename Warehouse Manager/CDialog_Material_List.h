@@ -18,6 +18,8 @@ public:
 	enum { IDD = IDD_DLG_MATERIAL_LIST };
 	
 	virtual BOOL OnInitDialog();
+	virtual void OnOK(){ return  ;};
+	virtual void OnCancel(){ return  ;};
 protected:
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV Ö§³Ö
 

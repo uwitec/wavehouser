@@ -28,6 +28,8 @@ public:
 	CEdit m_keyWord_ctrl;
 	CListCtrl m_list;
 	virtual BOOL OnInitDialog();
+	virtual void OnOK(){ return  ;};
+	virtual void OnCancel(){ return  ;};
 	afx_msg void OnNMRclickList1(NMHDR *pNMHDR, LRESULT *pResult);
 	afx_msg void OnClistmenuAdd();
 	afx_msg void OnClistmenuEdit();
