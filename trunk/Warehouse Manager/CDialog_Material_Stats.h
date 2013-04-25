@@ -19,6 +19,8 @@ public:
 
 protected:
 	virtual BOOL OnInitDialog();
+	virtual void OnOK(){ return  ;};
+	virtual void OnCancel(){ return  ;};
 	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV Ö§³Ö
 
 	DECLARE_MESSAGE_MAP()

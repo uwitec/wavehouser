@@ -72,6 +72,7 @@ void CDialog_Material_List::InitList()
 	m_list.InsertColumn(3, _T( "材料型号" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(4, _T( "采购单位" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(5, _T( "采购价格" ),LVCFMT_LEFT, 100);
+	m_list.InsertColumn(6, _T( "材料库存" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(7, _T( "材料详细" ),LVCFMT_LEFT, 500);
 }
 
@@ -109,7 +110,8 @@ void CDialog_Material_List::ListCtrlShow()
 		m_list.SetItemText(newRow,3,m_searchDates[i].m_modal);
 		m_list.SetItemText(newRow,4,m_searchDates[i].m_unit);
 		m_list.SetItemText(newRow,5,m_searchDates[i].m_price);
-		m_list.SetItemText(newRow,6,m_searchDates[i].m_detail);
+		m_list.SetItemText(newRow,6,m_searchDates[i].m_total);
+		m_list.SetItemText(newRow,7,m_searchDates[i].m_detail);
 	}
 }
 

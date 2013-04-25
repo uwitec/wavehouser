@@ -30,6 +30,8 @@ public:
 	CEdit m_keyWord_ctrl;
 
 	virtual BOOL OnInitDialog();
+	virtual void OnOK(){ return  ;};
+	virtual void OnCancel(){ return  ;};
 	afx_msg void OnBnClickedSearchBtn();
 	void InitList();
 	void ListCtrlShow();

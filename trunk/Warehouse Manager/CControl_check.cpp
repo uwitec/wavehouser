@@ -1,6 +1,6 @@
 #include "StdAfx.h"
 #include "CControl_check.h"
-
+#include "CControl_material.h"
 CControl_check::CControl_check(void)
 {
 }
@@ -16,8 +16,12 @@ void CControl_check::SetData( CDate_check *data )
 
 bool CControl_check::Save()
 {
+	CControl_material tmp;
+	if(!tmp.UpdataTotal(&m_data->m_material))
+		return false;
+
 	if(m_data->GetId().empty())
-	{
+	{		
 		m_data->CreateId();
 
 		string sql = "insert into tab_check values('";
@@ -54,8 +58,8 @@ bool CControl_check::Save()
 		//return CADOOperate::ExecuteSQL(sql);
 		return g_sqlite.DirectStatement(m_dateChange.Unicode2Utf8(sql));
 	}
-		
-	return Updata();
+			
+	return Updata();	
 }
 
 bool CControl_check::Delete()
@@ -182,6 +186,19 @@ vector<CDate_check> CControl_check::SearchList_Check( CDate_search condition )
 
 		//tmp.SetDel(m_dateChange.Utf82Unicode(stmt->ValueString (9) == "0"));
 		result.push_back(tmp);
+	}
+	return result;
+}
+
+int CControl_check::VerCheckMaterial( const string &id )
+{
+	int result = 0;
+	CControl_material tmp;
+
+	CDate_Material tmpM = tmp.Search_byId(id);
+	if(!tmpM.GetId().empty() && !tmpM.m_total.IsEmpty())
+	{
+		result = atoi(m_dateChange.CStringtostring(tmpM.m_total).c_str()) > 0;		
 	}
 	return result;
 }

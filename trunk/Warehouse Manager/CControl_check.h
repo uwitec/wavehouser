@@ -14,6 +14,8 @@ public:
 	bool Updata();
 	bool Search();
 	vector<CDate_check> SearchList_Check(CDate_search condition);
+
+	int VerCheckMaterial( const string &id );
 private:
 	CDate_check *m_data;
 };
