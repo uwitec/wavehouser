@@ -15262,7 +15262,7 @@
 						    fill_color 	16777215
 						    anchor     	2
 						    nlines     	4
-						    max_width  	625)
+						    max_width  	626)
 						width      	708
 						height     	274
 						annotation 	8
@@ -15403,7 +15403,7 @@
 						    fill_color 	16777215
 						    anchor     	2
 						    nlines     	4
-						    max_width  	625)
+						    max_width  	626)
 						width      	708
 						height     	274
 						annotation 	8
@@ -15450,7 +15450,7 @@
 						    fill_color 	16777215
 						    anchor     	2
 						    nlines     	4
-						    max_width  	625)
+						    max_width  	626)
 						width      	708
 						height     	274
 						annotation 	8
@@ -32945,7 +32945,7 @@
 								    fill_color 	16777215
 								    anchor     	2
 								    nlines     	11
-								    max_width  	685)
+								    max_width  	686)
 								width      	796
 								height     	604
 								annotation 	8
@@ -32992,7 +32992,7 @@
 								    fill_color 	16777215
 								    anchor     	2
 								    nlines     	5
-								    max_width  	657)
+								    max_width  	658)
 								width      	760
 								height     	322
 								annotation 	8
