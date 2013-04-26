@@ -1,0 +1,1 @@
+The COleClientItem class defines the container interface to OLE items. An OLE item represents data, created and maintained by a server application, which can be 'seamlessly' incorporated into a document so that it appears to the user to be a single document. The result is a 'compound document' made up of the OLE item and a containing document.

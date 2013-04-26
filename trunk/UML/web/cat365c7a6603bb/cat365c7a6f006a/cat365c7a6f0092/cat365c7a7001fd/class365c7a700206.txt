@@ -1,0 +1,1 @@
+The CGdiObject class provides a base class for various kinds of Windows graphics device interface (GDI) objects such as bitmaps, regions, brushes, pens, palettes, and fonts. You never create a CGdiObject directly. Rather, you create an object from one of its derived classes, such as CPen or CBrush.

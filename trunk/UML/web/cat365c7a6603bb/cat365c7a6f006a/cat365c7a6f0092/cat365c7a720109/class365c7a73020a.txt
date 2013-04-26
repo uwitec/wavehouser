@@ -1,0 +1,1 @@
+CDocItem is the base class for document items, which are components of a document's data. CDocItem objects are used to represent OLE items in both client and server documents.

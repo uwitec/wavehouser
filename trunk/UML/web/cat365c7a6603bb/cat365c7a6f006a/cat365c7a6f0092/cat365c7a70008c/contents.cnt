@@ -1,0 +1,336 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c914a03c1.htm
+
+
+
+(
+)
+CDatabase ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a70008e.htm
+class365c7a70008e.txt
+
+
+(
+<<virtual>> ~CDatabase
+../../../../webviewer/34.jpg
+op365c7a70009d.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a70009e.htm
+
+
+
+(
+)
+<<virtual>> OpenEx
+../../../../webviewer/34.jpg
+op365c7a7000a4.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a7000a9.htm
+
+
+
+(
+)
+<<virtual>> OnSetOptions
+../../../../webviewer/34.jpg
+op365c7a7000aa.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7000ac.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7000b2.htm
+
+
+
+(
+)
+<<virtual, const>> Check
+../../../../webviewer/34.jpg
+op365c7a7000b4.htm
+
+
+
+(
+)
+<<virtual>> BindParameters
+../../../../webviewer/34.jpg
+op365c7a7000b6.htm
+
+
+
+(
+)
+<<virtual>> ThrowDBException
+../../../../webviewer/34.jpg
+op365c7a7000b8.htm
+
+
+
+(
+)
+)
+CLongBinary ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a700116.htm
+class365c7a700116.txt
+
+
+(
+<<virtual>> ~CLongBinary
+../../../../webviewer/34.jpg
+op365c7a700121.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a700122.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a70012a.htm
+
+
+
+(
+)
+)
+CRecordset ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7000bd.htm
+class365c7a7000bd.txt
+
+
+(
+<<virtual>> ~CRecordset
+../../../../webviewer/34.jpg
+op365c7a7000d0.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7000d1.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a7000d5.htm
+
+
+
+(
+)
+<<virtual>> OnSetOptions
+../../../../webviewer/34.jpg
+op365c7a7000d6.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7000db.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7000dc.htm
+
+
+
+(
+)
+<<virtual, const>> Check
+../../../../webviewer/34.jpg
+op365c7a7000de.htm
+
+
+
+(
+)
+<<virtual>> ThrowDBException
+../../../../webviewer/34.jpg
+op365c7a7000e5.htm
+
+
+
+(
+)
+<<virtual>> Move
+../../../../webviewer/34.jpg
+op365c7a7000e8.htm
+
+
+
+(
+)
+<<virtual>> SetRowsetSize
+../../../../webviewer/34.jpg
+op365c7a7000eb.htm
+
+
+
+(
+)
+<<virtual>> CheckRowsetError
+../../../../webviewer/34.jpg
+op365c7a7000ef.htm
+
+
+
+(
+)
+<<virtual>> AddNew
+../../../../webviewer/34.jpg
+op365c7a7000f1.htm
+
+
+
+(
+)
+<<virtual>> Edit
+../../../../webviewer/34.jpg
+op365c7a7000f2.htm
+
+
+
+(
+)
+<<virtual>> Update
+../../../../webviewer/34.jpg
+op365c7a7000f3.htm
+
+
+
+(
+)
+<<virtual>> Delete
+../../../../webviewer/34.jpg
+op365c7a7000f8.htm
+
+
+
+(
+)
+<<virtual>> Requery
+../../../../webviewer/34.jpg
+op365c7a7000f9.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultConnect
+../../../../webviewer/34.jpg
+op365c7a7000fa.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultSQL
+../../../../webviewer/34.jpg
+op365c7a7000fb.htm
+
+
+
+(
+)
+<<virtual>> DoFieldExchange
+../../../../webviewer/34.jpg
+op365c7a700102.htm
+
+
+
+(
+)
+<<virtual>> DoBulkFieldExchange
+../../../../webviewer/34.jpg
+op365c7a700104.htm
+
+
+
+(
+)
+<<virtual>> SetRowsetCurrencyStatus
+../../../../webviewer/34.jpg
+op365c7a700106.htm
+
+
+
+(
+)
+<<virtual>> PreBindFields
+../../../../webviewer/34.jpg
+op365c7a70010e.htm
+
+
+
+(
+)
+<<virtual>> GetLBFetchSize
+../../../../webviewer/34.jpg
+op365c7a70010f.htm
+
+
+
+(
+)
+<<virtual>> GetLBReallocSize
+../../../../webviewer/34.jpg
+op365c7a700111.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

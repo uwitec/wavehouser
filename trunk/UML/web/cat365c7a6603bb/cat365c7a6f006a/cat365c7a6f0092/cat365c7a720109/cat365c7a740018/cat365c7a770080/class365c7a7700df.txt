@@ -1,0 +1,1 @@
+Use the CBitmapButton class to create pushbutton controls labeled with bitmapped images instead of text. CBitmapButton objects contain up to four bitmaps, which contain images for the different states a button can assume: up (or normal), down (or selected), focused, and disabled. Only the first bitmap is required; the others are optional.

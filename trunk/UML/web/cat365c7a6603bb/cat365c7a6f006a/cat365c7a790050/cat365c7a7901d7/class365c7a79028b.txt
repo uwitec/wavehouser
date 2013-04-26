@@ -1,0 +1,1 @@
+A COleDateTimeSpan object represents a relative time, a time span. A COleDateTimeSpan keeps time in days.

@@ -1,0 +1,1 @@
+A 'status bar control' is a horizontal window, usually displayed at the bottom of a parent window, in which an application can display various kinds of status information. The status bar control can be divided into parts to display more than one type of information.

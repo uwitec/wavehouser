@@ -1,0 +1,3 @@
+A CWinThread object represents a thread of execution within an application. The main thread of execution is usually provided by an object derived from CWinApp; CWinApp is derived from CWinThread. Additional CWinThread objects allow multiple threads within a given application.
+
+There are two general types of threads that CWinThread supports: worker threads and user-interface threads.

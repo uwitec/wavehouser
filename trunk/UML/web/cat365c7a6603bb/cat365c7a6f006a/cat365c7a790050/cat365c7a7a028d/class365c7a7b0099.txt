@@ -1,0 +1,3 @@
+The COleDataObject class is used in data transfers for retrieving data in various formats from the Clipboard, through drag and drop, or from an embedded OLE item. 
+
+This class enables you to determine whether the data exists in a specified format. You can also enumerate the available data formats or check whether a given format is available and then retrieve the data in the preferred format. Object retrieval can be accomplished in several different ways, including the use of a CFile, an HGLOBAL, or an STGMEDIUM structure.

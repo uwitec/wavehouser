@@ -1,0 +1,1 @@
+Class CSocket derives from CAsyncSocket and inherits its encapsulation of the Windows Sockets API. A CSocket object represents a higher level of abstraction of the Windows Sockets API than that of a CAsyncSocket object. CSocket works with classes CSocketFile and CArchive to manage the sending and receiving of data.

@@ -1,0 +1,2 @@
+In addition to providing the functionality of a Windows list box, the CDragListBox class allows the user to move list box items within the list box. List boxes with this capability allow users to order the items in a list in whatever manner is most useful to them. By default, the list box will move the item to the new location in the list. However, CDragListBox objects can be customized to copy items instead of moving them.
+

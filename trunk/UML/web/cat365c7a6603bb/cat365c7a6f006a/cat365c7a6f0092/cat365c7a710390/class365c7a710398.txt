@@ -1,0 +1,1 @@
+A CArchiveException object represents a serialization exception condition. The CArchiveException class includes a public data member that indicates the cause of the exception. 

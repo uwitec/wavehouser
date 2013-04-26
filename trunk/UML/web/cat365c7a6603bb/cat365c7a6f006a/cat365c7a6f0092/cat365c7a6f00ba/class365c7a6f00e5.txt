@@ -1,0 +1,1 @@
+The MFC class CFtpConnection both manages your FTP connection to an Internet server and allows direct manipulation of directories and files on that server. FTP is one of the three Internet services recognized by the MFC WinInet classes.

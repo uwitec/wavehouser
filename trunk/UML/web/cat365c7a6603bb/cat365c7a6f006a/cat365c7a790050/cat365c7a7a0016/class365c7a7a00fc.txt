@@ -1,0 +1,3 @@
+A CTime object represents an absolute time and date. The CTime class incorporates the ANSI time_t data type and its associated run-time functions, including the ability to convert to and from a Gregorian date and 24-hour time. 
+
+CTime values are based on coordinated universal time (UTC), which is equivalent to Greenwich mean time (GMT). The local time zone is controlled by the TZ environment variable. 

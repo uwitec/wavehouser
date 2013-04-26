@@ -1,0 +1,1 @@
+The CWindowDC class is derived from CDC. It calls the Windows functions GetWindowDC at construction time and ReleaseDC at destruction time. This means that a CWindowDC object accesses the entire screen area of a CWnd (both client and nonclient areas).

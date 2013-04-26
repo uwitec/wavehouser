@@ -1,0 +1,1 @@
+Objects of the class CToolBar are control bars that have a row of bitmapped buttons and optional separators. The buttons can act like pushbuttons, check-box buttons, or radio buttons. CToolBar objects are usually embedded members of frame-window objects derived from the class CFrameWnd or CMDIFrameWnd.

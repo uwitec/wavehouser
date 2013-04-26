@@ -1,0 +1,1 @@
+The CButton class provides the functionality of Windows button controls. A button control is a small, rectangular child window that can be clicked on and off. Buttons can be used alone or in groups and can either be labeled or appear without text. A button typically changes appearance when the user clicks it. 

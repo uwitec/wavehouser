@@ -1,0 +1,1 @@
+CCmdTarget is the base class for the Microsoft Foundation Class Library message-map architecture. A message map routes commands or messages to the member functions you write to handle them. (A command is a message from a menu item, command button, or accelerator key.)

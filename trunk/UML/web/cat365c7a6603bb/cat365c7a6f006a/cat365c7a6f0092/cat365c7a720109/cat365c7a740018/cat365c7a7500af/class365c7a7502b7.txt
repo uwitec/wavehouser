@@ -1,0 +1,1 @@
+The COleInsertDialog class is used for the OLE Insert Object dialog box. Create an object of class COleInsertDialog when you want to call this dialog box. After a COleInsertDialog object has been constructed, you can use the m_io structure to initialize the values or states of controls in the dialog box. The m_io structure is of type OLEUIINSERTOBJECT.

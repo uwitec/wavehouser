@@ -1,0 +1,3 @@
+The COleCmdUI class implements a method for MFC to update the state of user-interface objects related to the IOleCommandTarget-driven features of your application. In an application that is enabled for DocObjects, MFC processes UPDATE_OLE_COMMAND_UI notifications and assigns COleCmdUI objects.
+
+COleCmdUI allows a DocObject to receive commands that originate in its container's user interface (such as FileNew, Open, Print, and so on), and allows a container to receive commands that originate in the DocObject's user interface. 

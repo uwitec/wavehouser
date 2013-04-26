@@ -1,0 +1,1 @@
+The COleServerItem class provides the server interface to OLE items. A linked item can represent some or all of a server document. An embedded item always represents an entire server document. 

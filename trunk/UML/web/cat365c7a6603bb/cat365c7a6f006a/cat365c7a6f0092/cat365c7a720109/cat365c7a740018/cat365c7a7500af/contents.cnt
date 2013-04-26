@@ -1,0 +1,944 @@
+Main
+../../../../../../webviewer/18.jpg
+dgm365c9a8e030d.htm
+
+
+
+(
+)
+CColorDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750115.htm
+class365c7a750115.txt
+
+
+(
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750132.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a75013b.htm
+
+
+
+(
+)
+<<virtual>> OnColorOK
+../../../../../../webviewer/34.jpg
+op365c7a75013d.htm
+
+
+
+(
+)
+)
+CCommonDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7500f5.htm
+class365c7a7500f5.txt
+
+
+(
+<<virtual>> OnOK
+../../../../../../webviewer/34.jpg
+op365c7a750113.htm
+
+
+
+(
+)
+<<virtual>> OnCancel
+../../../../../../webviewer/34.jpg
+op365c7a750114.htm
+
+
+
+(
+)
+)
+CDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7500b1.htm
+class365c7a7500b1.txt
+
+
+(
+<<virtual>> ~CDialog
+../../../../../../webviewer/34.jpg
+op365c7a7500ce.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7500cf.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a7500d1.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../../../webviewer/34.jpg
+op365c7a7500d7.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a7500dc.htm
+
+
+
+(
+)
+<<virtual>> CheckAutoCenter
+../../../../../../webviewer/34.jpg
+op365c7a7500de.htm
+
+
+
+(
+)
+<<virtual>> SetOccDialogInfo
+../../../../../../webviewer/34.jpg
+op365c7a7500e1.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a7500e3.htm
+
+
+
+(
+)
+<<virtual>> OnInitDialog
+../../../../../../webviewer/34.jpg
+op365c7a7500e4.htm
+
+
+
+(
+)
+<<virtual>> OnSetFont
+../../../../../../webviewer/34.jpg
+op365c7a7500e5.htm
+
+
+
+(
+)
+<<virtual>> OnOK
+../../../../../../webviewer/34.jpg
+op365c7a7500ec.htm
+
+
+
+(
+)
+<<virtual>> OnCancel
+../../../../../../webviewer/34.jpg
+op365c7a7500ed.htm
+
+
+
+(
+)
+<<virtual>> PreInitDialog
+../../../../../../webviewer/34.jpg
+op365c7a7500ee.htm
+
+
+
+(
+)
+)
+CFileDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750145.htm
+class365c7a750145.txt
+
+
+(
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a75015a.htm
+
+
+
+(
+)
+<<virtual>> OnShareViolation
+../../../../../../webviewer/34.jpg
+op365c7a750163.htm
+
+
+
+(
+)
+<<virtual>> OnFileNameOK
+../../../../../../webviewer/34.jpg
+op365c7a750165.htm
+
+
+
+(
+)
+<<virtual>> OnLBSelChangedNotify
+../../../../../../webviewer/34.jpg
+op365c7a750166.htm
+
+
+
+(
+)
+<<virtual>> OnInitDone
+../../../../../../webviewer/34.jpg
+op365c7a75016f.htm
+
+
+
+(
+)
+<<virtual>> OnFileNameChange
+../../../../../../webviewer/34.jpg
+op365c7a750170.htm
+
+
+
+(
+)
+<<virtual>> OnFolderChange
+../../../../../../webviewer/34.jpg
+op365c7a750171.htm
+
+
+
+(
+)
+<<virtual>> OnTypeChange
+../../../../../../webviewer/34.jpg
+op365c7a750172.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a750177.htm
+
+
+
+(
+)
+<<virtual>> OnNotify
+../../../../../../webviewer/34.jpg
+op365c7a750179.htm
+
+
+
+(
+)
+)
+CFindReplaceDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750181.htm
+class365c7a750181.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a75019f.htm
+
+
+
+(
+)
+<<virtual>> PostNcDestroy
+../../../../../../webviewer/34.jpg
+op365c7a7501a1.htm
+
+
+
+(
+)
+)
+CFontDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7501a9.htm
+class365c7a7501a9.txt
+
+
+(
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a7501c7.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7501c8.htm
+
+
+
+(
+)
+)
+COleBusyDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7501f1.htm
+class365c7a7501f1.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a75020e.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750218.htm
+
+
+
+(
+)
+)
+COleChangeIconDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750221.htm
+class365c7a750221.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a750240.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750242.htm
+
+
+
+(
+)
+<<virtual>> ~COleChangeIconDialog
+../../../../../../webviewer/34.jpg
+op365c7a750253.htm
+
+
+
+(
+)
+)
+COleChangeSourceDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a75025d.htm
+class365c7a75025d.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a75027c.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a75027e.htm
+
+
+
+(
+)
+<<virtual>> ~COleChangeSourceDialog
+../../../../../../webviewer/34.jpg
+op365c7a75027f.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a750285.htm
+
+
+
+(
+)
+<<virtual>> PreInitDialog
+../../../../../../webviewer/34.jpg
+op365c7a750286.htm
+
+
+
+(
+)
+)
+COleConvertDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750287.htm
+class365c7a750287.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7502ad.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a7502af.htm
+
+
+
+(
+)
+<<virtual>> ~COleConvertDialog
+../../../../../../webviewer/34.jpg
+op365c7a7502b0.htm
+
+
+
+(
+)
+)
+COleDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7501d1.htm
+class365c7a7501d1.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7501ef.htm
+
+
+
+(
+)
+)
+COleInsertDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7502b7.htm
+class365c7a7502b7.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7502d6.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a7502d8.htm
+
+
+
+(
+)
+<<virtual>> ~COleInsertDialog
+../../../../../../webviewer/34.jpg
+op365c7a7502d9.htm
+
+
+
+(
+)
+)
+COleLinksDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7502df.htm
+class365c7a7502df.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7502ff.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750308.htm
+
+
+
+(
+)
+<<virtual>> ~COleLinksDialog
+../../../../../../webviewer/34.jpg
+op365c7a750309.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a75030a.htm
+
+
+
+(
+)
+)
+COlePasteSpecialDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a75033a.htm
+class365c7a75033a.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a750359.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750362.htm
+
+
+
+(
+)
+<<virtual>> ~COlePasteSpecialDialog
+../../../../../../webviewer/34.jpg
+op365c7a750363.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a750364.htm
+
+
+
+(
+)
+)
+COlePropertiesDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a75036c.htm
+class365c7a75036c.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a75038b.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a75038d.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a75038e.htm
+
+
+
+(
+)
+<<virtual>> OnApplyScale
+../../../../../../webviewer/34.jpg
+op365c7a750394.htm
+
+
+
+(
+)
+<<virtual>> OnInitDialog
+../../../../../../webviewer/34.jpg
+op365c7a750398.htm
+
+
+
+(
+)
+)
+COlePropertyPage ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a76001a.htm
+class365c7a76001a.txt
+
+
+(
+<<virtual>> OnFinalRelease
+../../../../../../webviewer/34.jpg
+op365c7a760039.htm
+
+
+
+(
+)
+<<virtual>> OnSetPageSite
+../../../../../../webviewer/34.jpg
+op365c7a76003a.htm
+
+
+
+(
+)
+<<virtual>> OnObjectsChanged
+../../../../../../webviewer/34.jpg
+op365c7a76003b.htm
+
+
+
+(
+)
+<<virtual>> OnHelp
+../../../../../../webviewer/34.jpg
+op365c7a760042.htm
+
+
+
+(
+)
+<<virtual>> OnInitDialog
+../../../../../../webviewer/34.jpg
+op365c7a760044.htm
+
+
+
+(
+)
+<<virtual>> OnEditProperty
+../../../../../../webviewer/34.jpg
+op365c7a760045.htm
+
+
+
+(
+)
+)
+COleUpdateDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a750312.htm
+class365c7a750312.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a750331.htm
+
+
+
+(
+)
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a750333.htm
+
+
+
+(
+)
+<<virtual>> ~COleUpdateDialog
+../../../../../../webviewer/34.jpg
+op365c7a750334.htm
+
+
+
+(
+)
+)
+CPageSetupDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a75039e.htm
+class365c7a75039e.txt
+
+
+(
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a7503bd.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7503c6.htm
+
+
+
+(
+)
+<<virtual>> PreDrawPage
+../../../../../../webviewer/34.jpg
+op365c7a7503c8.htm
+
+
+
+(
+)
+<<virtual>> OnDrawPage
+../../../../../../webviewer/34.jpg
+op365c7a7503cc.htm
+
+
+
+(
+)
+)
+CPrintDialog ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7503d3.htm
+class365c7a7503d3.txt
+
+
+(
+<<virtual>> DoModal
+../../../../../../webviewer/34.jpg
+op365c7a760007.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a760010.htm
+
+
+
+(
+)
+<<virtual>> AttachOnSetup
+../../../../../../webviewer/34.jpg
+op365c7a760012.htm
+
+
+
+(
+)
+)
+CPropertyPage ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a76004c.htm
+class365c7a76004c.txt
+
+
+(
+<<virtual>> OnOK
+../../../../../../webviewer/34.jpg
+op365c7a76006b.htm
+
+
+
+(
+)
+<<virtual>> OnCancel
+../../../../../../webviewer/34.jpg
+op365c7a76006c.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a760074.htm
+
+
+
+(
+)
+<<virtual>> OnNotify
+../../../../../../webviewer/34.jpg
+op365c7a760076.htm
+
+
+
+(
+)
+<<virtual>> OnApply
+../../../../../../webviewer/34.jpg
+op365c7a76007a.htm
+
+
+
+(
+)
+<<virtual>> OnReset
+../../../../../../webviewer/34.jpg
+op365c7a76007e.htm
+
+
+
+(
+)
+<<virtual>> OnSetActive
+../../../../../../webviewer/34.jpg
+op365c7a76007f.htm
+
+
+
+(
+)
+<<virtual>> OnKillActive
+../../../../../../webviewer/34.jpg
+op365c7a760080.htm
+
+
+
+(
+)
+<<virtual>> OnQueryCancel
+../../../../../../webviewer/34.jpg
+op365c7a760081.htm
+
+
+
+(
+)
+<<virtual>> OnWizardBack
+../../../../../../webviewer/34.jpg
+op365c7a760082.htm
+
+
+
+(
+)
+<<virtual>> OnWizardNext
+../../../../../../webviewer/34.jpg
+op365c7a760088.htm
+
+
+
+(
+)
+<<virtual>> OnWizardFinish
+../../../../../../webviewer/34.jpg
+op365c7a760089.htm
+
+
+
+(
+)
+<<virtual>> ~CPropertyPage
+../../../../../../webviewer/34.jpg
+op365c7a76008a.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a76008b.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a760092.htm
+
+
+
+(
+)
+)
+CPropertyPageEx ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a760094.htm
+class365c7a760094.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7600ba.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a7600bc.htm
+
+
+
+(
+)
+)
+Associations
+../../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

@@ -1,0 +1,1 @@
+The CSplitterWnd class provides the functionality of a splitter window, which is a window that contains multiple panes. A pane is usually an application-specific object derived from CView, but it can be any CWnd object that has the appropriate child window ID.

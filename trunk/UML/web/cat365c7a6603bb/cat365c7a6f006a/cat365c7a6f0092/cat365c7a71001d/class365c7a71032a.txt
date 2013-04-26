@@ -1,0 +1,3 @@
+The MFC class CGopherFile provides the functionality to find and read files on a gopher server. 
+
+The gopher service does not allow users to write data to a gopher file because this service functions mainly as a menu-driven interface for finding information. 

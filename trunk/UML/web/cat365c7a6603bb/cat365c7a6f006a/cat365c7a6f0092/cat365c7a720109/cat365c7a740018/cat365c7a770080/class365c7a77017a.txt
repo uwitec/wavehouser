@@ -1,0 +1,1 @@
+A 'header control' is a window usually positioned above columns of text or numbers. It contains a title for each column, and it can be divided into parts. The user can drag the dividers that separate the parts to set the width of each column. 

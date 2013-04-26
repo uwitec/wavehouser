@@ -1,0 +1,2 @@
+The CStringArray class supports arrays of CString objects. 
+

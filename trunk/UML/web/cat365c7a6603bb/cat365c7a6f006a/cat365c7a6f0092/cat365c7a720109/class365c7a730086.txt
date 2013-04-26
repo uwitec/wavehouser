@@ -1,0 +1,3 @@
+COleDocument is the base class for OLE documents that support visual editing. COleDocument is derived from CDocument, which allows your OLE applications to use the document/view architecture provided by the Microsoft Foundation Class Library.
+
+COleDocument treats a document as a collection of CDocItem objects to handle OLE items. Both container and server applications require such an architecture because their documents must be able to contain OLE items.

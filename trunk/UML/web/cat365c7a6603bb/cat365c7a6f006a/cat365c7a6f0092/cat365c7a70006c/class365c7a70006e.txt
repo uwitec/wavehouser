@@ -1,0 +1,1 @@
+The CMenu class is an encapsulation of the Windows HMENU. It provides member functions for creating, tracking, updating, and destroying a menu.

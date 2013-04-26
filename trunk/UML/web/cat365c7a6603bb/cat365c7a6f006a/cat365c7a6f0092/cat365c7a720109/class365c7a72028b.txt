@@ -1,0 +1,1 @@
+The CMultiDocTemplate class defines a document template that implements the multiple document interface (MDI). An MDI application uses the main frame window as a workspace in which the user can open zero or more document frame windows, each of which displays a document.

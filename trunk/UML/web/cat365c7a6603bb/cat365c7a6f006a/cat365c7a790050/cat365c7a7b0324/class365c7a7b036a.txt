@@ -1,0 +1,3 @@
+The CTypedPtrList class provides a type-safe 'wrapper' for objects of class CPtrList. When you use CTypedPtrList rather than CObList or CPtrList, the C++ type-checking facility helps eliminate errors caused by mismatched pointer types.
+
+In addition, the CTypedPtrList wrapper performs much of the casting that would be required if you used CObList or CPtrList.

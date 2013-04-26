@@ -1,0 +1,1 @@
+The CFormView class is the base class used for views containing controls. These controls are laid out based on a dialog-template resource. Use CFormView if you want form-based documents in your application. These views support scrolling, as needed, using the CScrollView. 

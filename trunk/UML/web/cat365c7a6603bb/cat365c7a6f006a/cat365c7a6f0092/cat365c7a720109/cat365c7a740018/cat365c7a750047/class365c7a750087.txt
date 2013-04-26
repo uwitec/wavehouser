@@ -1,0 +1,3 @@
+CPropertySheetEx provides support for the expandedPROPSHEETHEADER structure introduced in Windows 98 and Windows NT 5. The structure contains additional flags and members that support the following feature: 
+
+A 'watermark' background bitmap. 

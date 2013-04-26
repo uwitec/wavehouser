@@ -1,0 +1,1 @@
+The CDC class defines a class of device-context objects. The CDC object provides member functions for working with a device context, such as a display or printer, as well as members for working with a display context associated with the client area of a window.

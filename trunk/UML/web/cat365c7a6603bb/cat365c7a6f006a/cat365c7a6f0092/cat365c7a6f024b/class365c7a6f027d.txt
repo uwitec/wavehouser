@@ -1,0 +1,1 @@
+The CMapPtrToWord class supports maps of 16-bit words keyed by void pointers. 

@@ -1,0 +1,1 @@
+Class CLongBinary simplifies working with very large binary data objects (often called BLOBs, or 'binary large objects') in a database. For example, a record field in an SQL table might contain a bitmap representing a picture. A CLongBinary object stores such an object and keeps track of its size.

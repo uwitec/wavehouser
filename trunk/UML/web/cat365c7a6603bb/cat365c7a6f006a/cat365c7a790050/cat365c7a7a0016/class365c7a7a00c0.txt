@@ -1,0 +1,1 @@
+A CString object consists of a variable-length sequence of characters. CString provides functions and operators using a syntax similar to that of Basic. Concatenation and comparison operators, together with simplified memory management, make CString objects easier to use than ordinary character arrays. 

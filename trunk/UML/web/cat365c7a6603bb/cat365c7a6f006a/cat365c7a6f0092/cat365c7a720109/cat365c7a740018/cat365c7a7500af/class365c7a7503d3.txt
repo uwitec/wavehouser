@@ -1,0 +1,1 @@
+The CPrintDialog class encapsulates the services provided by the Windows common dialog box for printing. Common print dialog boxes provide an easy way to implement Print and Print Setup dialog boxes in a manner consistent with Windows standards.

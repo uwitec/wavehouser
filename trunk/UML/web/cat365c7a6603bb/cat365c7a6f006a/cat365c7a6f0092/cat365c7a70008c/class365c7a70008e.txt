@@ -1,0 +1,1 @@
+A CDatabase object represents a connection to a data source, through which you can operate on the data source. A data source is a specific instance of data hosted by some database management system (DBMS). Examples include Microsoft SQL Server, Microsoft Access, Borland?dBASE? and xBASE. You can have one or more CDatabase objects active at a time in your application.

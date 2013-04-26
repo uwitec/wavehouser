@@ -1,0 +1,2 @@
+The MFC class CFileFind performs local file searches and is the base class for CGopherFileFind and CFtpFileFind, which perform Internet file searches. CFileFind includes member functions that begin a search, locate a file, and return the title, name, or path of the file. For Internet searches, the member function GetFileURL returns the file's URL.
+

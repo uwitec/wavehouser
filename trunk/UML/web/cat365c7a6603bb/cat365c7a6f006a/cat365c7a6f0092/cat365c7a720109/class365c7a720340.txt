@@ -1,0 +1,1 @@
+A COleDropSource object allows data to be dragged to a drop target. The COleDropTarget class handles the receiving portion of the drag-and-drop operation. The COleDropSource object is responsible for determining when a drag operation begins, providing feedback during the drag operation, and determining when the drag operation ends.

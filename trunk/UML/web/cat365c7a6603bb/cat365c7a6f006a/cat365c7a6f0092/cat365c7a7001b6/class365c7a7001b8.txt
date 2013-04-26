@@ -1,0 +1,1 @@
+The CList class supports ordered lists of nonunique objects accessible sequentially or by value. CList lists behave like doubly-linked lists. 

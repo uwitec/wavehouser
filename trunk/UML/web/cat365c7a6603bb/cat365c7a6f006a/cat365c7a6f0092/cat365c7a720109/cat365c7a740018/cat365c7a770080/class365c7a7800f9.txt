@@ -1,0 +1,3 @@
+A 'slider control' (also known as a trackbar) is a window containing a slider and optional tick marks. When the user moves the slider, using either the mouse or the direction keys, the control sends notification messages to indicate the change.
+
+Slider controls are useful when you want the user to select a discrete value or a set of consecutive values in a range.

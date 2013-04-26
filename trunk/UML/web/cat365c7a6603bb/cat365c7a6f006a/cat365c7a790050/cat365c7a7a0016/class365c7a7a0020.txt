@@ -1,0 +1,1 @@
+The CPoint class is similar to the Windows POINT structure. It also includes member functions to manipulate CPoint and POINT structures. 

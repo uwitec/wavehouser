@@ -1,0 +1,1 @@
+A CDaoQueryDef object represents a query definition, or 'querydef,' usually one saved in a database. A querydef is a data access object that contains the SQL statement that describes a query, and its properties, such as 'Date Created' and 'ODBC Timeout.' 

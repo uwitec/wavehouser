@@ -1,0 +1,568 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c8e7303d9.htm
+
+
+
+(
+)
+CDaoDatabase ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f0329.htm
+class365c7a6f0329.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0332.htm
+
+
+
+(
+)
+<<virtual>> ~CDaoDatabase
+../../../../webviewer/34.jpg
+op365c7a6f0334.htm
+
+
+
+(
+)
+<<virtual>> Create
+../../../../webviewer/34.jpg
+op365c7a6f0335.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a6f033e.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f0343.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f0345.htm
+
+
+
+(
+)
+<<virtual>> ThrowDaoException
+../../../../webviewer/34.jpg
+op365c7a6f0346.htm
+
+
+
+(
+)
+)
+CDaoQueryDef ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f0348.htm
+class365c7a6f0348.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0359.htm
+
+
+
+(
+)
+<<virtual>> Create
+../../../../webviewer/34.jpg
+op365c7a6f035b.htm
+
+
+
+(
+)
+<<virtual>> Append
+../../../../webviewer/34.jpg
+op365c7a6f035e.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a6f0363.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f0365.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f0366.htm
+
+
+
+(
+)
+<<virtual>> ThrowDaoException
+../../../../webviewer/34.jpg
+op365c7a6f0367.htm
+
+
+
+(
+)
+<<virtual>> Execute
+../../../../webviewer/34.jpg
+op365c7a6f036e.htm
+
+
+
+(
+)
+<<virtual>> GetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f0370.htm
+
+
+
+(
+)
+<<virtual>> GetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f0372.htm
+
+
+
+(
+)
+<<virtual>> SetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f0377.htm
+
+
+
+(
+)
+<<virtual>> SetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f037a.htm
+
+
+
+(
+)
+)
+CDaoRecordset ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f0381.htm
+class365c7a6f0381.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f038c.htm
+
+
+
+(
+)
+<<virtual>> ~CDaoRecordset
+../../../../webviewer/34.jpg
+op365c7a6f038e.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a6f038f.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a6f0398.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a6f039c.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f03a2.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f03a3.htm
+
+
+
+(
+)
+<<virtual>> ThrowDaoException
+../../../../webviewer/34.jpg
+op365c7a6f03a4.htm
+
+
+
+(
+)
+<<virtual>> GetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f03aa.htm
+
+
+
+(
+)
+<<virtual>> GetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f03ac.htm
+
+
+
+(
+)
+<<virtual>> SetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f03ae.htm
+
+
+
+(
+)
+<<virtual>> SetParamValue
+../../../../webviewer/34.jpg
+op365c7a6f03b5.htm
+
+
+
+(
+)
+<<virtual>> Move
+../../../../webviewer/34.jpg
+op365c7a6f03b8.htm
+
+
+
+(
+)
+<<virtual>> Find
+../../../../webviewer/34.jpg
+op365c7a6f03ba.htm
+
+
+
+(
+)
+<<virtual>> AddNew
+../../../../webviewer/34.jpg
+op365c7a6f03bf.htm
+
+
+
+(
+)
+<<virtual>> Edit
+../../../../webviewer/34.jpg
+op365c7a6f03c0.htm
+
+
+
+(
+)
+<<virtual>> Update
+../../../../webviewer/34.jpg
+op365c7a6f03c1.htm
+
+
+
+(
+)
+<<virtual>> Delete
+../../../../webviewer/34.jpg
+op365c7a6f03c2.htm
+
+
+
+(
+)
+<<virtual>> CancelUpdate
+../../../../webviewer/34.jpg
+op365c7a6f03c7.htm
+
+
+
+(
+)
+<<virtual>> GetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03c8.htm
+
+
+
+(
+)
+<<virtual>> GetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03cb.htm
+
+
+
+(
+)
+<<virtual>> GetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03d3.htm
+
+
+
+(
+)
+<<virtual>> GetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03d5.htm
+
+
+
+(
+)
+<<virtual>> SetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03dc.htm
+
+
+
+(
+)
+<<virtual>> SetFieldValue
+../../../../webviewer/34.jpg
+op365c7a6f03df.htm
+
+
+
+(
+)
+<<virtual>> Requery
+../../../../webviewer/34.jpg
+op365c7a6f03e5.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultDBName
+../../../../webviewer/34.jpg
+op365c7a6f03e6.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultSQL
+../../../../webviewer/34.jpg
+op365c7a6f03e7.htm
+
+
+
+(
+)
+<<virtual>> DoFieldExchange
+../../../../webviewer/34.jpg
+op365c7a6f03e8.htm
+
+
+
+(
+)
+<<virtual>> SetDirtyFields
+../../../../webviewer/34.jpg
+op365c7a700007.htm
+
+
+
+(
+)
+)
+CDaoTableDef ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a700008.htm
+class365c7a700008.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a700012.htm
+
+
+
+(
+)
+<<virtual>> Create
+../../../../webviewer/34.jpg
+op365c7a70001c.htm
+
+
+
+(
+)
+<<virtual>> Append
+../../../../webviewer/34.jpg
+op365c7a700021.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a700022.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a700026.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a700027.htm
+
+
+
+(
+)
+<<virtual>> ThrowDaoException
+../../../../webviewer/34.jpg
+op365c7a700028.htm
+
+
+
+(
+)
+)
+CDaoWorkspace ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a700043.htm
+class365c7a700043.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a700057.htm
+
+
+
+(
+)
+<<virtual>> ~CDaoWorkspace
+../../../../webviewer/34.jpg
+op365c7a700059.htm
+
+
+
+(
+)
+<<virtual>> Create
+../../../../webviewer/34.jpg
+op365c7a70005a.htm
+
+
+
+(
+)
+<<virtual>> Append
+../../../../webviewer/34.jpg
+op365c7a70005e.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a700061.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a700063.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a700064.htm
+
+
+
+(
+)
+<<virtual>> ThrowDaoException
+../../../../webviewer/34.jpg
+op365c7a700065.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

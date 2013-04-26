@@ -1,0 +1,2 @@
+CCommonDialog is the base class for classes that encapsulate functionality of the Windows common dialogs, such as CFileDialog and CFontDialog.
+

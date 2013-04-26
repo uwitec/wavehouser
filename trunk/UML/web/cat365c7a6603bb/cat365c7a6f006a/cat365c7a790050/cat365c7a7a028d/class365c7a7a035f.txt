@@ -1,0 +1,1 @@
+The CDataExchange class supports the dialog data exchange (DDX) and dialog data validation (DDV) routines used by the Microsoft Foundation classes. Use this class if you are writing data exchange routines for custom data types or controls, or if you are writing your own data validation routines.

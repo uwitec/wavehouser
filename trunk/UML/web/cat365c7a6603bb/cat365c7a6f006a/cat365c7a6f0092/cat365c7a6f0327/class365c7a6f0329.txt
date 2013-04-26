@@ -1,0 +1,1 @@
+A CDaoDatabase object represents a connection to a database through which you can operate on the data.  You can have one or more CDaoDatabase objects active at a time in a given 'workspace,' represented by a CDaoWorkspace object.

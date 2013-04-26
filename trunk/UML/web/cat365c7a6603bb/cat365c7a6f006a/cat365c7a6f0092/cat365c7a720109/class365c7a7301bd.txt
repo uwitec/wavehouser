@@ -1,0 +1,3 @@
+A 'rich edit control' is a window in which the user can enter and edit text. The text can be assigned character and paragraph formatting, and can include embedded OLE objects. Rich edit controls provide a programming interface for formatting text. However, an application must implement any user interface components necessary to make formatting operations available to the user.
+
+The CRichEditDoc class, with CRichEditView and CRichEditCntrItem, provides the functionality of the rich edit control within the context of MFC's document view architecture. CRichEditView maintains the text and formatting characteristic of text. CRichEditDoc maintains the list of client items which are in the view. CRichEditCntrItem provides container-side access to the OLE client items.

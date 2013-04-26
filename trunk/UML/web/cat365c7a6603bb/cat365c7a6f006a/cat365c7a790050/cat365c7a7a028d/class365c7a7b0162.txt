@@ -1,0 +1,5 @@
+CPropExchange establishes the context and direction of a property exchange.
+
+The CPropExchange class supports the implementation of persistence for your OLE controls. Persistence is the exchange of the control's state information, usually represented by its properties, between the control itself and a medium.
+
+The framework constructs an object derived from CPropExchange when it is notified that an OLE control's properties are to be loaded from or stored to persistent storage.

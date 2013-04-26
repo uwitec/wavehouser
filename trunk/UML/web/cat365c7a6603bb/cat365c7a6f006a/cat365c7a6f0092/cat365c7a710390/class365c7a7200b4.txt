@@ -1,0 +1,1 @@
+A CResourceException object is generated when Windows cannot find or allocate a requested resource. No further qualification is necessary or possible.

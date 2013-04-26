@@ -1,0 +1,1 @@
+The CWinApp class is the base class from which you derive a Windows application object. An application object provides member functions for initializing your application (and each instance of it) and for running the application.

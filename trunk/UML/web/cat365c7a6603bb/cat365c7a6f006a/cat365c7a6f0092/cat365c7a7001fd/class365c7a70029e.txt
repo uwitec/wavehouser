@@ -1,0 +1,1 @@
+The CRgn class encapsulates a Windows graphics device interface (GDI) region. A region is an elliptical or polygonal area within a window. To use regions, you use the member functions of class CRgn with the clipping functions defined as members of class CDC. 

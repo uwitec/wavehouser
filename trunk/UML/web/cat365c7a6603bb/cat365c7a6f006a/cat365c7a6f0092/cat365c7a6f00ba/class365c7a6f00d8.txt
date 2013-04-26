@@ -1,0 +1,3 @@
+The MFC class CInternetConnection manages your connection to an Internet server. It is the base class for MFC classes CFtpConnection, CHttpConnection, and CGopherConnection. Each of these classes provides additional functionality for communicating with the respective FTP, HTTP, or gopher server.
+
+To communicate directly with an Internet server, you must have a CInternetSession object and a CInternetConnection object.

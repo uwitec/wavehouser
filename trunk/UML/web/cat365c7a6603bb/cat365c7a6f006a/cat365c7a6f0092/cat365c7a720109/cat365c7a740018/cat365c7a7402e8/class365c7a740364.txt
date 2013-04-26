@@ -1,0 +1,1 @@
+An object of the class COleResizeBar is a type of control bar that supports resizing of in-place OLE items. COleResizeBar objects appear as a CRectTracker with a hatched border and outer resize handles.

@@ -1,0 +1,1 @@
+The COleDispatchException class handles exceptions specific to the OLE IDispatch interface, which is a key part of OLE automation.

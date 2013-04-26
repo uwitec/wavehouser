@@ -1,0 +1,7 @@
+The CWnd class provides the base functionality of all window classes in the Microsoft Foundation Class Library. 
+
+A CWnd object is distinct from a Windows window, but the two are tightly linked. 
+
+The CWnd class and the message-map mechanism hide the WndProc function.
+
+The CWnd class also lets you create a Windows child window for your application.

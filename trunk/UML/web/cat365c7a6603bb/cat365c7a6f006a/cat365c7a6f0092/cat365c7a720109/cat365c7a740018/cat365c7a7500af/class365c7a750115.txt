@@ -1,0 +1,1 @@
+The CColorDialog class allows you to incorporate a color-selection dialog box into your application. A CColorDialog object is a dialog box with a list of colors that are defined for the display system. The user can select or create a particular color from the list, which is then reported back to the application when the dialog box exits.

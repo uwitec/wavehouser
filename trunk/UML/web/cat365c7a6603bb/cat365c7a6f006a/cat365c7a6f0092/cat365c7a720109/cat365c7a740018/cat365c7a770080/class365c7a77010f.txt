@@ -1,0 +1,3 @@
+The CComboBox class provides the functionality of a Windows combo box. 
+
+A combo box consists of a list box combined with either a static control or edit control. The list-box portion of the control may be displayed at all times or may only drop down when the user selects the drop-down arrow next to the control.

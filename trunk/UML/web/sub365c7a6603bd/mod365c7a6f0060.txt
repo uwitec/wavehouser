@@ -1,0 +1,1 @@
+This component contains the MFC 6.0 classes.

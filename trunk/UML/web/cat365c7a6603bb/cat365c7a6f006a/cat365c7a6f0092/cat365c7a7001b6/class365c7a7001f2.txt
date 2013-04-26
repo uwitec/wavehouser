@@ -1,0 +1,1 @@
+The CStringList class supports lists of CString objects. All comparisons are done by value, meaning that the characters in the string are compared instead of the addresses of the strings.
