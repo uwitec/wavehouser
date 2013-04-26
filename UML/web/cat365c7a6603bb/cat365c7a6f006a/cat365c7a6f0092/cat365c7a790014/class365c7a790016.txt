@@ -1,0 +1,3 @@
+The CCommandLineInfo class aids in parsing the command line at application startup.
+
+An MFC application will typically create a local instance of this class in the InitInstance function of its application object. This object is then passed to CWinApp::ParseCommandLine, which repeatedly calls ParseParam to fill the CCommandLineInfo object. The CCommandLineInfo object is then passed to CWinApp::ProcessShellCommand to handle the command-line arguments and flags.

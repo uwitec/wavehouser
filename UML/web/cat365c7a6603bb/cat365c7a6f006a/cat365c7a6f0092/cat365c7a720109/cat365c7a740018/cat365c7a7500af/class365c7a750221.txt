@@ -1,0 +1,1 @@
+The COleChangeIconDialog class is used for the OLE Change Icon dialog box. Create an object of class COleChangeIconDialog when you want to call this dialog box. After a COleChangeIconDialog object has been constructed, you can use the m_ci structure to initialize the values or states of controls in the dialog box. The m_ci structure is of type OLEUICHANGEICON.

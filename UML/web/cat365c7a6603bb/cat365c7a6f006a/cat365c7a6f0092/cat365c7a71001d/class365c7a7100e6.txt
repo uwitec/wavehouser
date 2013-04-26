@@ -1,0 +1,1 @@
+A COleStreamFile object represents a stream of data (IStream) in a compound file as part of OLE Structured Storage. An IStorage object must exist before the stream can be opened or created unless it is a memory stream.

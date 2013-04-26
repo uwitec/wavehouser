@@ -1,0 +1,3 @@
+The CBrush class encapsulates a Windows graphics device interface (GDI) brush. To use a CBrush object, construct a CBrush object and pass it to any CDC member function that requires a brush.
+
+Brushes can be solid, hatched, or patterned.

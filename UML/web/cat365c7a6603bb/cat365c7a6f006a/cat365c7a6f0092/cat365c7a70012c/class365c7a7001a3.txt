@@ -1,0 +1,1 @@
+The CUIntArray class supports arrays of unsigned integers. An unsigned integer, or UINT, differs from words and doublewords in that the physical size of a UINT can change depending on the target operating environment. Under Windows version 3.1, a UINT is the same size as a WORD. Under Windows NT and Windows 95, a UINT is the same size as a doubleword. 

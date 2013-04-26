@@ -1,0 +1,1 @@
+The COlePropertyPage class is used to display the properties of a custom control in a graphical interface, similar to a dialog box. For instance, a property page may include an edit control that allows the user to view and modify the control's caption property.

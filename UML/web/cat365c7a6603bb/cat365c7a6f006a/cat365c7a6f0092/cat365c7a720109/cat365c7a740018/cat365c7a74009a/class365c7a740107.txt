@@ -1,0 +1,3 @@
+The CMDIChildWnd class provides the functionality of a Windows multiple document interface (MDI) child window, along with members for managing the window. 
+
+An MDI child window looks much like a typical frame window, except that the MDI child window appears inside an MDI frame window rather than on the desktop. An MDI child window does not have a menu bar of its own, but instead shares the menu of the MDI frame window. The framework automatically changes the MDI frame menu to represent the currently active MDI child window.

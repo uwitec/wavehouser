@@ -1,0 +1,1 @@
+The class CCtrlView and its derivatives, CEditView, CListView, CTreeView, and CRichEditView, adapt the document-view architecture to the new common controls supported by Windows 95 and Windows NT versions 3.51 and later.

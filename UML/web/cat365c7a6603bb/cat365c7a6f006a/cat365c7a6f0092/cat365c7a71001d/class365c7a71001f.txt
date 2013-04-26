@@ -1,0 +1,4 @@
+CFile is the base class for Microsoft Foundation file classes. It directly provides unbuffered, binary disk input/output services, and it indirectly supports text files and memory files through its derived classes. CFile works in conjunction with the CArchive class to support serialization of Microsoft Foundation Class objects. 
+
+Use CFile and its derived classes for general-purpose disk I/O. Use ofstream or other Microsoft iostream classes for formatted text sent to a disk file. 
+

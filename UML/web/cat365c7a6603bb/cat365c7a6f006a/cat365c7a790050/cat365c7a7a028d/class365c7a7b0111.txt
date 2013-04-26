@@ -1,0 +1,1 @@
+The COleDispatchDriver class implements the client side of OLE automation. OLE dispatch interfaces provide access to an object's methods and properties. Member functions of COleDispatchDriver attach, detach, create, and release a dispatch connection of type IDispatch. Other member functions use variable argument lists to simplify calling IDispatch::Invoke.

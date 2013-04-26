@@ -1,0 +1,1 @@
+Class CDataPathProperty implements an OLE control property that can be loaded asynchronously. Asynchronous properties are loaded after synchronous initiation. 

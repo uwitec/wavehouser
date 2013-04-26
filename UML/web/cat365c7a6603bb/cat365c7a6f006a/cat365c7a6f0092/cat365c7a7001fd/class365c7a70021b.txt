@@ -1,0 +1,1 @@
+The CBitmap class encapsulates a Windows graphics device interface (GDI) bitmap and provides member functions to manipulate the bitmap. To use a CBitmap object, construct the object, attach a bitmap handle to it with one of the initialization member functions, and then call the object's member functions.

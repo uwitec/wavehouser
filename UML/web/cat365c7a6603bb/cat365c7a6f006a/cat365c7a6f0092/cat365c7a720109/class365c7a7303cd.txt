@@ -1,0 +1,12 @@
+The COleDocObjectItem class implements Active document containment. In MFC, an Active document is handled similarly to a regular, in-place editable embedding, with the following differences: 
+
+The COleDocument-derived class still maintains a list of the currently embedded items; however, these items may be COleDocObjectItem-derived items.
+
+When an active document is active, it occupies the entire client area of the view when it is in-place active. 
+
+An Active document container has full control of the Help menu. 
+
+The Help menu contains menu items for both the Active document container and server. 
+Because the Active document container owns the Help menu, the container is responsible for forwarding server Help menu messages to the server. This integration is handled by COleDocObjectItem.
+
+

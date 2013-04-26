@@ -1,0 +1,1 @@
+A CNotSupportedException object represents an exception that is the result of a request for an unsupported feature. No further qualification is necessary or possible.

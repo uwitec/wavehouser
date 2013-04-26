@@ -1,0 +1,3 @@
+A CAsyncSocket object represents a Windows Socket, an endpoint of network communication. Class CAsyncSocket encapsulates the Windows Sockets API, providing an object-oriented abstraction for programmers who want to use Windows Sockets in conjunction with MFC.
+
+This class is based on the assumption that you understand network communications. You are responsible for handling blocking, byte-order differences, and conversions between Unicode and multibyte character set (MBCS) strings.

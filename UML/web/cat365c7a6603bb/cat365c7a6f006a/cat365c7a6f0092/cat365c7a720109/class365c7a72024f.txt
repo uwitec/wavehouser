@@ -1,0 +1,3 @@
+The CSingleDocTemplate class defines a document template that implements the single document interface (SDI). An SDI application uses the main frame window to display a document; only one document can be open at a time.
+
+A document template defines the relationship between a document class, a view class, and a frame window class.

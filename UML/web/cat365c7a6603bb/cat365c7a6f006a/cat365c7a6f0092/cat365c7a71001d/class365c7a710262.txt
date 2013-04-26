@@ -1,0 +1,1 @@
+A CSocketFile object is a CFile object used for sending and receiving data across a network via Windows Sockets. You can attach the CSocketFile object to a CSocket object for this purpose. You also can (and usually do) attach the CSocketFile object to a CArchive object to simplify sending and receiving data using MFC serialization.

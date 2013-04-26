@@ -1,0 +1,264 @@
+Main
+../../../../webviewer/18.jpg
+dgm365ca64e01fa.htm
+
+
+
+(
+)
+CCmdUI ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7a028f.htm
+class365c7a7a028f.txt
+
+
+(
+<<virtual>> Enable
+../../../../webviewer/34.jpg
+op365c7a7a02c9.htm
+
+
+
+(
+)
+<<virtual>> SetCheck
+../../../../webviewer/34.jpg
+op365c7a7a02cb.htm
+
+
+
+(
+)
+<<virtual>> SetRadio
+../../../../webviewer/34.jpg
+op365c7a7a02d4.htm
+
+
+
+(
+)
+<<virtual>> SetText
+../../../../webviewer/34.jpg
+op365c7a7a02d6.htm
+
+
+
+(
+)
+)
+CDaoFieldExchange ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7a0327.htm
+class365c7a7a0327.txt
+
+
+(
+)
+CDataExchange ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7a035f.htm
+class365c7a7a035f.txt
+
+
+(
+)
+CDBVariant ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7a03b9.htm
+class365c7a7a03b9.txt
+
+
+(
+<<virtual>> ~CDBVariant
+../../../../webviewer/34.jpg
+op365c7a7b0017.htm
+
+
+
+(
+)
+)
+CFieldExchange ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b002b.htm
+class365c7a7b002b.txt
+
+
+(
+)
+COleCmdUI ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7a02dd.htm
+class365c7a7a02dd.txt
+
+
+(
+<<virtual>> Enable
+../../../../webviewer/34.jpg
+op365c7a7a0319.htm
+
+
+
+(
+)
+<<virtual>> SetCheck
+../../../../webviewer/34.jpg
+op365c7a7a031b.htm
+
+
+
+(
+)
+<<virtual>> SetText
+../../../../webviewer/34.jpg
+op365c7a7a031d.htm
+
+
+
+(
+)
+<<virtual>> DoUpdate
+../../../../webviewer/34.jpg
+op365c7a7a0324.htm
+
+
+
+(
+)
+)
+COleDataObject ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b0099.htm
+class365c7a7b0099.txt
+
+
+(
+)
+COleDispatchDriver ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b0111.htm
+class365c7a7b0111.txt
+
+
+(
+)
+CPropExchange ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b0162.htm
+class365c7a7b0162.txt
+
+
+(
+<<virtual>> ExchangeVersion
+../../../../webviewer/34.jpg
+op365c7a7b019e.htm
+
+
+
+(
+)
+<<abstract>> ExchangeProp
+../../../../webviewer/34.jpg
+op365c7a7b01a8.htm
+
+
+
+(
+)
+<<abstract>> ExchangeBlobProp
+../../../../webviewer/34.jpg
+op365c7a7b01ad.htm
+
+
+
+(
+)
+<<abstract>> ExchangeFontProp
+../../../../webviewer/34.jpg
+op365c7a7b01b1.htm
+
+
+
+(
+)
+<<abstract>> ExchangePersistentProp
+../../../../webviewer/34.jpg
+op365c7a7b01b6.htm
+
+
+
+(
+)
+)
+CRectTracker ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b01bc.htm
+class365c7a7b01bc.txt
+
+
+(
+<<virtual>> ~CRectTracker
+../../../../webviewer/34.jpg
+op365c7a7b0202.htm
+
+
+
+(
+)
+<<virtual>> DrawTrackerRect
+../../../../webviewer/34.jpg
+op365c7a7b0203.htm
+
+
+
+(
+)
+<<virtual>> AdjustRect
+../../../../webviewer/34.jpg
+op365c7a7b0208.htm
+
+
+
+(
+)
+<<virtual>> OnChangedRect
+../../../../webviewer/34.jpg
+op365c7a7b020e.htm
+
+
+
+(
+)
+<<virtual, const>> GetHandleMask
+../../../../webviewer/34.jpg
+op365c7a7b0210.htm
+
+
+
+(
+)
+<<virtual, const>> GetHandleSize
+../../../../webviewer/34.jpg
+op365c7a7b0211.htm
+
+
+
+(
+)
+)
+CWaitCursor ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7b0216.htm
+class365c7a7b0216.txt
+
+
+(
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

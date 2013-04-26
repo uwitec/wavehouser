@@ -1,0 +1,1 @@
+A CDBVariant object represents a variant data type for the MFC ODBC classes. CDBVariant is similar to COleVariant; however, CDBVariant does not use OLE. CDBVariant allows you to store a value without worrying about the value's data type. CDBVariant tracks the data type of the current value, which is stored in a union.

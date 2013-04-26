@@ -1,0 +1,480 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c8f1102aa.htm
+
+
+
+(
+)
+CClientDC ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7003b8.htm
+class365c7a7003b8.txt
+
+
+(
+<<virtual>> ~CClientDC
+../../../../webviewer/34.jpg
+op365c7a7003c0.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7003c9.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7003cb.htm
+
+
+
+(
+)
+)
+CDC ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a70033f.htm
+class365c7a70033f.txt
+
+
+(
+<<virtual>> ~CDC
+../../../../webviewer/34.jpg
+op365c7a700350.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a700351.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a700353.htm
+
+
+
+(
+)
+<<virtual>> SetAttribDC
+../../../../webviewer/34.jpg
+op365c7a700354.htm
+
+
+
+(
+)
+<<virtual>> SetOutputDC
+../../../../webviewer/34.jpg
+op365c7a70035b.htm
+
+
+
+(
+)
+<<virtual>> ReleaseAttribDC
+../../../../webviewer/34.jpg
+op365c7a70035d.htm
+
+
+
+(
+)
+<<virtual>> ReleaseOutputDC
+../../../../webviewer/34.jpg
+op365c7a70035e.htm
+
+
+
+(
+)
+<<virtual>> SaveDC
+../../../../webviewer/34.jpg
+op365c7a70035f.htm
+
+
+
+(
+)
+<<virtual>> RestoreDC
+../../../../webviewer/34.jpg
+op365c7a700365.htm
+
+
+
+(
+)
+<<virtual>> SelectStockObject
+../../../../webviewer/34.jpg
+op365c7a700367.htm
+
+
+
+(
+)
+<<virtual>> SelectObject
+../../../../webviewer/34.jpg
+op365c7a700369.htm
+
+
+
+(
+)
+<<virtual>> SetBkColor
+../../../../webviewer/34.jpg
+op365c7a70036f.htm
+
+
+
+(
+)
+<<virtual>> SetTextColor
+../../../../webviewer/34.jpg
+op365c7a700371.htm
+
+
+
+(
+)
+<<virtual>> SetMapMode
+../../../../webviewer/34.jpg
+op365c7a700373.htm
+
+
+
+(
+)
+<<virtual>> SetViewportOrg
+../../../../webviewer/34.jpg
+op365c7a700375.htm
+
+
+
+(
+)
+<<virtual>> OffsetViewportOrg
+../../../../webviewer/34.jpg
+op365c7a70037b.htm
+
+
+
+(
+)
+<<virtual>> SetViewportExt
+../../../../webviewer/34.jpg
+op365c7a70037e.htm
+
+
+
+(
+)
+<<virtual>> ScaleViewportExt
+../../../../webviewer/34.jpg
+op365c7a700381.htm
+
+
+
+(
+)
+<<virtual>> SetWindowExt
+../../../../webviewer/34.jpg
+op365c7a700387.htm
+
+
+
+(
+)
+<<virtual>> ScaleWindowExt
+../../../../webviewer/34.jpg
+op365c7a70038a.htm
+
+
+
+(
+)
+<<virtual, const>> GetClipBox
+../../../../webviewer/34.jpg
+op365c7a700390.htm
+
+
+
+(
+)
+<<virtual, const>> PtVisible
+../../../../webviewer/34.jpg
+op365c7a700392.htm
+
+
+
+(
+)
+<<virtual, const>> RectVisible
+../../../../webviewer/34.jpg
+op365c7a700395.htm
+
+
+
+(
+)
+<<virtual>> TextOut
+../../../../webviewer/34.jpg
+op365c7a700398.htm
+
+
+
+(
+)
+<<virtual>> ExtTextOut
+../../../../webviewer/34.jpg
+op365c7a70039d.htm
+
+
+
+(
+)
+<<virtual>> TabbedTextOut
+../../../../webviewer/34.jpg
+op365c7a7003a6.htm
+
+
+
+(
+)
+<<virtual>> DrawText
+../../../../webviewer/34.jpg
+op365c7a7003ae.htm
+
+
+
+(
+)
+<<virtual>> Escape
+../../../../webviewer/34.jpg
+op365c7a7003b3.htm
+
+
+
+(
+)
+)
+CMetaFileDC ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7002ed.htm
+class365c7a7002ed.txt
+
+
+(
+<<virtual>> ~CMetaFileDC
+../../../../webviewer/34.jpg
+op365c7a7002f7.htm
+
+
+
+(
+)
+<<virtual>> SetAttribDC
+../../../../webviewer/34.jpg
+op365c7a7002f8.htm
+
+
+
+(
+)
+<<virtual>> SetOutputDC
+../../../../webviewer/34.jpg
+op365c7a700301.htm
+
+
+
+(
+)
+<<virtual>> ReleaseOutputDC
+../../../../webviewer/34.jpg
+op365c7a700303.htm
+
+
+
+(
+)
+<<virtual, const>> GetClipBox
+../../../../webviewer/34.jpg
+op365c7a700304.htm
+
+
+
+(
+)
+<<virtual, const>> PtVisible
+../../../../webviewer/34.jpg
+op365c7a70030b.htm
+
+
+
+(
+)
+<<virtual, const>> RectVisible
+../../../../webviewer/34.jpg
+op365c7a70030e.htm
+
+
+
+(
+)
+<<virtual>> TextOut
+../../../../webviewer/34.jpg
+op365c7a700310.htm
+
+
+
+(
+)
+<<virtual>> ExtTextOut
+../../../../webviewer/34.jpg
+op365c7a700317.htm
+
+
+
+(
+)
+<<virtual>> TabbedTextOut
+../../../../webviewer/34.jpg
+op365c7a70031f.htm
+
+
+
+(
+)
+<<virtual>> DrawText
+../../../../webviewer/34.jpg
+op365c7a700327.htm
+
+
+
+(
+)
+<<virtual>> Escape
+../../../../webviewer/34.jpg
+op365c7a70032c.htm
+
+
+
+(
+)
+<<virtual>> SetViewportOrg
+../../../../webviewer/34.jpg
+op365c7a700331.htm
+
+
+
+(
+)
+<<virtual>> OffsetViewportOrg
+../../../../webviewer/34.jpg
+op365c7a700334.htm
+
+
+
+(
+)
+<<virtual>> SetViewportExt
+../../../../webviewer/34.jpg
+op365c7a700337.htm
+
+
+
+(
+)
+<<virtual>> ScaleViewportExt
+../../../../webviewer/34.jpg
+op365c7a70033a.htm
+
+
+
+(
+)
+)
+CPaintDC ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7003e9.htm
+class365c7a7003e9.txt
+
+
+(
+<<virtual>> ~CPaintDC
+../../../../webviewer/34.jpg
+op365c7a710014.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710015.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710017.htm
+
+
+
+(
+)
+)
+CWindowDC ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7003d3.htm
+class365c7a7003d3.txt
+
+
+(
+<<virtual>> ~CWindowDC
+../../../../webviewer/34.jpg
+op365c7a7003de.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7003df.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7003e8.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

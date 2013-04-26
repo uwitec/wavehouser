@@ -1,0 +1,1 @@
+The class CHttpFile provides the functionality to request and read files on an HTTP server.

@@ -1,0 +1,1 @@
+The CObList class supports ordered lists of nonunique CObject pointers accessible sequentially or by pointer value. CObList lists behave like doubly-linked lists. 

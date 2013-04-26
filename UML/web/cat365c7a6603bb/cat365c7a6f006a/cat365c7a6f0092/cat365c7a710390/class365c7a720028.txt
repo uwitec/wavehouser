@@ -1,0 +1,1 @@
+A CFileException object represents a file-related exception condition. The CFileException class includes public data members that hold the portable cause code and the operating-system-specific error number. The class also provides static member functions for throwing file exceptions and for returning cause codes for both operating-system errors and C run-time errors. 

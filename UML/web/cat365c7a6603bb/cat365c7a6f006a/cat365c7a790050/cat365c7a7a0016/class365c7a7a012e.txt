@@ -1,0 +1,3 @@
+A CTimeSpan object represents a relative time span. The CTimeSpan class incorporates the ANSI time_t data type and its associated run-time functions. These functions convert seconds to various combinations of days, hours, minutes, and seconds. 
+
+A CTimeSpan object keeps time in seconds. Because the CTimeSpan object is stored as a signed number in 4 bytes, the maximum allowed span is approximately ?68 years.

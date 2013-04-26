@@ -1,0 +1,3 @@
+The CArchive class allows you to save a complex network of objects in a permanent binary form (usually disk storage) that persists after those objects are deleted. Later you can load the objects from persistent storage, reconstituting them in memory. This process of making data persistent is called 'serialization.'
+
+You can think of an archive object as a kind of binary stream. 

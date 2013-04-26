@@ -1,0 +1,1 @@
+Class COleSafeArray is a class for working with arrays of arbitrary type and dimension. COleSafeArray derives from the OLE VARIANT structure. The OLE SAFEARRAY member functions are available through COleSafeArray, as well as a set of member functions specifically designed for one-dimensional arrays of bytes.

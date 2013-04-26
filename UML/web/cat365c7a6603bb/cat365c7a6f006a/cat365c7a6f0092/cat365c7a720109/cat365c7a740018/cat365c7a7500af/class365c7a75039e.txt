@@ -1,0 +1,1 @@
+The CPageSetupDialog class encapsulates the services provided by the Windows common OLE Page Setup dialog box with additional support for setting and modifying print margins. This class is designed to take the place of the Print Setup dialog box.

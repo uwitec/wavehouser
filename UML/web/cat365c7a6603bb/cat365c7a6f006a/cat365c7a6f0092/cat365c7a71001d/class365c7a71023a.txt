@@ -1,0 +1,1 @@
+Class CCachedDataPathProperty implements an OLE control property transferred asynchronously and cached in a memory file. A memory file is stored in RAM rather than on disk and is useful for fast temporary transfers. 

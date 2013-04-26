@@ -1,0 +1,1 @@
+A CMemoryException object represents an out-of-memory exception condition. No further qualification is necessary or possible. Memory exceptions are thrown automatically by new. If you write your own memory functions, using malloc, for example, then you are responsible for throwing memory exceptions.

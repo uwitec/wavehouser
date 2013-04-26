@@ -1,0 +1,4 @@
+An IP Address control, a control similar to an edit control, allows you to enter and manipulate a numerical address in Internet Protocol (IP) format. 
+
+The CIPAddressCtrl class provides the functionality of the Windows common IP Address control. This control (and therefore the CIPAddressCtrl class) is available only to programs running under Microsoft Internet Explorer 4.0 and later. They will also be available under future versions of Windows and Windows NT.
+

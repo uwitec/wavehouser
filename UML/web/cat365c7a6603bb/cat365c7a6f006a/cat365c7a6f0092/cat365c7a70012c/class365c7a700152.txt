@@ -1,0 +1,1 @@
+The CByteArray class supports dynamic arrays of bytes. 

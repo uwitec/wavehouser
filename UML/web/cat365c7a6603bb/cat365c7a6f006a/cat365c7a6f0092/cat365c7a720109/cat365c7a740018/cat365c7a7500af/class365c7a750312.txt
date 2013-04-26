@@ -1,0 +1,1 @@
+The COleUpdateDialog class is used for a special case of the OLE Edit Links dialog box, which should be used when you need to update only existing linked or embedded objects in a document.

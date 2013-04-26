@@ -1,0 +1,1 @@
+A Windows metafile contains a sequence of graphics device interface (GDI) commands that you can replay to create a desired image or text.

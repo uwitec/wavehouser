@@ -1,0 +1,1 @@
+Objects of class CPropertySheet represent property sheets, otherwise known as tab dialog boxes. A property sheet consists of a CPropertySheet object and one or more CPropertyPage objects. A property sheet is displayed by the framework as a window with a set of tab indices, with which the user selects the current page, and an area for the currently selected page. 

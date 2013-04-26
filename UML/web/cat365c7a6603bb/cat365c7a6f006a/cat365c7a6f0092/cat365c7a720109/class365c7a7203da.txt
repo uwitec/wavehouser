@@ -1,0 +1,3 @@
+The CConnectionPoint class defines a special type of interface used to communicate with other OLE objects, called a 'connection point.' Unlike normal OLE interfaces, which are used to implement and expose the functionality of an OLE control, a connection point implements an outgoing interface that is able to initiate actions on other objects, such as firing events and change notifications.
+
+A connection consists of two parts: the object calling the interface, called the 'source,' and the object implementing the interface, called the 'sink.' By exposing a connection point, a source allows sinks to establish connections to itself. 

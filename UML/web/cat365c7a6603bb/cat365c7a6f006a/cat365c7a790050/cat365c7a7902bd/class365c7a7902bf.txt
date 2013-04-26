@@ -1,0 +1,3 @@
+The CFontHolder class, which encapsulates the functionality of a Windows font object and the IFont interface, is used to implement the stock Font property.
+
+Use this class to implement custom font properties for your control.

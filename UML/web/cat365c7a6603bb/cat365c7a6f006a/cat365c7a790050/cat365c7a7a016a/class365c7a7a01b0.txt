@@ -1,0 +1,1 @@
+CMemoryState provides a convenient way to detect memory leaks in your program. A 'memory leak' occurs when memory for an object is allocated on the heap but not deallocated when it is no longer required. Such memory leaks can eventually lead to out-of-memory errors.

@@ -1,0 +1,512 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c8d6d0061.htm
+
+
+
+(
+)
+CFileFind ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f0120.htm
+class365c7a6f0120.txt
+
+
+(
+<<virtual>> ~CFileFind
+../../../../webviewer/34.jpg
+op365c7a6f0129.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileName
+../../../../webviewer/34.jpg
+op365c7a6f012a.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileTitle
+../../../../webviewer/34.jpg
+op365c7a6f0132.htm
+
+
+
+(
+)
+<<virtual, const>> GetFilePath
+../../../../webviewer/34.jpg
+op365c7a6f0133.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileURL
+../../../../webviewer/34.jpg
+op365c7a6f0134.htm
+
+
+
+(
+)
+<<virtual, const>> GetRoot
+../../../../webviewer/34.jpg
+op365c7a6f0135.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastWriteTime
+../../../../webviewer/34.jpg
+op365c7a6f013c.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastWriteTime
+../../../../webviewer/34.jpg
+op365c7a6f013e.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastAccessTime
+../../../../webviewer/34.jpg
+op365c7a6f0140.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastAccessTime
+../../../../webviewer/34.jpg
+op365c7a6f0146.htm
+
+
+
+(
+)
+<<virtual, const>> GetCreationTime
+../../../../webviewer/34.jpg
+op365c7a6f0148.htm
+
+
+
+(
+)
+<<virtual, const>> GetCreationTime
+../../../../webviewer/34.jpg
+op365c7a6f014a.htm
+
+
+
+(
+)
+<<virtual, const>> MatchesMask
+../../../../webviewer/34.jpg
+op365c7a6f014c.htm
+
+
+
+(
+)
+<<virtual, const>> IsDots
+../../../../webviewer/34.jpg
+op365c7a6f0151.htm
+
+
+
+(
+)
+<<virtual>> FindFile
+../../../../webviewer/34.jpg
+op365c7a6f0152.htm
+
+
+
+(
+)
+<<virtual>> FindNextFile
+../../../../webviewer/34.jpg
+op365c7a6f0155.htm
+
+
+
+(
+)
+<<virtual>> CloseContext
+../../../../webviewer/34.jpg
+op365c7a6f015a.htm
+
+
+
+(
+)
+)
+CFtpConnection ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f00e5.htm
+class365c7a6f00e5.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f00ed.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f00ee.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f00f7.htm
+
+
+
+(
+)
+)
+CFtpFileFind ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f015b.htm
+class365c7a6f015b.txt
+
+
+(
+<<virtual>> ~CFtpFileFind
+../../../../webviewer/34.jpg
+op365c7a6f0165.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0166.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f016e.htm
+
+
+
+(
+)
+<<virtual>> FindFile
+../../../../webviewer/34.jpg
+op365c7a6f016f.htm
+
+
+
+(
+)
+<<virtual>> FindNextFile
+../../../../webviewer/34.jpg
+op365c7a6f0172.htm
+
+
+
+(
+)
+<<virtual>> CloseContext
+../../../../webviewer/34.jpg
+op365c7a6f0173.htm
+
+
+
+(
+)
+)
+CGopherConnection ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f00f8.htm
+class365c7a6f00f8.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f0101.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0102.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f010b.htm
+
+
+
+(
+)
+)
+CGopherFileFind ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f0178.htm
+class365c7a6f0178.txt
+
+
+(
+<<virtual>> ~CGopherFileFind
+../../../../webviewer/34.jpg
+op365c7a6f0183.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0184.htm
+
+
+
+(
+)
+<<virtual, const>> GetLength
+../../../../webviewer/34.jpg
+op365c7a6f0186.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f018c.htm
+
+
+
+(
+)
+<<virtual>> FindFile
+../../../../webviewer/34.jpg
+op365c7a6f018d.htm
+
+
+
+(
+)
+<<virtual>> FindFile
+../../../../webviewer/34.jpg
+op365c7a6f0191.htm
+
+
+
+(
+)
+<<virtual>> FindNextFile
+../../../../webviewer/34.jpg
+op365c7a6f0197.htm
+
+
+
+(
+)
+<<virtual>> CloseContext
+../../../../webviewer/34.jpg
+op365c7a6f0198.htm
+
+
+
+(
+)
+<<virtual, const>> IsDots
+../../../../webviewer/34.jpg
+op365c7a6f0199.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastWriteTime
+../../../../webviewer/34.jpg
+op365c7a6f019a.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastWriteTime
+../../../../webviewer/34.jpg
+op365c7a6f01a1.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastAccessTime
+../../../../webviewer/34.jpg
+op365c7a6f01a3.htm
+
+
+
+(
+)
+<<virtual, const>> GetLastAccessTime
+../../../../webviewer/34.jpg
+op365c7a6f01a5.htm
+
+
+
+(
+)
+<<virtual, const>> GetCreationTime
+../../../../webviewer/34.jpg
+op365c7a6f01ab.htm
+
+
+
+(
+)
+<<virtual, const>> GetCreationTime
+../../../../webviewer/34.jpg
+op365c7a6f01ad.htm
+
+
+
+(
+)
+<<virtual, const>> GetLength64
+../../../../webviewer/34.jpg
+op365c7a6f01af.htm
+
+
+
+(
+)
+)
+CGopherLocator ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f01b4.htm
+class365c7a6f01b4.txt
+
+
+(
+)
+CHttpConnection ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f010c.htm
+class365c7a6f010c.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f0115.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f0116.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a6f011f.htm
+
+
+
+(
+)
+)
+CInternetConnection ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f00d8.htm
+class365c7a6f00d8.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f00e2.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f00e3.htm
+
+
+
+(
+)
+)
+CInternetSession ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a6f00bc.htm
+class365c7a6f00bc.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a6f00ce.htm
+
+
+
+(
+)
+<<virtual>> OnStatusCallback
+../../../../webviewer/34.jpg
+op365c7a6f00cf.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a6f00d4.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

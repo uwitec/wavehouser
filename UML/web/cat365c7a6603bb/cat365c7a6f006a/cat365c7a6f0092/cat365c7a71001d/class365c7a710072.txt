@@ -1,0 +1,1 @@
+CMemFile is the CFile-derived class that supports memory files. These memory files behave like disk files except that the file is stored in RAM rather than on disk. A memory file is useful for fast temporary storage or for transferring raw bytes or serialized objects between independent processes.

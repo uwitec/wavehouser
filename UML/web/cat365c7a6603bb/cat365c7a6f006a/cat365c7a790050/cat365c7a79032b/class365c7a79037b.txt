@@ -1,0 +1,1 @@
+The CDumpContext class supports stream-oriented diagnostic output in the form of human-readable text. You can use afxDump, a predeclared CDumpContext object, for most of your dumping. The afxDump object is available only in the Debug version of the Microsoft Foundation Class Library. 

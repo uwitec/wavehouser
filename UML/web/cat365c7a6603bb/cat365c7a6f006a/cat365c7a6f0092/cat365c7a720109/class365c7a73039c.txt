@@ -1,0 +1,1 @@
+Class CDocObjectServer implements the additional OLE interfaces needed to make a normal COleDocument server into a full DocObject server: IOleDocument, IOleDocumentView, IOleCommandTarget, and IPrint. CDocObjectServer is derived from CCmdTarget and works closely with COleServerDoc to expose the interfaces. 

@@ -1,0 +1,1 @@
+The CSyncObject class is a pure virtual class that provides functionality common to the synchronization objects in Win32. The Microsoft Foundation Class Library provides several classes derived from CSyncObject. These are CEvent, CMutex, CCriticalSection, and CSemaphore.

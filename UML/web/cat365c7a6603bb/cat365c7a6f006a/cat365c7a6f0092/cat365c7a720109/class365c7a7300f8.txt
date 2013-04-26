@@ -1,0 +1,3 @@
+The COleLinkingDoc class is the base class for OLE container documents that support linking to the embedded items they contain. A container application that supports linking to embedded items is called a 'link container.' 
+
+When a linked item's source is an embedded item in another document, that containing document must be loaded in order for the embedded item to be edited. For this reason, a link container must be able to be launched by another container application when the user wants to edit the source of a linked item. 

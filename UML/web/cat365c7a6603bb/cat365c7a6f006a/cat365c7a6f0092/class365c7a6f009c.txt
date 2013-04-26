@@ -1,0 +1,1 @@
+CObject is the principal base class for the Microsoft Foundation Class Library. It serves as the root not only for library classes such as CFile and CObList, but also for the classes that you write. CObject provides basic services, including serialization support, run-time class information, object diagnostic output, and compatibility with collection classes.

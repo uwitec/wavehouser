@@ -1,0 +1,1 @@
+The CFrameWnd class provides the functionality of a Windows single document interface (SDI) overlapped or pop-up frame window, along with members for managing the window. 

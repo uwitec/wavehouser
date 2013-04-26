@@ -1,0 +1,1 @@
+The CComboBoxEx class extends the combo box control by providing support for image lists. By using CComboBoxEx to create combo box controls, you no longer need to implement your own image drawing code. Instead, use CComboBoxEx to access images from an image list.

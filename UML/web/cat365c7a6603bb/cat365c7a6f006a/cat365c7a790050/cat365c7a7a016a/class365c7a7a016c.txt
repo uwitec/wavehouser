@@ -1,0 +1,1 @@
+The framework uses the CCreateContext structure when it creates the frame windows and views associated with a document. When creating a window, the values in this structure provide information used to connect the components that make up a document and the view of its data. You will only need to use CCreateContext if you are overriding parts of the creation process.

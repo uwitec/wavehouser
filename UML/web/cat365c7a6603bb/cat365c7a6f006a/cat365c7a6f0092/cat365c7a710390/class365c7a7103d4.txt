@@ -1,0 +1,1 @@
+A CDaoException object represents an exception condition arising from the MFC database classes based on data access objects (DAO). The class includes public data members you can use to determine the cause of the exception. CDaoException objects are constructed and thrown by member functions of the DAO database classes. 

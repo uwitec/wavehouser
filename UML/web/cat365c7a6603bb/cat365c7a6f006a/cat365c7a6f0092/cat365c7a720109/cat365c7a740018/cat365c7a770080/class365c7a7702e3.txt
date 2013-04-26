@@ -1,0 +1,1 @@
+The COleControl class is a powerful base class for developing OLE controls. Derived from CWnd, this class inherits all the functionality of a Windows window object plus additional functionality specific to OLE, such as event firing and the ability to support methods and properties.

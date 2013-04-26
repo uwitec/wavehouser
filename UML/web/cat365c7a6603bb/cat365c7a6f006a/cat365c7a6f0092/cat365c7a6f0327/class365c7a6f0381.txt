@@ -1,0 +1,2 @@
+A CDaoRecordset object represents a set of records selected from a data source. Known as 'recordsets,' CDaoRecordset objects are available in three forms:
+table-type recordsets, dynaset-type recordsets, and snapshot-type recordsets.

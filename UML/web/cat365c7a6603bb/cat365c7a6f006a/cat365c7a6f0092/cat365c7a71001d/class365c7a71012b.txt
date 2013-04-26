@@ -1,0 +1,3 @@
+A CMonikerFile object represents a stream of data (IStream) named by an IMoniker.
+
+A moniker contains information much like a pathname to a file. If you have a pointer to a moniker object's IMoniker interface, you can get access to the identified file without having any other specific information about where the file is actually located. 

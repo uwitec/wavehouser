@@ -1,0 +1,1 @@
+CMap is a dictionary collection class that maps unique keys to values. Once you have inserted a key-value pair (element) into the map, you can efficiently retrieve or delete the pair using the key to access it. You can also iterate over all the elements in the map.

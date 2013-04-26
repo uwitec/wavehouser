@@ -1,0 +1,3 @@
+The CDialog class is the base class used for displaying dialog boxes on the screen. Dialog boxes are of two types: modal and modeless. A modal dialog box must be closed by the user before the application continues. A modeless dialog box allows the user to display the dialog box and return to another task without canceling or removing the dialog box.
+
+A CDialog object is a combination of a dialog template and a CDialog-derived class. Use the dialog editor to create the dialog template and store it in a resource, then use ClassWizard to create a class derived from CDialog. 

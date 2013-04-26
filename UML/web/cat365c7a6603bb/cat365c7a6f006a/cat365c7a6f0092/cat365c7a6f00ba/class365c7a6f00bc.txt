@@ -1,0 +1,1 @@
+Use class CInternetSession to create and initialize a single or several simultaneous Internet sessions and, if necessary, to describe your connection to a proxy server. If your Internet connection must be maintained for the duration of an application, you can create a CInternetSession member of the class CWinApp.

@@ -1,0 +1,3 @@
+CRecentFileList is a CObject class that supports control of the most recently used (MRU) file list. Files can be added to or deleted from the MRU file list, the file list can be read from or written to the registry or an .INI file, and the menu displaying the MRU file list can be updated. 
+
+NOTE: According to documentation this class inherits from CObject, according to source it does not. Hence removed the inheritance.

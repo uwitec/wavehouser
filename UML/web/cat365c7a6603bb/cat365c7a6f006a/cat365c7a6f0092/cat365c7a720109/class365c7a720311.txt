@@ -1,0 +1,3 @@
+The COleDataSource class acts as a cache into which an application places the data that it will offer during data transfer operations, such as Clipboard or drag-and-drop operations.
+
+Whenever you want to prepare data for a transfer, you should create an object of this class and fill it with your data using the most appropriate method for your data.

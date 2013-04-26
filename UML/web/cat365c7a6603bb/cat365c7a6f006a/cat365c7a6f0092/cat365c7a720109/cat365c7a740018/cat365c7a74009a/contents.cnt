@@ -1,0 +1,928 @@
+Main
+../../../../../../webviewer/18.jpg
+dgm365c9a5800fd.htm
+
+
+
+(
+)
+CFrameWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a74009c.htm
+class365c7a74009c.txt
+
+
+(
+<<virtual>> ~CFrameWnd
+../../../../../../webviewer/34.jpg
+op365c7a7400b8.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7400b9.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a7400bb.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../../../webviewer/34.jpg
+op365c7a7400c1.htm
+
+
+
+(
+)
+<<virtual>> PreCreateWindow
+../../../../../../webviewer/34.jpg
+op365c7a7400c6.htm
+
+
+
+(
+)
+<<virtual>> OnCommand
+../../../../../../webviewer/34.jpg
+op365c7a7400c8.htm
+
+
+
+(
+)
+<<virtual>> BeginModalState
+../../../../../../webviewer/34.jpg
+op365c7a7400cd.htm
+
+
+
+(
+)
+<<virtual>> EndModalState
+../../../../../../webviewer/34.jpg
+op365c7a7400ce.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a7400cf.htm
+
+
+
+(
+)
+<<virtual>> PostNcDestroy
+../../../../../../webviewer/34.jpg
+op365c7a7400d1.htm
+
+
+
+(
+)
+<<virtual, const>> IsFrameWnd
+../../../../../../webviewer/34.jpg
+op365c7a7400d5.htm
+
+
+
+(
+)
+<<virtual>> LoadFrame
+../../../../../../webviewer/34.jpg
+op365c7a7400d6.htm
+
+
+
+(
+)
+<<virtual>> GetActiveDocument
+../../../../../../webviewer/34.jpg
+op365c7a7400db.htm
+
+
+
+(
+)
+<<virtual>> GetActiveFrame
+../../../../../../webviewer/34.jpg
+op365c7a7400df.htm
+
+
+
+(
+)
+<<virtual, const>> GetMessageString
+../../../../../../webviewer/34.jpg
+op365c7a7400e0.htm
+
+
+
+(
+)
+<<virtual>> RecalcLayout
+../../../../../../webviewer/34.jpg
+op365c7a7400e3.htm
+
+
+
+(
+)
+<<virtual>> ActivateFrame
+../../../../../../webviewer/34.jpg
+op365c7a7400e5.htm
+
+
+
+(
+)
+<<virtual>> OnSetPreviewMode
+../../../../../../webviewer/34.jpg
+op365c7a7400ea.htm
+
+
+
+(
+)
+<<virtual>> GetMessageBar
+../../../../../../webviewer/34.jpg
+op365c7a7400ed.htm
+
+
+
+(
+)
+<<virtual>> NegotiateBorderSpace
+../../../../../../webviewer/34.jpg
+op365c7a7400ee.htm
+
+
+
+(
+)
+<<virtual>> OnCreateClient
+../../../../../../webviewer/34.jpg
+op365c7a7400f5.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameTitle
+../../../../../../webviewer/34.jpg
+op365c7a7400f8.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameMenu
+../../../../../../webviewer/34.jpg
+op365c7a7400fa.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultAccelerator
+../../../../../../webviewer/34.jpg
+op365c7a7400fe.htm
+
+
+
+(
+)
+<<virtual>> DelayUpdateFrameMenu
+../../../../../../webviewer/34.jpg
+op365c7a7400ff.htm
+
+
+
+(
+)
+<<virtual>> ExitHelpMode
+../../../../../../webviewer/34.jpg
+op365c7a740101.htm
+
+
+
+(
+)
+)
+CMDIChildWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a740107.htm
+class365c7a740107.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a740125.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a740127.htm
+
+
+
+(
+)
+<<virtual>> Create
+../../../../../../webviewer/34.jpg
+op365c7a740128.htm
+
+
+
+(
+)
+<<virtual>> DestroyWindow
+../../../../../../webviewer/34.jpg
+op365c7a740135.htm
+
+
+
+(
+)
+<<virtual>> PreCreateWindow
+../../../../../../webviewer/34.jpg
+op365c7a740136.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a740138.htm
+
+
+
+(
+)
+<<virtual>> DefWindowProc
+../../../../../../webviewer/34.jpg
+op365c7a74013a.htm
+
+
+
+(
+)
+<<virtual>> LoadFrame
+../../../../../../webviewer/34.jpg
+op365c7a74013e.htm
+
+
+
+(
+)
+<<virtual>> ActivateFrame
+../../../../../../webviewer/34.jpg
+op365c7a740146.htm
+
+
+
+(
+)
+<<virtual>> GetMessageBar
+../../../../../../webviewer/34.jpg
+op365c7a740148.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameTitle
+../../../../../../webviewer/34.jpg
+op365c7a740149.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameMenu
+../../../../../../webviewer/34.jpg
+op365c7a74014d.htm
+
+
+
+(
+)
+)
+CMDIFrameWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a740151.htm
+class365c7a740151.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a74016d.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a74016f.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../../../webviewer/34.jpg
+op365c7a740176.htm
+
+
+
+(
+)
+<<virtual>> PreCreateWindow
+../../../../../../webviewer/34.jpg
+op365c7a74017b.htm
+
+
+
+(
+)
+<<virtual>> OnCommand
+../../../../../../webviewer/34.jpg
+op365c7a74017d.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a740182.htm
+
+
+
+(
+)
+<<virtual>> DefWindowProc
+../../../../../../webviewer/34.jpg
+op365c7a740184.htm
+
+
+
+(
+)
+<<virtual>> LoadFrame
+../../../../../../webviewer/34.jpg
+op365c7a740188.htm
+
+
+
+(
+)
+<<virtual>> GetActiveFrame
+../../../../../../webviewer/34.jpg
+op365c7a74018e.htm
+
+
+
+(
+)
+<<virtual>> OnCreateClient
+../../../../../../webviewer/34.jpg
+op365c7a74018f.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameTitle
+../../../../../../webviewer/34.jpg
+op365c7a740194.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameMenu
+../../../../../../webviewer/34.jpg
+op365c7a740196.htm
+
+
+
+(
+)
+<<virtual>> DelayUpdateFrameMenu
+../../../../../../webviewer/34.jpg
+op365c7a740198.htm
+
+
+
+(
+)
+<<virtual>> CreateClient
+../../../../../../webviewer/34.jpg
+op365c7a74019a.htm
+
+
+
+(
+)
+<<virtual>> GetWindowMenuPopup
+../../../../../../webviewer/34.jpg
+op365c7a7401a0.htm
+
+
+
+(
+)
+)
+CMiniFrameWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7401a8.htm
+class365c7a7401a8.txt
+
+
+(
+<<virtual>> PreCreateWindow
+../../../../../../webviewer/34.jpg
+op365c7a7401bd.htm
+
+
+
+(
+)
+<<virtual>> CalcWindowRect
+../../../../../../webviewer/34.jpg
+op365c7a7401bf.htm
+
+
+
+(
+)
+)
+COleDocIPFrameWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7402b6.htm
+
+
+
+(
+<<virtual>> ~COleDocIPFrameWnd
+../../../../../../webviewer/34.jpg
+op365c7a7402cb.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a7402d4.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7402d5.htm
+
+
+
+(
+)
+<<virtual>> OnRequestPositionChange
+../../../../../../webviewer/34.jpg
+op365c7a7402d7.htm
+
+
+
+(
+)
+<<virtual>> RecalcLayout
+../../../../../../webviewer/34.jpg
+op365c7a7402d9.htm
+
+
+
+(
+)
+<<virtual>> BuildSharedMenu
+../../../../../../webviewer/34.jpg
+op365c7a7402df.htm
+
+
+
+(
+)
+<<virtual>> DestroySharedMenu
+../../../../../../webviewer/34.jpg
+op365c7a7402e0.htm
+
+
+
+(
+)
+)
+COleIPFrameWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a7401c8.htm
+class365c7a7401c8.txt
+
+
+(
+<<virtual>> ~COleIPFrameWnd
+../../../../../../webviewer/34.jpg
+op365c7a7401e5.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a7401e6.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a7401e7.htm
+
+
+
+(
+)
+<<virtual>> OnCreateControlBars
+../../../../../../webviewer/34.jpg
+op365c7a7401e9.htm
+
+
+
+(
+)
+<<virtual>> OnCreateControlBars
+../../../../../../webviewer/34.jpg
+op365c7a7401f0.htm
+
+
+
+(
+)
+<<virtual>> RepositionFrame
+../../../../../../webviewer/34.jpg
+op365c7a7401f3.htm
+
+
+
+(
+)
+<<virtual>> LoadFrame
+../../../../../../webviewer/34.jpg
+op365c7a7401f9.htm
+
+
+
+(
+)
+<<virtual>> RecalcLayout
+../../../../../../webviewer/34.jpg
+op365c7a7401fe.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../../../webviewer/34.jpg
+op365c7a740200.htm
+
+
+
+(
+)
+<<virtual>> OnSetMessageString
+../../../../../../webviewer/34.jpg
+op365c7a740203.htm
+
+
+
+(
+)
+<<virtual>> BuildSharedMenu
+../../../../../../webviewer/34.jpg
+op365c7a740206.htm
+
+
+
+(
+)
+<<virtual>> DestroySharedMenu
+../../../../../../webviewer/34.jpg
+op365c7a740207.htm
+
+
+
+(
+)
+<<virtual>> GetInPlaceMenu
+../../../../../../webviewer/34.jpg
+op365c7a740208.htm
+
+
+
+(
+)
+<<virtual>> OnRequestPositionChange
+../../../../../../webviewer/34.jpg
+op365c7a740216.htm
+
+
+
+(
+)
+)
+CSplitterWnd ( MFC 6.0 )
+../../../../../../webviewer/17.jpg
+class365c7a740220.htm
+class365c7a740220.txt
+
+
+(
+<<virtual, const>> AssertValid
+../../../../../../webviewer/34.jpg
+op365c7a74023f.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../../../webviewer/34.jpg
+op365c7a740240.htm
+
+
+
+(
+)
+<<virtual>> ~CSplitterWnd
+../../../../../../webviewer/34.jpg
+op365c7a740242.htm
+
+
+
+(
+)
+<<virtual>> CreateView
+../../../../../../webviewer/34.jpg
+op365c7a740248.htm
+
+
+
+(
+)
+<<virtual>> RecalcLayout
+../../../../../../webviewer/34.jpg
+op365c7a74024e.htm
+
+
+
+(
+)
+<<virtual>> OnDrawSplitter
+../../../../../../webviewer/34.jpg
+op365c7a74024f.htm
+
+
+
+(
+)
+<<virtual>> OnInvertTracker
+../../../../../../webviewer/34.jpg
+op365c7a74025f.htm
+
+
+
+(
+)
+<<virtual>> CreateScrollBarCtrl
+../../../../../../webviewer/34.jpg
+op365c7a740261.htm
+
+
+
+(
+)
+<<virtual>> DeleteView
+../../../../../../webviewer/34.jpg
+op365c7a740268.htm
+
+
+
+(
+)
+<<virtual>> SplitRow
+../../../../../../webviewer/34.jpg
+op365c7a74026b.htm
+
+
+
+(
+)
+<<virtual>> SplitColumn
+../../../../../../webviewer/34.jpg
+op365c7a74026d.htm
+
+
+
+(
+)
+<<virtual>> DeleteRow
+../../../../../../webviewer/34.jpg
+op365c7a740271.htm
+
+
+
+(
+)
+<<virtual>> DeleteColumn
+../../../../../../webviewer/34.jpg
+op365c7a740273.htm
+
+
+
+(
+)
+<<virtual>> GetActivePane
+../../../../../../webviewer/34.jpg
+op365c7a740275.htm
+
+
+
+(
+)
+<<virtual>> SetActivePane
+../../../../../../webviewer/34.jpg
+op365c7a74027b.htm
+
+
+
+(
+)
+<<virtual>> CanActivateNext
+../../../../../../webviewer/34.jpg
+op365c7a74027f.htm
+
+
+
+(
+)
+<<virtual>> ActivateNext
+../../../../../../webviewer/34.jpg
+op365c7a740281.htm
+
+
+
+(
+)
+<<virtual>> DoKeyboardSplit
+../../../../../../webviewer/34.jpg
+op365c7a740285.htm
+
+
+
+(
+)
+<<virtual>> DoScroll
+../../../../../../webviewer/34.jpg
+op365c7a740286.htm
+
+
+
+(
+)
+<<virtual>> DoScrollBy
+../../../../../../webviewer/34.jpg
+op365c7a74028a.htm
+
+
+
+(
+)
+<<virtual, const>> HitTest
+../../../../../../webviewer/34.jpg
+op365c7a74028f.htm
+
+
+
+(
+)
+<<virtual, const>> GetInsideRect
+../../../../../../webviewer/34.jpg
+op365c7a740291.htm
+
+
+
+(
+)
+<<virtual>> GetHitRect
+../../../../../../webviewer/34.jpg
+op365c7a740293.htm
+
+
+
+(
+)
+<<virtual>> TrackRowSize
+../../../../../../webviewer/34.jpg
+op365c7a740299.htm
+
+
+
+(
+)
+<<virtual>> TrackColumnSize
+../../../../../../webviewer/34.jpg
+op365c7a74029c.htm
+
+
+
+(
+)
+<<virtual>> DrawAllSplitBars
+../../../../../../webviewer/34.jpg
+op365c7a74029f.htm
+
+
+
+(
+)
+<<virtual>> SetSplitCursor
+../../../../../../webviewer/34.jpg
+op365c7a7402a5.htm
+
+
+
+(
+)
+<<virtual>> StartTracking
+../../../../../../webviewer/34.jpg
+op365c7a7402a7.htm
+
+
+
+(
+)
+<<virtual>> StopTracking
+../../../../../../webviewer/34.jpg
+op365c7a7402a9.htm
+
+
+
+(
+)
+<<virtual>> OnCommand
+../../../../../../webviewer/34.jpg
+op365c7a7402ac.htm
+
+
+
+(
+)
+<<virtual>> OnNotify
+../../../../../../webviewer/34.jpg
+op365c7a7402af.htm
+
+
+
+(
+)
+)
+Associations
+../../../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

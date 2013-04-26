@@ -1,0 +1,1822 @@
+Main
+../webviewer/26.jpg
+dgm365c7a6603d9.htm
+
+
+
+(
+)
+材料管理用例
+../webviewer/26.jpg
+dgm517a051202cf.htm
+
+
+
+(
+)
+仓库管理用例
+../webviewer/26.jpg
+dgm517a04cb030c.htm
+
+
+
+(
+)
+操作部门信息管理用例
+../webviewer/26.jpg
+dgm517a05880002.htm
+
+
+
+(
+)
+操作人员信息管理用例
+../webviewer/26.jpg
+dgm517a0554006f.htm
+
+
+
+(
+)
+购进支出管理用例
+../webviewer/26.jpg
+dgm517a05f302b3.htm
+
+
+
+(
+)
+数据导出用例
+../webviewer/26.jpg
+dgm517a063d02d4.htm
+
+
+
+(
+)
+系统信息管理用例
+../webviewer/26.jpg
+dgm517a045a0388.htm
+
+
+
+(
+)
+<<Actor>> 仓库管理员
+../webviewer/41.jpg
+class517a03f6033f.htm
+
+
+
+(
+the登录系统 ( 登录系统 )
+../webviewer/82.jpg
+../looseends/role517a03f6033c.htm
+
+
+
+the登出 ( 登出 )
+../webviewer/82.jpg
+../looseends/role517a03f60343.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a06ac0326.htm
+
+
+
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a06dc0308.htm
+
+
+
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f40162.htm
+
+
+
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a07480154.htm
+
+
+
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a600aa.htm
+
+
+
+the系统信息管理 ( 系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083b00eb.htm
+
+
+
+the仓库管理 ( 仓库管理 )
+../webviewer/82.jpg
+../looseends/role517a08f503dc.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a09430351.htm
+
+
+
+the仓库管理 ( 仓库管理 )
+../webviewer/82.jpg
+../looseends/role517a09460370.htm
+
+
+
+the系统设置 ( 系统设置 )
+../webviewer/82.jpg
+../looseends/role517a094d01ab.htm
+
+
+
+the系统信息管理 ( 系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a0952011f.htm
+
+
+
+)
+部门信息查询
+../webviewer/42.jpg
+uc517a059900fa.htm
+
+
+
+(
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a0750024c.htm
+
+
+
+)
+(
+)
+部门信息导出
+../webviewer/42.jpg
+uc517a059900f6.htm
+
+
+
+(
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a075600b6.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c10176.htm
+
+
+
+)
+(
+)
+部门信息删除
+../webviewer/42.jpg
+uc517a0599010d.htm
+
+
+
+(
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a07540123.htm
+
+
+
+)
+(
+)
+部门信息修改
+../webviewer/42.jpg
+uc517a05990103.htm
+
+
+
+(
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a074d03b4.htm
+
+
+
+)
+(
+)
+部门信息增加
+../webviewer/42.jpg
+uc517a059900ec.htm
+
+
+
+(
+the操作部门管理 ( 操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a074a02f8.htm
+
+
+
+)
+(
+)
+材料查询
+../webviewer/42.jpg
+uc517a051b003f.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07ad01d1.htm
+
+
+
+)
+(
+)
+材料导出
+../webviewer/42.jpg
+uc517a051b007e.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07b20144.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33bf0222.htm
+
+
+
+)
+(
+)
+材料管理
+../webviewer/42.jpg
+uc517a04d6032a.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a07a600a8.htm
+
+
+
+the材料增加 ( 材料增加 )
+../webviewer/82.jpg
+../looseends/role517a07a702bd.htm
+
+
+
+the材料修改 ( 材料修改 )
+../webviewer/82.jpg
+../looseends/role517a07a9027d.htm
+
+
+
+the材料删除 ( 材料删除 )
+../webviewer/82.jpg
+../looseends/role517a07ab02cd.htm
+
+
+
+the材料查询 ( 材料查询 )
+../webviewer/82.jpg
+../looseends/role517a07ad01d3.htm
+
+
+
+the材料统计 ( 材料统计 )
+../webviewer/82.jpg
+../looseends/role517a07af033a.htm
+
+
+
+the材料导出 ( 材料导出 )
+../webviewer/82.jpg
+../looseends/role517a07b20146.htm
+
+
+
+)
+(
+)
+材料删除
+../webviewer/42.jpg
+uc517a051b005c.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07ab02cb.htm
+
+
+
+)
+(
+)
+材料统计
+../webviewer/42.jpg
+uc517a051b0076.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07af0338.htm
+
+
+
+)
+(
+)
+材料修改
+../webviewer/42.jpg
+uc517a051b0066.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a9026d.htm
+
+
+
+)
+(
+)
+材料增加
+../webviewer/42.jpg
+uc517a051b0042.htm
+
+
+
+(
+the材料管理 ( 材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a702bb.htm
+
+
+
+)
+(
+)
+仓库管理
+../webviewer/42.jpg
+uc517a03f60333.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a08f503da.htm
+
+
+
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a0946036e.htm
+
+
+
+)
+(
+)
+仓库信息
+../webviewer/42.jpg
+uc517a0466038d.htm
+
+
+
+(
+the系统信息管理 ( 系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083c03c7.htm
+
+
+
+)
+(
+)
+操作部门管理
+../webviewer/42.jpg
+uc517a04d60322.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a07480152.htm
+
+
+
+the部门信息增加 ( 部门信息增加 )
+../webviewer/82.jpg
+../looseends/role517a074a02fa.htm
+
+
+
+the部门信息修改 ( 部门信息修改 )
+../webviewer/82.jpg
+../looseends/role517a074d03b6.htm
+
+
+
+the部门信息查询 ( 部门信息查询 )
+../webviewer/82.jpg
+../looseends/role517a0750024e.htm
+
+
+
+the部门信息删除 ( 部门信息删除 )
+../webviewer/82.jpg
+../looseends/role517a07540125.htm
+
+
+
+the部门信息导出 ( 部门信息导出 )
+../webviewer/82.jpg
+../looseends/role517a075600c6.htm
+
+
+
+)
+(
+)
+操作人员管理
+../webviewer/42.jpg
+uc517a04d6031e.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06f40160.htm
+
+
+
+the人员信息增加 ( 人员信息增加 )
+../webviewer/82.jpg
+../looseends/role517a06f60308.htm
+
+
+
+the人员信息删除 ( 人员信息删除 )
+../webviewer/82.jpg
+../looseends/role517a06f802e9.htm
+
+
+
+the人员信息查询 ( 人员信息查询 )
+../webviewer/82.jpg
+../looseends/role517a06fb0318.htm
+
+
+
+the人员信息导出 ( 人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a06ff00f5.htm
+
+
+
+the人员信息导出 ( 人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a07030191.htm
+
+
+
+the人员信息修改 ( 人员信息修改 )
+../webviewer/82.jpg
+../looseends/role517a07050172.htm
+
+
+
+)
+(
+)
+登出
+../webviewer/42.jpg
+uc517a03f60346.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a03f60342.htm
+
+
+
+)
+(
+)
+登录系统
+../webviewer/42.jpg
+uc517a03f6032c.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a03f6033b.htm
+
+
+
+)
+(
+)
+公司信息
+../webviewer/42.jpg
+uc517a04660395.htm
+
+
+
+(
+the系统信息管理 ( 系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083e0250.htm
+
+
+
+)
+(
+)
+购进支出查询
+../webviewer/42.jpg
+uc517a05fe0353.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0356.htm
+
+
+
+)
+(
+购进支出查询
+../webviewer/22.jpg
+dgm517a1ea60322.htm
+
+
+
+(
+)
+)
+购进支出导出
+../webviewer/42.jpg
+uc517a05fe0366.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe036a.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c300ba.htm
+
+
+
+)
+(
+)
+购进支出管理
+../webviewer/42.jpg
+uc517a05fe0338.htm
+
+
+
+(
+the购进支出增加 ( 购进支出增加 )
+../webviewer/82.jpg
+../looseends/role517a05fe033d.htm
+
+
+
+the购进支出修改 ( 购进支出修改 )
+../webviewer/82.jpg
+../looseends/role517a05fe034e.htm
+
+
+
+the购进支出查询 ( 购进支出查询 )
+../webviewer/82.jpg
+../looseends/role517a05fe0357.htm
+
+
+
+the购进支出删除 ( 购进支出删除 )
+../webviewer/82.jpg
+../looseends/role517a05fe0375.htm
+
+
+
+the购进支出导出 ( 购进支出导出 )
+../webviewer/82.jpg
+../looseends/role517a05fe036b.htm
+
+
+
+the购进支出统计 ( 购进支出统计 )
+../webviewer/82.jpg
+../looseends/role517a05fe0361.htm
+
+
+
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06dc0306.htm
+
+
+
+)
+(
+)
+购进支出删除
+../webviewer/42.jpg
+uc517a05fe0370.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0374.htm
+
+
+
+)
+(
+购进支持删除
+../webviewer/22.jpg
+dgm517a1fc301f1.htm
+
+
+
+(
+)
+)
+购进支出统计
+../webviewer/42.jpg
+uc517a05fe035c.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0360.htm
+
+
+
+)
+(
+)
+购进支出修改
+../webviewer/42.jpg
+uc517a05fe0349.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe034d.htm
+
+
+
+)
+(
+)
+购进支出增加
+../webviewer/42.jpg
+uc517a05fe0340.htm
+
+
+
+(
+the购进支出管理 ( 购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe033c.htm
+
+
+
+)
+(
+)
+管理员信息
+../webviewer/42.jpg
+uc517a0466039d.htm
+
+
+
+(
+the系统信息管理 ( 系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a0840006c.htm
+
+
+
+)
+(
+)
+人员信息查询
+../webviewer/42.jpg
+uc517a055c00d7.htm
+
+
+
+(
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06fb0316.htm
+
+
+
+)
+(
+)
+人员信息导出
+../webviewer/42.jpg
+uc517a055c00e4.htm
+
+
+
+(
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06ff00f3.htm
+
+
+
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a0703018f.htm
+
+
+
+the数据导出 ( 数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c50147.htm
+
+
+
+)
+(
+)
+人员信息删除
+../webviewer/42.jpg
+uc517a055c00ee.htm
+
+
+
+(
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f802e7.htm
+
+
+
+)
+(
+)
+人员信息修改
+../webviewer/42.jpg
+uc517a055c00da.htm
+
+
+
+(
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a07050170.htm
+
+
+
+)
+(
+)
+人员信息增加
+../webviewer/42.jpg
+uc517a055c00cc.htm
+
+
+
+(
+the操作人员管理 ( 操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f60306.htm
+
+
+
+)
+(
+)
+数据导出
+../webviewer/42.jpg
+uc517a03f60337.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06ac0324.htm
+
+
+
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a0943034f.htm
+
+
+
+the材料导出 ( 材料导出 )
+../webviewer/82.jpg
+../looseends/role517a33bf0251.htm
+
+
+
+the部门信息导出 ( 部门信息导出 )
+../webviewer/82.jpg
+../looseends/role517a33c10178.htm
+
+
+
+the购进支出导出 ( 购进支出导出 )
+../webviewer/82.jpg
+../looseends/role517a33c300ca.htm
+
+
+
+the人员信息导出 ( 人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a33c50149.htm
+
+
+
+)
+(
+)
+系统设置
+../webviewer/42.jpg
+uc517a03f6032f.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a094d01a9.htm
+
+
+
+)
+(
+)
+系统信息管理
+../webviewer/42.jpg
+uc517a03f60328.htm
+
+
+
+(
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a083b00e9.htm
+
+
+
+the仓库信息 ( 仓库信息 )
+../webviewer/82.jpg
+../looseends/role517a083c03c9.htm
+
+
+
+the公司信息 ( 公司信息 )
+../webviewer/82.jpg
+../looseends/role517a083e0252.htm
+
+
+
+the管理员信息 ( 管理员信息 )
+../webviewer/82.jpg
+../looseends/role517a0840006e.htm
+
+
+
+the仓库管理员 ( 仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a0952011d.htm
+
+
+
+)
+(
+)
+Associations
+../webviewer/assoccat.gif
+
+
+
+
+(
+Association (the登录系统:登录系统) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a03f6033a.htm
+
+
+
+(
+登录系统 ( the登录系统 )
+../webviewer/82.jpg
+../looseends/role517a03f6033b.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a03f6033c.htm
+
+
+
+)
+Association (the登出:登出) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a03f60341.htm
+
+
+
+(
+登出 ( the登出 )
+../webviewer/82.jpg
+../looseends/role517a03f60342.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a03f60343.htm
+
+
+
+)
+<<include>> (the购进支出增加:购进支出增加) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe033b.htm
+
+
+
+(
+购进支出增加 ( the购进支出增加 )
+../webviewer/82.jpg
+../looseends/role517a05fe033c.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe033d.htm
+
+
+
+)
+<<include>> (the购进支出修改:购进支出修改) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe034c.htm
+
+
+
+(
+购进支出修改 ( the购进支出修改 )
+../webviewer/82.jpg
+../looseends/role517a05fe034d.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe034e.htm
+
+
+
+)
+<<include>> (the购进支出查询:购进支出查询) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe0355.htm
+
+
+
+(
+购进支出查询 ( the购进支出查询 )
+../webviewer/82.jpg
+../looseends/role517a05fe0356.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0357.htm
+
+
+
+)
+<<include>> (the购进支出删除:购进支出删除) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe0373.htm
+
+
+
+(
+购进支出删除 ( the购进支出删除 )
+../webviewer/82.jpg
+../looseends/role517a05fe0374.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0375.htm
+
+
+
+)
+<<include>> (the购进支出导出:购进支出导出) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe0369.htm
+
+
+
+(
+购进支出导出 ( the购进支出导出 )
+../webviewer/82.jpg
+../looseends/role517a05fe036a.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe036b.htm
+
+
+
+)
+<<include>> (the购进支出统计:购进支出统计) (the购进支出管理:购进支出管理)
+../webviewer/81.jpg
+../looseends/ass517a05fe035f.htm
+
+
+
+(
+购进支出统计 ( the购进支出统计 )
+../webviewer/82.jpg
+../looseends/role517a05fe0360.htm
+
+
+
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a05fe0361.htm
+
+
+
+)
+Association (the数据导出:数据导出) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a06ac01ec.htm
+
+
+
+(
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a06ac0324.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06ac0326.htm
+
+
+
+)
+Association (the购进支出管理:购进支出管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a06dc0150.htm
+
+
+
+(
+购进支出管理 ( the购进支出管理 )
+../webviewer/82.jpg
+../looseends/role517a06dc0306.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06dc0308.htm
+
+
+
+)
+Association (the操作人员管理:操作人员管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a06f40056.htm
+
+
+
+(
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f40160.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a06f40162.htm
+
+
+
+)
+<<include>> (the人员信息增加:人员信息增加) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a06f60112.htm
+
+
+
+(
+人员信息增加 ( the人员信息增加 )
+../webviewer/82.jpg
+../looseends/role517a06f60306.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f60308.htm
+
+
+
+)
+<<include>> (the人员信息删除:人员信息删除) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a06f800a5.htm
+
+
+
+(
+人员信息删除 ( the人员信息删除 )
+../webviewer/82.jpg
+../looseends/role517a06f802e7.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06f802e9.htm
+
+
+
+)
+<<include>> (the人员信息查询:人员信息查询) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a06fb019f.htm
+
+
+
+(
+人员信息查询 ( the人员信息查询 )
+../webviewer/82.jpg
+../looseends/role517a06fb0316.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06fb0318.htm
+
+
+
+)
+Association (the人员信息导出:人员信息导出) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a06fd02c8.htm
+
+
+
+(
+人员信息导出 ( the人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a06ff00f3.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a06ff00f5.htm
+
+
+
+)
+<<include>> (the人员信息导出:人员信息导出) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a07020354.htm
+
+
+
+(
+人员信息导出 ( the人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a0703018f.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a07030191.htm
+
+
+
+)
+<<include>> (the人员信息修改:人员信息修改) (the操作人员管理:操作人员管理)
+../webviewer/81.jpg
+../looseends/ass517a07040316.htm
+
+
+
+(
+人员信息修改 ( the人员信息修改 )
+../webviewer/82.jpg
+../looseends/role517a07050170.htm
+
+
+
+操作人员管理 ( the操作人员管理 )
+../webviewer/82.jpg
+../looseends/role517a07050172.htm
+
+
+
+)
+Association (the操作部门管理:操作部门管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a07480058.htm
+
+
+
+(
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a07480152.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a07480154.htm
+
+
+
+)
+<<include>> (the部门信息增加:部门信息增加) (the操作部门管理:操作部门管理)
+../webviewer/81.jpg
+../looseends/ass517a074a01df.htm
+
+
+
+(
+部门信息增加 ( the部门信息增加 )
+../webviewer/82.jpg
+../looseends/role517a074a02f8.htm
+
+
+
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a074a02fa.htm
+
+
+
+)
+<<include>> (the部门信息修改:部门信息修改) (the操作部门管理:操作部门管理)
+../webviewer/81.jpg
+../looseends/ass517a074c0123.htm
+
+
+
+(
+部门信息修改 ( the部门信息修改 )
+../webviewer/82.jpg
+../looseends/role517a074d03b4.htm
+
+
+
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a074d03b6.htm
+
+
+
+)
+<<include>> (the部门信息查询:部门信息查询) (the操作部门管理:操作部门管理)
+../webviewer/81.jpg
+../looseends/ass517a074f02e8.htm
+
+
+
+(
+部门信息查询 ( the部门信息查询 )
+../webviewer/82.jpg
+../looseends/role517a0750024c.htm
+
+
+
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a0750024e.htm
+
+
+
+)
+<<include>> (the部门信息删除:部门信息删除) (the操作部门管理:操作部门管理)
+../webviewer/81.jpg
+../looseends/ass517a0752020e.htm
+
+
+
+(
+部门信息删除 ( the部门信息删除 )
+../webviewer/82.jpg
+../looseends/role517a07540123.htm
+
+
+
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a07540125.htm
+
+
+
+)
+<<include>> (the部门信息导出:部门信息导出) (the操作部门管理:操作部门管理)
+../webviewer/81.jpg
+../looseends/ass517a075502d9.htm
+
+
+
+(
+部门信息导出 ( the部门信息导出 )
+../webviewer/82.jpg
+../looseends/role517a075600b6.htm
+
+
+
+操作部门管理 ( the操作部门管理 )
+../webviewer/82.jpg
+../looseends/role517a075600c6.htm
+
+
+
+)
+Association (the材料管理:材料管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a07a50386.htm
+
+
+
+(
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a600a8.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a07a600aa.htm
+
+
+
+)
+<<include>> (the材料增加:材料增加) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07a700c7.htm
+
+
+
+(
+材料增加 ( the材料增加 )
+../webviewer/82.jpg
+../looseends/role517a07a702bb.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a702bd.htm
+
+
+
+)
+<<include>> (the材料修改:材料修改) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07a900a8.htm
+
+
+
+(
+材料修改 ( the材料修改 )
+../webviewer/82.jpg
+../looseends/role517a07a9026d.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07a9027d.htm
+
+
+
+)
+<<include>> (the材料删除:材料删除) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07ab0089.htm
+
+
+
+(
+材料删除 ( the材料删除 )
+../webviewer/82.jpg
+../looseends/role517a07ab02cb.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07ab02cd.htm
+
+
+
+)
+<<include>> (the材料查询:材料查询) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07ad00a8.htm
+
+
+
+(
+材料查询 ( the材料查询 )
+../webviewer/82.jpg
+../looseends/role517a07ad01d1.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07ad01d3.htm
+
+
+
+)
+<<include>> (the材料统计:材料统计) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07af00e7.htm
+
+
+
+(
+材料统计 ( the材料统计 )
+../webviewer/82.jpg
+../looseends/role517a07af0338.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07af033a.htm
+
+
+
+)
+<<include>> (the材料导出:材料导出) (the材料管理:材料管理)
+../webviewer/81.jpg
+../looseends/ass517a07b102bb.htm
+
+
+
+(
+材料导出 ( the材料导出 )
+../webviewer/82.jpg
+../looseends/role517a07b20144.htm
+
+
+
+材料管理 ( the材料管理 )
+../webviewer/82.jpg
+../looseends/role517a07b20146.htm
+
+
+
+)
+Association (the系统信息管理:系统信息管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a083a03b8.htm
+
+
+
+(
+系统信息管理 ( the系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083b00e9.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a083b00eb.htm
+
+
+
+)
+<<include>> (the仓库信息:仓库信息) (the系统信息管理:系统信息管理)
+../webviewer/81.jpg
+../looseends/ass517a083c0221.htm
+
+
+
+(
+仓库信息 ( the仓库信息 )
+../webviewer/82.jpg
+../looseends/role517a083c03c7.htm
+
+
+
+系统信息管理 ( the系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083c03c9.htm
+
+
+
+)
+<<include>> (the公司信息:公司信息) (the系统信息管理:系统信息管理)
+../webviewer/81.jpg
+../looseends/ass517a083e0176.htm
+
+
+
+(
+公司信息 ( the公司信息 )
+../webviewer/82.jpg
+../looseends/role517a083e0250.htm
+
+
+
+系统信息管理 ( the系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a083e0252.htm
+
+
+
+)
+<<include>> (the管理员信息:管理员信息) (the系统信息管理:系统信息管理)
+../webviewer/81.jpg
+../looseends/ass517a083f031c.htm
+
+
+
+(
+管理员信息 ( the管理员信息 )
+../webviewer/82.jpg
+../looseends/role517a0840006c.htm
+
+
+
+系统信息管理 ( the系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a0840006e.htm
+
+
+
+)
+Association (the仓库管理:仓库管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a08f502a2.htm
+
+
+
+(
+仓库管理 ( the仓库管理 )
+../webviewer/82.jpg
+../looseends/role517a08f503da.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a08f503dc.htm
+
+
+
+)
+Association (the数据导出:数据导出) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a094300fd.htm
+
+
+
+(
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a0943034f.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a09430351.htm
+
+
+
+)
+Association (the仓库管理:仓库管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a0946011d.htm
+
+
+
+(
+仓库管理 ( the仓库管理 )
+../webviewer/82.jpg
+../looseends/role517a0946036e.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a09460370.htm
+
+
+
+)
+Association (the系统设置:系统设置) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a094c0246.htm
+
+
+
+(
+系统设置 ( the系统设置 )
+../webviewer/82.jpg
+../looseends/role517a094d01a9.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a094d01ab.htm
+
+
+
+)
+Association (the系统信息管理:系统信息管理) (the仓库管理员:仓库管理员)
+../webviewer/81.jpg
+../looseends/ass517a095003bd.htm
+
+
+
+(
+系统信息管理 ( the系统信息管理 )
+../webviewer/82.jpg
+../looseends/role517a0952011d.htm
+
+
+
+仓库管理员 ( the仓库管理员 )
+../webviewer/82.jpg
+../looseends/role517a0952011f.htm
+
+
+
+)
+<<include>> (the材料导出:材料导出) (the数据导出:数据导出)
+../webviewer/81.jpg
+../looseends/ass517a33bf0157.htm
+
+
+
+(
+材料导出 ( the材料导出 )
+../webviewer/82.jpg
+../looseends/role517a33bf0222.htm
+
+
+
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33bf0251.htm
+
+
+
+)
+<<include>> (the部门信息导出:部门信息导出) (the数据导出:数据导出)
+../webviewer/81.jpg
+../looseends/ass517a33c003e7.htm
+
+
+
+(
+部门信息导出 ( the部门信息导出 )
+../webviewer/82.jpg
+../looseends/role517a33c10176.htm
+
+
+
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c10178.htm
+
+
+
+)
+<<include>> (the购进支出导出:购进支出导出) (the数据导出:数据导出)
+../webviewer/81.jpg
+../looseends/ass517a33c2031c.htm
+
+
+
+(
+购进支出导出 ( the购进支出导出 )
+../webviewer/82.jpg
+../looseends/role517a33c300ba.htm
+
+
+
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c300ca.htm
+
+
+
+)
+<<include>> (the人员信息导出:人员信息导出) (the数据导出:数据导出)
+../webviewer/81.jpg
+../looseends/ass517a33c5002e.htm
+
+
+
+(
+人员信息导出 ( the人员信息导出 )
+../webviewer/82.jpg
+../looseends/role517a33c50147.htm
+
+
+
+数据导出 ( the数据导出 )
+../webviewer/82.jpg
+../looseends/role517a33c50149.htm
+
+
+
+)
+)

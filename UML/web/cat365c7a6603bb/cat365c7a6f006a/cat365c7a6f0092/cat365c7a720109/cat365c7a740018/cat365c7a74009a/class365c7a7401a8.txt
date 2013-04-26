@@ -1,0 +1,1 @@
+A CMiniFrameWnd object represents a half-height frame window typically seen around floating toolbars. These mini-frame windows behave like normal frame windows, except that they do not have minimize/maximize buttons or menus and you only have to single-click on the system menu to dismiss them.

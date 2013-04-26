@@ -1,0 +1,1 @@
+A CDaoTableDef object represents the stored definition of a base table or an attached table. Each DAO database object maintains a collection, called TableDefs, that contains all saved DAO tabledef objects.

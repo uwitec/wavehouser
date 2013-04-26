@@ -1,0 +1,1 @@
+The COleObjectFactory class implements the OLE class factory, which creates OLE objects such as servers, automation objects, and documents.

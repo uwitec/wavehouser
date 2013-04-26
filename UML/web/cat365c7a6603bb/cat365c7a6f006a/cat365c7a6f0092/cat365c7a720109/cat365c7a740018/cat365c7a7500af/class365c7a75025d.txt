@@ -1,0 +1,1 @@
+The COleChangeSourceDialog class is used for the OLE Change Source dialog box. Create an object of class COleChangeSourceDialog when you want to call this dialog box. After a COleChangeSourceDialog object has been constructed, you can use the m_cs structure to initialize the values or states of controls in the dialog box. The m_cs structure is of type OLEUICHANGESOURCE.

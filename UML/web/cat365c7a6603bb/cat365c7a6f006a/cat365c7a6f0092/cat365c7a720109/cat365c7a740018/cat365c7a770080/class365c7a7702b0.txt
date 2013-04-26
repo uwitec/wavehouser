@@ -1,0 +1,1 @@
+The CListCtrl class encapsulates the functionality of a 'list view control,' which displays a collection of items each consisting of an icon and a label. List views provide several ways of arranging items and displaying individual items. For example, additional information about each item can be displayed in colums to the right of the icon and label.

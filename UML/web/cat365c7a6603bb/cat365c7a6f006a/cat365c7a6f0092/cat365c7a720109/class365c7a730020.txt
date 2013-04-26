@@ -1,0 +1,1 @@
+The CDocument class provides the basic functionality for user-defined document classes. A document represents the unit of data that the user typically opens with the File Open command and saves with the File Save command.

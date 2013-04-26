@@ -1,0 +1,1 @@
+The CReBarCtrl class encapsulates the functionality of a rebar control, which is a container for a child window. The application in which the rebar control resides assigns the child window contained by the rebar control to the rebar band. The child window is usually another common control. 

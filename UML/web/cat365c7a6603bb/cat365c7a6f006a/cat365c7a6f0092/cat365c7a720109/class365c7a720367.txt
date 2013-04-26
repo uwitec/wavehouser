@@ -1,0 +1,1 @@
+A COleDropTarget object provides the communication mechanism between a window and the OLE libraries. Creating an object of this class allows a window to accept data through the OLE drag-and-drop mechanism.

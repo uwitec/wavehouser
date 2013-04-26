@@ -1,0 +1,5 @@
+The class CGopherLocator gets a gopher 'locator' from a gopher server, determines the locator's type, and makes the locator available to CGopherFileFind. 
+
+An application must get a gopher server's locator before it can retrieve information from that server. Once it has the locator, it must treat the locator as an opaque token.
+
+Each gopher locator has attributes that determine the type of file or server found.

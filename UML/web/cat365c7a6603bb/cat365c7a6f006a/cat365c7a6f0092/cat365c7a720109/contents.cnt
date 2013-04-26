@@ -1,0 +1,3006 @@
+Window Support
+../../../../webviewer/16.jpg
+cat365c7a740018/cat365c7a740018.htm
+
+cat365c7a740018/contents.cnt
+cat365c7a740018/
+Main
+../../../../webviewer/18.jpg
+dgm365c8f4d00b1.htm
+
+
+
+(
+)
+Overview
+../../../../webviewer/18.jpg
+dgm365ca71f0345.htm
+
+
+
+(
+)
+CCmdTarget ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a72010f.htm
+class365c7a72010f.txt
+
+
+(
+<<virtual>> ~CCmdTarget
+../../../../webviewer/34.jpg
+op365c7a720123.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a720124.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a720126.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../webviewer/34.jpg
+op365c7a720127.htm
+
+
+
+(
+)
+<<virtual>> OnFinalRelease
+../../../../webviewer/34.jpg
+op365c7a72012f.htm
+
+
+
+(
+)
+<<virtual>> IsInvokeAllowed
+../../../../webviewer/34.jpg
+op365c7a720130.htm
+
+
+
+(
+)
+<<virtual>> GetDispatchIID
+../../../../webviewer/34.jpg
+op365c7a720132.htm
+
+
+
+(
+)
+<<virtual>> GetTypeInfoCount
+../../../../webviewer/34.jpg
+op365c7a720134.htm
+
+
+
+(
+)
+<<virtual>> GetTypeLibCache
+../../../../webviewer/34.jpg
+op365c7a720137.htm
+
+
+
+(
+)
+<<virtual>> GetTypeLib
+../../../../webviewer/34.jpg
+op365c7a720138.htm
+
+
+
+(
+)
+<<virtual>> OnCreateAggregates
+../../../../webviewer/34.jpg
+op365c7a72013b.htm
+
+
+
+(
+)
+<<virtual>> GetInterfaceHook
+../../../../webviewer/34.jpg
+op365c7a720141.htm
+
+
+
+(
+)
+<<virtual>> GetExtraConnectionPoints
+../../../../webviewer/34.jpg
+op365c7a720143.htm
+
+
+
+(
+)
+<<virtual>> GetConnectionHook
+../../../../webviewer/34.jpg
+op365c7a720145.htm
+
+
+
+(
+)
+)
+CConnectionPoint ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7203da.htm
+class365c7a7203da.txt
+
+
+(
+<<abstract>> GetIID
+../../../../webviewer/34.jpg
+op365c7a73000d.htm
+
+
+
+(
+)
+<<virtual>> GetContainer
+../../../../webviewer/34.jpg
+op365c7a73000e.htm
+
+
+
+(
+)
+<<virtual>> OnAdvise
+../../../../webviewer/34.jpg
+op365c7a73000f.htm
+
+
+
+(
+)
+<<virtual>> GetMaxConnections
+../../../../webviewer/34.jpg
+op365c7a730017.htm
+
+
+
+(
+)
+<<virtual>> QuerySinkInterface
+../../../../webviewer/34.jpg
+op365c7a730018.htm
+
+
+
+(
+)
+)
+CDocItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a73020a.htm
+class365c7a73020a.txt
+
+
+(
+<<virtual>> ~CDocItem
+../../../../webviewer/34.jpg
+op365c7a73021f.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730220.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730228.htm
+
+
+
+(
+)
+<<virtual, const>> IsBlank
+../../../../webviewer/34.jpg
+op365c7a73022a.htm
+
+
+
+(
+)
+<<virtual>> Serialize
+../../../../webviewer/34.jpg
+op365c7a73022b.htm
+
+
+
+(
+)
+)
+CDocObjectServer ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a73039c.htm
+class365c7a73039c.txt
+
+
+(
+<<virtual>> OnApplyViewState
+../../../../webviewer/34.jpg
+op365c7a7303ba.htm
+
+
+
+(
+)
+<<virtual>> OnSaveViewState
+../../../../webviewer/34.jpg
+op365c7a7303bc.htm
+
+
+
+(
+)
+<<virtual>> OnActivateView
+../../../../webviewer/34.jpg
+op365c7a7303be.htm
+
+
+
+(
+)
+<<virtual>> ~CDocObjectServer
+../../../../webviewer/34.jpg
+op365c7a7303c3.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7303c4.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7303c5.htm
+
+
+
+(
+)
+<<virtual>> OnCloseDocument
+../../../../webviewer/34.jpg
+op365c7a7303c7.htm
+
+
+
+(
+)
+)
+CDocObjectServerItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a730373.htm
+class365c7a730373.txt
+
+
+(
+<<virtual>> ~CDocObjectServerItem
+../../../../webviewer/34.jpg
+op365c7a730388.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730389.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730391.htm
+
+
+
+(
+)
+<<virtual>> OnDoVerb
+../../../../webviewer/34.jpg
+op365c7a730393.htm
+
+
+
+(
+)
+<<virtual>> OnHide
+../../../../webviewer/34.jpg
+op365c7a730395.htm
+
+
+
+(
+)
+<<virtual>> OnOpen
+../../../../webviewer/34.jpg
+op365c7a730396.htm
+
+
+
+(
+)
+<<virtual>> OnShow
+../../../../webviewer/34.jpg
+op365c7a73039b.htm
+
+
+
+(
+)
+)
+CDocTemplate ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7201ec.htm
+class365c7a7201ec.txt
+
+
+(
+<<virtual>> ~CDocTemplate
+../../../../webviewer/34.jpg
+op365c7a720200.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a720209.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a72020b.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../webviewer/34.jpg
+op365c7a72020c.htm
+
+
+
+(
+)
+<<virtual>> InitialUpdateFrame
+../../../../webviewer/34.jpg
+op365c7a720216.htm
+
+
+
+(
+)
+<<virtual>> OnIdle
+../../../../webviewer/34.jpg
+op365c7a72021a.htm
+
+
+
+(
+)
+<<abstract>> OpenDocumentFile
+../../../../webviewer/34.jpg
+op365c7a72021b.htm
+
+
+
+(
+)
+<<virtual>> SaveAllModified
+../../../../webviewer/34.jpg
+op365c7a72021f.htm
+
+
+
+(
+)
+<<virtual>> CloseAllDocuments
+../../../../webviewer/34.jpg
+op365c7a720220.htm
+
+
+
+(
+)
+<<virtual>> LoadTemplate
+../../../../webviewer/34.jpg
+op365c7a720222.htm
+
+
+
+(
+)
+<<abstract, const>> GetFirstDocPosition
+../../../../webviewer/34.jpg
+op365c7a720227.htm
+
+
+
+(
+)
+<<abstract, const>> GetNextDoc
+../../../../webviewer/34.jpg
+op365c7a720228.htm
+
+
+
+(
+)
+<<virtual>> AddDocument
+../../../../webviewer/34.jpg
+op365c7a72022a.htm
+
+
+
+(
+)
+<<virtual>> RemoveDocument
+../../../../webviewer/34.jpg
+op365c7a720231.htm
+
+
+
+(
+)
+<<virtual, const>> GetDocString
+../../../../webviewer/34.jpg
+op365c7a720233.htm
+
+
+
+(
+)
+<<virtual>> MatchDocType
+../../../../webviewer/34.jpg
+op365c7a720236.htm
+
+
+
+(
+)
+<<virtual>> CreateNewDocument
+../../../../webviewer/34.jpg
+op365c7a72023c.htm
+
+
+
+(
+)
+<<virtual>> CreateNewFrame
+../../../../webviewer/34.jpg
+op365c7a72023d.htm
+
+
+
+(
+)
+<<abstract>> SetDefaultTitle
+../../../../webviewer/34.jpg
+op365c7a720240.htm
+
+
+
+(
+)
+)
+CDocument ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a730020.htm
+class365c7a730020.txt
+
+
+(
+<<virtual>> ~CDocument
+../../../../webviewer/34.jpg
+op365c7a730035.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730036.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730038.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../webviewer/34.jpg
+op365c7a730039.htm
+
+
+
+(
+)
+<<virtual>> OnFinalRelease
+../../../../webviewer/34.jpg
+op365c7a730042.htm
+
+
+
+(
+)
+<<virtual>> SetTitle
+../../../../webviewer/34.jpg
+op365c7a730043.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultAccelerator
+../../../../webviewer/34.jpg
+op365c7a730045.htm
+
+
+
+(
+)
+<<virtual>> OnIdle
+../../../../webviewer/34.jpg
+op365c7a730048.htm
+
+
+
+(
+)
+<<virtual>> SetPathName
+../../../../webviewer/34.jpg
+op365c7a730049.htm
+
+
+
+(
+)
+<<virtual>> IsModified
+../../../../webviewer/34.jpg
+op365c7a73004c.htm
+
+
+
+(
+)
+<<virtual>> SetModifiedFlag
+../../../../webviewer/34.jpg
+op365c7a730052.htm
+
+
+
+(
+)
+<<virtual, const>> GetFirstViewPosition
+../../../../webviewer/34.jpg
+op365c7a730054.htm
+
+
+
+(
+)
+<<virtual, const>> GetNextView
+../../../../webviewer/34.jpg
+op365c7a730055.htm
+
+
+
+(
+)
+<<virtual>> OnChangedViewList
+../../../../webviewer/34.jpg
+op365c7a730057.htm
+
+
+
+(
+)
+<<virtual>> DeleteContents
+../../../../webviewer/34.jpg
+op365c7a73005c.htm
+
+
+
+(
+)
+<<virtual>> OnNewDocument
+../../../../webviewer/34.jpg
+op365c7a73005d.htm
+
+
+
+(
+)
+<<virtual>> OnOpenDocument
+../../../../webviewer/34.jpg
+op365c7a73005e.htm
+
+
+
+(
+)
+<<virtual>> OnSaveDocument
+../../../../webviewer/34.jpg
+op365c7a730060.htm
+
+
+
+(
+)
+<<virtual>> OnCloseDocument
+../../../../webviewer/34.jpg
+op365c7a730067.htm
+
+
+
+(
+)
+<<virtual>> ReportSaveLoadException
+../../../../webviewer/34.jpg
+op365c7a730068.htm
+
+
+
+(
+)
+<<virtual>> GetFile
+../../../../webviewer/34.jpg
+op365c7a73006d.htm
+
+
+
+(
+)
+<<virtual>> ReleaseFile
+../../../../webviewer/34.jpg
+op365c7a730073.htm
+
+
+
+(
+)
+<<virtual>> CanCloseFrame
+../../../../webviewer/34.jpg
+op365c7a730076.htm
+
+
+
+(
+)
+<<virtual>> SaveModified
+../../../../webviewer/34.jpg
+op365c7a73007a.htm
+
+
+
+(
+)
+<<virtual>> PreCloseFrame
+../../../../webviewer/34.jpg
+op365c7a73007b.htm
+
+
+
+(
+)
+<<virtual>> DoSave
+../../../../webviewer/34.jpg
+op365c7a73007d.htm
+
+
+
+(
+)
+<<virtual>> DoFileSave
+../../../../webviewer/34.jpg
+op365c7a730080.htm
+
+
+
+(
+)
+<<virtual>> UpdateFrameCounts
+../../../../webviewer/34.jpg
+op365c7a730084.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultMenu
+../../../../webviewer/34.jpg
+op365c7a730085.htm
+
+
+
+(
+)
+)
+CMultiDocTemplate ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a72028b.htm
+class365c7a72028b.txt
+
+
+(
+<<virtual>> ~CMultiDocTemplate
+../../../../webviewer/34.jpg
+op365c7a7202a0.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7202a1.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7202a3.htm
+
+
+
+(
+)
+<<virtual>> OpenDocumentFile
+../../../../webviewer/34.jpg
+op365c7a7202a9.htm
+
+
+
+(
+)
+<<virtual>> LoadTemplate
+../../../../webviewer/34.jpg
+op365c7a7202ac.htm
+
+
+
+(
+)
+<<virtual, const>> GetFirstDocPosition
+../../../../webviewer/34.jpg
+op365c7a7202ad.htm
+
+
+
+(
+)
+<<virtual, const>> GetNextDoc
+../../../../webviewer/34.jpg
+op365c7a7202ae.htm
+
+
+
+(
+)
+<<virtual>> AddDocument
+../../../../webviewer/34.jpg
+op365c7a7202b4.htm
+
+
+
+(
+)
+<<virtual>> RemoveDocument
+../../../../webviewer/34.jpg
+op365c7a7202b6.htm
+
+
+
+(
+)
+<<virtual>> SetDefaultTitle
+../../../../webviewer/34.jpg
+op365c7a7202b8.htm
+
+
+
+(
+)
+)
+COleClientItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a73023c.htm
+class365c7a73023c.txt
+
+
+(
+<<virtual>> Release
+../../../../webviewer/34.jpg
+op365c7a73025a.htm
+
+
+
+(
+)
+<<virtual>> ~COleClientItem
+../../../../webviewer/34.jpg
+op365c7a73025c.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a73025d.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a73025e.htm
+
+
+
+(
+)
+<<virtual>> Serialize
+../../../../webviewer/34.jpg
+op365c7a730265.htm
+
+
+
+(
+)
+<<virtual>> SetDrawAspect
+../../../../webviewer/34.jpg
+op365c7a730267.htm
+
+
+
+(
+)
+<<virtual>> DoVerb
+../../../../webviewer/34.jpg
+op365c7a730269.htm
+
+
+
+(
+)
+<<virtual>> OnGetClipboardData
+../../../../webviewer/34.jpg
+op365c7a73026f.htm
+
+
+
+(
+)
+<<virtual>> ConvertTo
+../../../../webviewer/34.jpg
+op365c7a730273.htm
+
+
+
+(
+)
+<<virtual>> ActivateAs
+../../../../webviewer/34.jpg
+op365c7a730275.htm
+
+
+
+(
+)
+<<virtual>> OnChange
+../../../../webviewer/34.jpg
+op365c7a73027b.htm
+
+
+
+(
+)
+<<virtual>> OnGetItemPosition
+../../../../webviewer/34.jpg
+op365c7a73027e.htm
+
+
+
+(
+)
+<<virtual>> OnScrollBy
+../../../../webviewer/34.jpg
+op365c7a730280.htm
+
+
+
+(
+)
+<<virtual>> OnDiscardUndoState
+../../../../webviewer/34.jpg
+op365c7a730283.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivateAndUndo
+../../../../webviewer/34.jpg
+op365c7a730284.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivateUI
+../../../../webviewer/34.jpg
+op365c7a730285.htm
+
+
+
+(
+)
+<<virtual>> OnShowItem
+../../../../webviewer/34.jpg
+op365c7a730287.htm
+
+
+
+(
+)
+<<virtual>> OnGetClipRect
+../../../../webviewer/34.jpg
+op365c7a73028d.htm
+
+
+
+(
+)
+<<virtual>> CanActivate
+../../../../webviewer/34.jpg
+op365c7a73028f.htm
+
+
+
+(
+)
+<<virtual>> OnActivate
+../../../../webviewer/34.jpg
+op365c7a730290.htm
+
+
+
+(
+)
+<<virtual>> OnActivateUI
+../../../../webviewer/34.jpg
+op365c7a730297.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivate
+../../../../webviewer/34.jpg
+op365c7a730298.htm
+
+
+
+(
+)
+<<virtual>> OnGetWindowContext
+../../../../webviewer/34.jpg
+op365c7a730299.htm
+
+
+
+(
+)
+<<virtual>> OnChangeItemPosition
+../../../../webviewer/34.jpg
+op365c7a7302a1.htm
+
+
+
+(
+)
+<<virtual>> OnInsertMenus
+../../../../webviewer/34.jpg
+op365c7a7302a3.htm
+
+
+
+(
+)
+<<virtual>> OnSetMenu
+../../../../webviewer/34.jpg
+op365c7a7302a6.htm
+
+
+
+(
+)
+<<virtual>> OnRemoveMenus
+../../../../webviewer/34.jpg
+op365c7a7302ac.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateFrameTitle
+../../../../webviewer/34.jpg
+op365c7a7302ae.htm
+
+
+
+(
+)
+<<virtual>> OnShowControlBars
+../../../../webviewer/34.jpg
+op365c7a7302af.htm
+
+
+
+(
+)
+<<virtual, const>> ReportError
+../../../../webviewer/34.jpg
+op365c7a7302b5.htm
+
+
+
+(
+)
+<<virtual>> FreezeLink
+../../../../webviewer/34.jpg
+op365c7a7302b7.htm
+
+
+
+(
+)
+<<virtual>> GetClientSite
+../../../../webviewer/34.jpg
+op365c7a7302b8.htm
+
+
+
+(
+)
+<<virtual>> FinishCreate
+../../../../webviewer/34.jpg
+op365c7a7302b9.htm
+
+
+
+(
+)
+<<virtual>> CheckGeneral
+../../../../webviewer/34.jpg
+op365c7a7302bf.htm
+
+
+
+(
+)
+<<virtual>> OnDataChange
+../../../../webviewer/34.jpg
+op365c7a7302c1.htm
+
+
+
+(
+)
+<<virtual>> GetItemStorage
+../../../../webviewer/34.jpg
+op365c7a7302c4.htm
+
+
+
+(
+)
+<<virtual>> ReadItem
+../../../../webviewer/34.jpg
+op365c7a7302c5.htm
+
+
+
+(
+)
+<<virtual>> WriteItem
+../../../../webviewer/34.jpg
+op365c7a7302ca.htm
+
+
+
+(
+)
+<<virtual>> CommitItem
+../../../../webviewer/34.jpg
+op365c7a7302cc.htm
+
+
+
+(
+)
+)
+COleControlModule ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7201cf.htm
+class365c7a7201cf.txt
+
+
+(
+<<virtual>> InitInstance
+../../../../webviewer/34.jpg
+op365c7a7201e2.htm
+
+
+
+(
+)
+<<virtual>> ExitInstance
+../../../../webviewer/34.jpg
+op365c7a7201eb.htm
+
+
+
+(
+)
+)
+COleDataSource ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720311.htm
+class365c7a720311.txt
+
+
+(
+<<virtual>> ~COleDataSource
+../../../../webviewer/34.jpg
+op365c7a72032b.htm
+
+
+
+(
+)
+<<virtual>> OnRenderGlobalData
+../../../../webviewer/34.jpg
+op365c7a72032c.htm
+
+
+
+(
+)
+<<virtual>> OnRenderFileData
+../../../../webviewer/34.jpg
+op365c7a72032f.htm
+
+
+
+(
+)
+<<virtual>> OnRenderData
+../../../../webviewer/34.jpg
+op365c7a720332.htm
+
+
+
+(
+)
+<<virtual>> OnSetData
+../../../../webviewer/34.jpg
+op365c7a720337.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a72033b.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a72033c.htm
+
+
+
+(
+)
+)
+COleDocObjectItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7303cd.htm
+class365c7a7303cd.txt
+
+
+(
+<<virtual>> Release
+../../../../webviewer/34.jpg
+op365c7a740003.htm
+
+
+
+(
+)
+<<virtual>> ~COleDocObjectItem
+../../../../webviewer/34.jpg
+op365c7a740005.htm
+
+
+
+(
+)
+<<virtual>> OnGetItemPosition
+../../../../webviewer/34.jpg
+op365c7a740006.htm
+
+
+
+(
+)
+<<virtual>> OnInsertMenus
+../../../../webviewer/34.jpg
+op365c7a74000e.htm
+
+
+
+(
+)
+<<virtual>> OnRemoveMenus
+../../../../webviewer/34.jpg
+op365c7a740011.htm
+
+
+
+(
+)
+<<virtual>> GetHelpMenu
+../../../../webviewer/34.jpg
+op365c7a740013.htm
+
+
+
+(
+)
+)
+COleDocument ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a730086.htm
+class365c7a730086.txt
+
+
+(
+<<virtual>> ~COleDocument
+../../../../webviewer/34.jpg
+op365c7a7300a3.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7300a4.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7300ac.htm
+
+
+
+(
+)
+<<virtual>> Serialize
+../../../../webviewer/34.jpg
+op365c7a7300ae.htm
+
+
+
+(
+)
+<<virtual>> GetInPlaceActiveItem
+../../../../webviewer/34.jpg
+op365c7a7300b0.htm
+
+
+
+(
+)
+<<virtual, const>> GetStartPosition
+../../../../webviewer/34.jpg
+op365c7a7300b7.htm
+
+
+
+(
+)
+<<virtual, const>> GetNextItem
+../../../../webviewer/34.jpg
+op365c7a7300b8.htm
+
+
+
+(
+)
+<<virtual>> AddItem
+../../../../webviewer/34.jpg
+op365c7a7300ba.htm
+
+
+
+(
+)
+<<virtual>> RemoveItem
+../../../../webviewer/34.jpg
+op365c7a7300c0.htm
+
+
+
+(
+)
+<<virtual>> UpdateModifiedFlag
+../../../../webviewer/34.jpg
+op365c7a7300c2.htm
+
+
+
+(
+)
+<<virtual>> GetPrimarySelectedItem
+../../../../webviewer/34.jpg
+op365c7a7300c3.htm
+
+
+
+(
+)
+<<virtual>> OnShowViews
+../../../../webviewer/34.jpg
+op365c7a7300c5.htm
+
+
+
+(
+)
+<<virtual>> SetPathName
+../../../../webviewer/34.jpg
+op365c7a7300cb.htm
+
+
+
+(
+)
+<<virtual>> DeleteContents
+../../../../webviewer/34.jpg
+op365c7a7300ce.htm
+
+
+
+(
+)
+<<virtual>> PreCloseFrame
+../../../../webviewer/34.jpg
+op365c7a7300cf.htm
+
+
+
+(
+)
+<<virtual>> SaveModified
+../../../../webviewer/34.jpg
+op365c7a7300d5.htm
+
+
+
+(
+)
+<<virtual>> OnIdle
+../../../../webviewer/34.jpg
+op365c7a7300d6.htm
+
+
+
+(
+)
+<<virtual>> OnNewDocument
+../../../../webviewer/34.jpg
+op365c7a7300d7.htm
+
+
+
+(
+)
+<<virtual>> OnOpenDocument
+../../../../webviewer/34.jpg
+op365c7a7300de.htm
+
+
+
+(
+)
+<<virtual>> OnSaveDocument
+../../../../webviewer/34.jpg
+op365c7a7300e0.htm
+
+
+
+(
+)
+<<virtual>> OnCloseDocument
+../../../../webviewer/34.jpg
+op365c7a7300e2.htm
+
+
+
+(
+)
+<<virtual>> GetMoniker
+../../../../webviewer/34.jpg
+op365c7a7300e3.htm
+
+
+
+(
+)
+<<virtual>> GetContainer
+../../../../webviewer/34.jpg
+op365c7a7300e9.htm
+
+
+
+(
+)
+<<virtual>> LoadFromStorage
+../../../../webviewer/34.jpg
+op365c7a7300ea.htm
+
+
+
+(
+)
+<<virtual>> SaveToStorage
+../../../../webviewer/34.jpg
+op365c7a7300eb.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../webviewer/34.jpg
+op365c7a7300f3.htm
+
+
+
+(
+)
+)
+COleDropSource ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720340.htm
+class365c7a720340.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a720354.htm
+
+
+
+(
+)
+<<virtual>> QueryContinueDrag
+../../../../webviewer/34.jpg
+op365c7a72035d.htm
+
+
+
+(
+)
+<<virtual>> GiveFeedback
+../../../../webviewer/34.jpg
+op365c7a720360.htm
+
+
+
+(
+)
+<<virtual>> OnBeginDrag
+../../../../webviewer/34.jpg
+op365c7a720362.htm
+
+
+
+(
+)
+)
+COleDropTarget ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720367.htm
+class365c7a720367.txt
+
+
+(
+<<virtual>> ~COleDropTarget
+../../../../webviewer/34.jpg
+op365c7a72037c.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a72037d.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a720385.htm
+
+
+
+(
+)
+<<virtual>> Revoke
+../../../../webviewer/34.jpg
+op365c7a720387.htm
+
+
+
+(
+)
+<<virtual>> OnDragEnter
+../../../../webviewer/34.jpg
+op365c7a720388.htm
+
+
+
+(
+)
+<<virtual>> OnDragOver
+../../../../webviewer/34.jpg
+op365c7a72038f.htm
+
+
+
+(
+)
+<<virtual>> OnDrop
+../../../../webviewer/34.jpg
+op365c7a720394.htm
+
+
+
+(
+)
+<<virtual>> OnDropEx
+../../../../webviewer/34.jpg
+op365c7a720399.htm
+
+
+
+(
+)
+<<virtual>> OnDragLeave
+../../../../webviewer/34.jpg
+op365c7a72039f.htm
+
+
+
+(
+)
+<<virtual>> OnDragScroll
+../../../../webviewer/34.jpg
+op365c7a7203a1.htm
+
+
+
+(
+)
+)
+COleLinkingDoc ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7300f8.htm
+class365c7a7300f8.txt
+
+
+(
+<<virtual>> ~COleLinkingDoc
+../../../../webviewer/34.jpg
+op365c7a730111.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730112.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730113.htm
+
+
+
+(
+)
+<<virtual>> OnShowViews
+../../../../webviewer/34.jpg
+op365c7a73011a.htm
+
+
+
+(
+)
+<<virtual>> OnNewDocument
+../../../../webviewer/34.jpg
+op365c7a73011c.htm
+
+
+
+(
+)
+<<virtual>> OnOpenDocument
+../../../../webviewer/34.jpg
+op365c7a73011d.htm
+
+
+
+(
+)
+<<virtual>> OnSaveDocument
+../../../../webviewer/34.jpg
+op365c7a73011f.htm
+
+
+
+(
+)
+<<virtual>> OnCloseDocument
+../../../../webviewer/34.jpg
+op365c7a730125.htm
+
+
+
+(
+)
+<<virtual>> GetMoniker
+../../../../webviewer/34.jpg
+op365c7a730126.htm
+
+
+
+(
+)
+<<virtual>> GetContainer
+../../../../webviewer/34.jpg
+op365c7a730128.htm
+
+
+
+(
+)
+<<virtual>> SaveToStorage
+../../../../webviewer/34.jpg
+op365c7a73012e.htm
+
+
+
+(
+)
+<<virtual>> OnGetLinkedItem
+../../../../webviewer/34.jpg
+op365c7a730130.htm
+
+
+
+(
+)
+<<virtual>> OnFindEmbeddedItem
+../../../../webviewer/34.jpg
+op365c7a730132.htm
+
+
+
+(
+)
+<<virtual>> ReportSaveLoadException
+../../../../webviewer/34.jpg
+op365c7a730134.htm
+
+
+
+(
+)
+<<virtual>> RegisterIfServerAttached
+../../../../webviewer/34.jpg
+op365c7a73013c.htm
+
+
+
+(
+)
+)
+COleMessageFilter ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7203a5.htm
+class365c7a7203a5.txt
+
+
+(
+<<virtual>> ~COleMessageFilter
+../../../../webviewer/34.jpg
+op365c7a7203c2.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7203c3.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7203c4.htm
+
+
+
+(
+)
+<<virtual>> BeginBusyState
+../../../../webviewer/34.jpg
+op365c7a7203c6.htm
+
+
+
+(
+)
+<<virtual>> EndBusyState
+../../../../webviewer/34.jpg
+op365c7a7203cc.htm
+
+
+
+(
+)
+<<virtual>> OnMessagePending
+../../../../webviewer/34.jpg
+op365c7a7203cd.htm
+
+
+
+(
+)
+<<virtual>> IsSignificantMessage
+../../../../webviewer/34.jpg
+op365c7a7203cf.htm
+
+
+
+(
+)
+<<virtual>> OnBusyDialog
+../../../../webviewer/34.jpg
+op365c7a7203d6.htm
+
+
+
+(
+)
+<<virtual>> OnNotRespondingDialog
+../../../../webviewer/34.jpg
+op365c7a7203d8.htm
+
+
+
+(
+)
+)
+COleObjectFactory ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7202be.htm
+class365c7a7202be.txt
+
+
+(
+<<virtual>> ~COleObjectFactory
+../../../../webviewer/34.jpg
+op365c7a7202d2.htm
+
+
+
+(
+)
+<<virtual, const>> IsRegistered
+../../../../webviewer/34.jpg
+op365c7a7202db.htm
+
+
+
+(
+)
+<<virtual>> Register
+../../../../webviewer/34.jpg
+op365c7a7202dc.htm
+
+
+
+(
+)
+<<virtual>> UpdateRegistry
+../../../../webviewer/34.jpg
+op365c7a7202dd.htm
+
+
+
+(
+)
+<<virtual>> OnCreateObject
+../../../../webviewer/34.jpg
+op365c7a7202df.htm
+
+
+
+(
+)
+<<virtual>> VerifyUserLicense
+../../../../webviewer/34.jpg
+op365c7a7202e5.htm
+
+
+
+(
+)
+<<virtual>> GetLicenseKey
+../../../../webviewer/34.jpg
+op365c7a7202e6.htm
+
+
+
+(
+)
+<<virtual>> VerifyLicenseKey
+../../../../webviewer/34.jpg
+op365c7a7202e9.htm
+
+
+
+(
+)
+)
+COleServerDoc ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a730142.htm
+class365c7a730142.txt
+
+
+(
+<<virtual>> ~COleServerDoc
+../../../../webviewer/34.jpg
+op365c7a730157.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730158.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730160.htm
+
+
+
+(
+)
+<<virtual>> DeleteContents
+../../../../webviewer/34.jpg
+op365c7a730162.htm
+
+
+
+(
+)
+<<virtual>> SaveModified
+../../../../webviewer/34.jpg
+op365c7a730163.htm
+
+
+
+(
+)
+<<virtual>> OnSaveDocument
+../../../../webviewer/34.jpg
+op365c7a730164.htm
+
+
+
+(
+)
+<<virtual>> OnCloseDocument
+../../../../webviewer/34.jpg
+op365c7a73016b.htm
+
+
+
+(
+)
+<<virtual>> GetMoniker
+../../../../webviewer/34.jpg
+op365c7a73016c.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivateUI
+../../../../webviewer/34.jpg
+op365c7a73016e.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivate
+../../../../webviewer/34.jpg
+op365c7a730175.htm
+
+
+
+(
+)
+<<virtual>> OnShowControlBars
+../../../../webviewer/34.jpg
+op365c7a730176.htm
+
+
+
+(
+)
+<<virtual>> OnClose
+../../../../webviewer/34.jpg
+op365c7a730179.htm
+
+
+
+(
+)
+<<virtual>> OnSaveEmbedding
+../../../../webviewer/34.jpg
+op365c7a73017e.htm
+
+
+
+(
+)
+<<virtual>> OnGetLinkedItem
+../../../../webviewer/34.jpg
+op365c7a730180.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateDocument
+../../../../webviewer/34.jpg
+op365c7a730182.htm
+
+
+
+(
+)
+<<abstract>> OnGetEmbeddedItem
+../../../../webviewer/34.jpg
+op365c7a730188.htm
+
+
+
+(
+)
+<<virtual>> OnSetHostNames
+../../../../webviewer/34.jpg
+op365c7a730189.htm
+
+
+
+(
+)
+<<virtual>> OnExecOleCmd
+../../../../webviewer/34.jpg
+op365c7a73018c.htm
+
+
+
+(
+)
+<<virtual>> GetDocObjectServer
+../../../../webviewer/34.jpg
+op365c7a730193.htm
+
+
+
+(
+)
+<<virtual>> OnShowDocument
+../../../../webviewer/34.jpg
+op365c7a730195.htm
+
+
+
+(
+)
+<<virtual>> OnSetItemRects
+../../../../webviewer/34.jpg
+op365c7a730197.htm
+
+
+
+(
+)
+<<virtual>> OnReactivateAndUndo
+../../../../webviewer/34.jpg
+op365c7a73019c.htm
+
+
+
+(
+)
+<<virtual>> OnFrameWindowActivate
+../../../../webviewer/34.jpg
+op365c7a73019d.htm
+
+
+
+(
+)
+<<virtual>> OnDocWindowActivate
+../../../../webviewer/34.jpg
+op365c7a73019f.htm
+
+
+
+(
+)
+<<virtual>> CreateInPlaceFrame
+../../../../webviewer/34.jpg
+op365c7a7301a1.htm
+
+
+
+(
+)
+<<virtual>> DestroyInPlaceFrame
+../../../../webviewer/34.jpg
+op365c7a7301a7.htm
+
+
+
+(
+)
+<<virtual>> OnResizeBorder
+../../../../webviewer/34.jpg
+op365c7a7301a9.htm
+
+
+
+(
+)
+<<virtual>> CanCloseFrame
+../../../../webviewer/34.jpg
+op365c7a7301ad.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultMenu
+../../../../webviewer/34.jpg
+op365c7a7301b1.htm
+
+
+
+(
+)
+<<virtual>> GetDefaultAccelerator
+../../../../webviewer/34.jpg
+op365c7a7301b2.htm
+
+
+
+(
+)
+<<virtual>> GetFileTypeString
+../../../../webviewer/34.jpg
+op365c7a7301b3.htm
+
+
+
+(
+)
+<<virtual>> OnNewEmbedding
+../../../../webviewer/34.jpg
+op365c7a7301b5.htm
+
+
+
+(
+)
+<<virtual>> OnOpenEmbedding
+../../../../webviewer/34.jpg
+op365c7a7301bb.htm
+
+
+
+(
+)
+)
+COleServerItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a730307.htm
+class365c7a730307.txt
+
+
+(
+<<virtual>> ~COleServerItem
+../../../../webviewer/34.jpg
+op365c7a730323.htm
+
+
+
+(
+)
+<<virtual>> OnRenderGlobalData
+../../../../webviewer/34.jpg
+op365c7a730324.htm
+
+
+
+(
+)
+<<virtual>> OnRenderFileData
+../../../../webviewer/34.jpg
+op365c7a730327.htm
+
+
+
+(
+)
+<<virtual>> OnRenderData
+../../../../webviewer/34.jpg
+op365c7a73032f.htm
+
+
+
+(
+)
+<<virtual>> OnSetData
+../../../../webviewer/34.jpg
+op365c7a730332.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a730336.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a730337.htm
+
+
+
+(
+)
+<<virtual, const>> IsBlank
+../../../../webviewer/34.jpg
+op365c7a730339.htm
+
+
+
+(
+)
+<<virtual>> OnGetClipboardData
+../../../../webviewer/34.jpg
+op365c7a73033a.htm
+
+
+
+(
+)
+<<abstract>> OnDraw
+../../../../webviewer/34.jpg
+op365c7a73033e.htm
+
+
+
+(
+)
+<<virtual>> OnUpdate
+../../../../webviewer/34.jpg
+op365c7a730343.htm
+
+
+
+(
+)
+<<virtual>> OnDrawEx
+../../../../webviewer/34.jpg
+op365c7a730348.htm
+
+
+
+(
+)
+<<virtual>> OnSetExtent
+../../../../webviewer/34.jpg
+op365c7a73034e.htm
+
+
+
+(
+)
+<<virtual>> OnGetExtent
+../../../../webviewer/34.jpg
+op365c7a730351.htm
+
+
+
+(
+)
+<<virtual>> OnDoVerb
+../../../../webviewer/34.jpg
+op365c7a730354.htm
+
+
+
+(
+)
+<<virtual>> OnSetColorScheme
+../../../../webviewer/34.jpg
+op365c7a730356.htm
+
+
+
+(
+)
+<<virtual>> OnQueryUpdateItems
+../../../../webviewer/34.jpg
+op365c7a730358.htm
+
+
+
+(
+)
+<<virtual>> OnUpdateItems
+../../../../webviewer/34.jpg
+op365c7a730359.htm
+
+
+
+(
+)
+<<virtual>> OnShow
+../../../../webviewer/34.jpg
+op365c7a73035a.htm
+
+
+
+(
+)
+<<virtual>> OnOpen
+../../../../webviewer/34.jpg
+op365c7a73035f.htm
+
+
+
+(
+)
+<<virtual>> OnHide
+../../../../webviewer/34.jpg
+op365c7a730360.htm
+
+
+
+(
+)
+<<virtual>> OnInitFromData
+../../../../webviewer/34.jpg
+op365c7a730361.htm
+
+
+
+(
+)
+<<virtual>> OnFinalRelease
+../../../../webviewer/34.jpg
+op365c7a730364.htm
+
+
+
+(
+)
+<<virtual>> GetMetafileData
+../../../../webviewer/34.jpg
+op365c7a730369.htm
+
+
+
+(
+)
+<<virtual>> OnSaveEmbedding
+../../../../webviewer/34.jpg
+op365c7a73036c.htm
+
+
+
+(
+)
+)
+COleTemplateServer ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7202ef.htm
+class365c7a7202ef.txt
+
+
+(
+<<virtual>> OnCreateObject
+../../../../webviewer/34.jpg
+op365c7a720304.htm
+
+
+
+(
+)
+<<virtual>> OnCmdMsg
+../../../../webviewer/34.jpg
+op365c7a720305.htm
+
+
+
+(
+)
+)
+CRichEditCntrItem ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7302d3.htm
+class365c7a7302d3.txt
+
+
+(
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7302e8.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7302e9.htm
+
+
+
+(
+)
+<<virtual>> GetClientSite
+../../../../webviewer/34.jpg
+op365c7a7302f2.htm
+
+
+
+(
+)
+<<virtual>> ConvertTo
+../../../../webviewer/34.jpg
+op365c7a7302f3.htm
+
+
+
+(
+)
+<<virtual>> ActivateAs
+../../../../webviewer/34.jpg
+op365c7a7302f5.htm
+
+
+
+(
+)
+<<virtual>> SetDrawAspect
+../../../../webviewer/34.jpg
+op365c7a7302fe.htm
+
+
+
+(
+)
+<<virtual>> OnDeactivateUI
+../../../../webviewer/34.jpg
+op365c7a730300.htm
+
+
+
+(
+)
+<<virtual>> CanActivate
+../../../../webviewer/34.jpg
+op365c7a730302.htm
+
+
+
+(
+)
+<<virtual>> OnChangeItemPosition
+../../../../webviewer/34.jpg
+op365c7a730305.htm
+
+
+
+(
+)
+)
+CRichEditDoc ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7301bd.htm
+class365c7a7301bd.txt
+
+
+(
+<<virtual>> GetInPlaceActiveItem
+../../../../webviewer/34.jpg
+op365c7a7301d8.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7301da.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7301db.htm
+
+
+
+(
+)
+<<virtual>> Serialize
+../../../../webviewer/34.jpg
+op365c7a7301e3.htm
+
+
+
+(
+)
+<<virtual>> DeleteContents
+../../../../webviewer/34.jpg
+op365c7a7301e5.htm
+
+
+
+(
+)
+<<abstract, const>> CreateClientItem
+../../../../webviewer/34.jpg
+op365c7a7301e6.htm
+
+
+
+(
+)
+<<virtual, const>> GetView
+../../../../webviewer/34.jpg
+op365c7a7301e8.htm
+
+
+
+(
+)
+<<virtual>> OnGetEmbeddedItem
+../../../../webviewer/34.jpg
+op365c7a7301ec.htm
+
+
+
+(
+)
+<<virtual>> SetPathName
+../../../../webviewer/34.jpg
+op365c7a7301ed.htm
+
+
+
+(
+)
+<<virtual>> SetTitle
+../../../../webviewer/34.jpg
+op365c7a7301f0.htm
+
+
+
+(
+)
+<<virtual>> GetPrimarySelectedItem
+../../../../webviewer/34.jpg
+op365c7a7301f7.htm
+
+
+
+(
+)
+<<virtual, const>> GetStartPosition
+../../../../webviewer/34.jpg
+op365c7a7301f9.htm
+
+
+
+(
+)
+<<virtual>> PreCloseFrame
+../../../../webviewer/34.jpg
+op365c7a7301fa.htm
+
+
+
+(
+)
+<<virtual>> UpdateModifiedFlag
+../../../../webviewer/34.jpg
+op365c7a730201.htm
+
+
+
+(
+)
+<<virtual>> IsModified
+../../../../webviewer/34.jpg
+op365c7a730202.htm
+
+
+
+(
+)
+<<virtual>> SetModifiedFlag
+../../../../webviewer/34.jpg
+op365c7a730203.htm
+
+
+
+(
+)
+)
+CSingleDocTemplate ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a72024f.htm
+class365c7a72024f.txt
+
+
+(
+<<virtual>> ~CSingleDocTemplate
+../../../../webviewer/34.jpg
+op365c7a720264.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a72026d.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a72026f.htm
+
+
+
+(
+)
+<<virtual>> OpenDocumentFile
+../../../../webviewer/34.jpg
+op365c7a720270.htm
+
+
+
+(
+)
+<<virtual, const>> GetFirstDocPosition
+../../../../webviewer/34.jpg
+op365c7a720279.htm
+
+
+
+(
+)
+<<virtual, const>> GetNextDoc
+../../../../webviewer/34.jpg
+op365c7a72027a.htm
+
+
+
+(
+)
+<<virtual>> AddDocument
+../../../../webviewer/34.jpg
+op365c7a72027c.htm
+
+
+
+(
+)
+<<virtual>> RemoveDocument
+../../../../webviewer/34.jpg
+op365c7a720281.htm
+
+
+
+(
+)
+<<virtual>> SetDefaultTitle
+../../../../webviewer/34.jpg
+op365c7a720283.htm
+
+
+
+(
+)
+)
+CWinApp ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720187.htm
+class365c7a720187.txt
+
+
+(
+<<virtual>> ~CWinApp
+../../../../webviewer/34.jpg
+op365c7a72019c.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a72019d.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7201a6.htm
+
+
+
+(
+)
+<<virtual>> WinHelp
+../../../../webviewer/34.jpg
+op365c7a7201a7.htm
+
+
+
+(
+)
+<<virtual>> InitInstance
+../../../../webviewer/34.jpg
+op365c7a7201aa.htm
+
+
+
+(
+)
+<<virtual>> Run
+../../../../webviewer/34.jpg
+op365c7a7201af.htm
+
+
+
+(
+)
+<<virtual>> OnIdle
+../../../../webviewer/34.jpg
+op365c7a7201b0.htm
+
+
+
+(
+)
+<<virtual>> ExitInstance
+../../../../webviewer/34.jpg
+op365c7a7201b2.htm
+
+
+
+(
+)
+<<virtual>> ProcessWndProcException
+../../../../webviewer/34.jpg
+op365c7a7201b3.htm
+
+
+
+(
+)
+<<virtual>> OpenDocumentFile
+../../../../webviewer/34.jpg
+op365c7a7201bb.htm
+
+
+
+(
+)
+<<virtual>> SaveAllModified
+../../../../webviewer/34.jpg
+op365c7a7201bd.htm
+
+
+
+(
+)
+<<virtual>> OnDDECommand
+../../../../webviewer/34.jpg
+op365c7a7201be.htm
+
+
+
+(
+)
+<<virtual>> AddToRecentFileList
+../../../../webviewer/34.jpg
+op365c7a7201c3.htm
+
+
+
+(
+)
+<<virtual>> InitApplication
+../../../../webviewer/34.jpg
+op365c7a7201c5.htm
+
+
+
+(
+)
+<<virtual>> DoMessageBox
+../../../../webviewer/34.jpg
+op365c7a7201c6.htm
+
+
+
+(
+)
+<<virtual>> DoWaitCursor
+../../../../webviewer/34.jpg
+op365c7a7201cd.htm
+
+
+
+(
+)
+)
+CWinThread ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a72014b.htm
+class365c7a72014b.txt
+
+
+(
+<<virtual>> ~CWinThread
+../../../../webviewer/34.jpg
+op365c7a720160.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a720161.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a720163.htm
+
+
+
+(
+)
+<<virtual>> PreTranslateMessage
+../../../../webviewer/34.jpg
+op365c7a720169.htm
+
+
+
+(
+)
+<<virtual>> InitInstance
+../../../../webviewer/34.jpg
+op365c7a72016b.htm
+
+
+
+(
+)
+<<virtual>> Run
+../../../../webviewer/34.jpg
+op365c7a72016c.htm
+
+
+
+(
+)
+<<virtual>> PumpMessage
+../../../../webviewer/34.jpg
+op365c7a72016d.htm
+
+
+
+(
+)
+<<virtual>> OnIdle
+../../../../webviewer/34.jpg
+op365c7a720173.htm
+
+
+
+(
+)
+<<virtual>> IsIdleMessage
+../../../../webviewer/34.jpg
+op365c7a720175.htm
+
+
+
+(
+)
+<<virtual>> ExitInstance
+../../../../webviewer/34.jpg
+op365c7a720177.htm
+
+
+
+(
+)
+<<virtual>> ProcessWndProcException
+../../../../webviewer/34.jpg
+op365c7a720178.htm
+
+
+
+(
+)
+<<virtual>> ProcessMessageFilter
+../../../../webviewer/34.jpg
+op365c7a72017f.htm
+
+
+
+(
+)
+<<virtual>> GetMainWnd
+../../../../webviewer/34.jpg
+op365c7a720182.htm
+
+
+
+(
+)
+<<virtual>> Delete
+../../../../webviewer/34.jpg
+op365c7a720183.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

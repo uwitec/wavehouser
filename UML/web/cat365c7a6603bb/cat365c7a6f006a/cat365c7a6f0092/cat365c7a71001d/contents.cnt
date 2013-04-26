@@ -1,0 +1,1456 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c91730301.htm
+
+
+
+(
+)
+CAsyncMonikerFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a710167.htm
+class365c7a710167.txt
+
+
+(
+<<virtual>> ~CAsyncMonikerFile
+../../../../webviewer/34.jpg
+op365c7a71018f.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710199.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a71019a.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a71019c.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a71019d.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101a5.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101a9.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101ae.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101b1.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101ba.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101c2.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101cb.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7101d5.htm
+
+
+
+(
+)
+<<virtual>> PostBindToStream
+../../../../webviewer/34.jpg
+op365c7a7101e0.htm
+
+
+
+(
+)
+<<virtual>> CreateBindStatusCallback
+../../../../webviewer/34.jpg
+op365c7a7101e2.htm
+
+
+
+(
+)
+<<virtual, const>> GetBindInfo
+../../../../webviewer/34.jpg
+op365c7a7101e4.htm
+
+
+
+(
+)
+<<virtual, const>> GetPriority
+../../../../webviewer/34.jpg
+op365c7a7101e5.htm
+
+
+
+(
+)
+<<virtual>> OnDataAvailable
+../../../../webviewer/34.jpg
+op365c7a7101e9.htm
+
+
+
+(
+)
+<<virtual>> OnLowResource
+../../../../webviewer/34.jpg
+op365c7a7101ec.htm
+
+
+
+(
+)
+<<virtual>> OnStartBinding
+../../../../webviewer/34.jpg
+op365c7a7101ed.htm
+
+
+
+(
+)
+<<virtual>> OnProgress
+../../../../webviewer/34.jpg
+op365c7a7101f3.htm
+
+
+
+(
+)
+<<virtual>> OnStopBinding
+../../../../webviewer/34.jpg
+op365c7a7101f8.htm
+
+
+
+(
+)
+)
+CCachedDataPathProperty ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a71023a.htm
+class365c7a71023a.txt
+
+
+(
+<<virtual>> ResetData
+../../../../webviewer/34.jpg
+op365c7a71024f.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710250.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710258.htm
+
+
+
+(
+)
+<<virtual>> OnDataAvailable
+../../../../webviewer/34.jpg
+op365c7a71025a.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a71025d.htm
+
+
+
+(
+)
+)
+CDataPathProperty ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7101fd.htm
+class365c7a7101fd.txt
+
+
+(
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a710211.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a710214.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a71021b.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a710225.htm
+
+
+
+(
+)
+<<virtual>> ResetData
+../../../../webviewer/34.jpg
+op365c7a710227.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710228.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710229.htm
+
+
+
+(
+)
+)
+CFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a71001f.htm
+class365c7a71001f.txt
+
+
+(
+<<virtual, const>> GetLength
+../../../../webviewer/34.jpg
+op365c7a710032.htm
+
+
+
+(
+)
+<<virtual>> ~CFile
+../../../../webviewer/34.jpg
+op365c7a710033.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710034.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a71003b.htm
+
+
+
+(
+)
+<<virtual, const>> GetPosition
+../../../../webviewer/34.jpg
+op365c7a71003d.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileName
+../../../../webviewer/34.jpg
+op365c7a71003e.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileTitle
+../../../../webviewer/34.jpg
+op365c7a71003f.htm
+
+
+
+(
+)
+<<virtual, const>> GetFilePath
+../../../../webviewer/34.jpg
+op365c7a710045.htm
+
+
+
+(
+)
+<<virtual>> SetFilePath
+../../../../webviewer/34.jpg
+op365c7a710046.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a710048.htm
+
+
+
+(
+)
+<<virtual, const>> Duplicate
+../../../../webviewer/34.jpg
+op365c7a710050.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a710051.htm
+
+
+
+(
+)
+<<virtual>> SetLength
+../../../../webviewer/34.jpg
+op365c7a710054.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a710056.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a71005b.htm
+
+
+
+(
+)
+<<virtual>> LockRange
+../../../../webviewer/34.jpg
+op365c7a71005e.htm
+
+
+
+(
+)
+<<virtual>> UnlockRange
+../../../../webviewer/34.jpg
+op365c7a710063.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a710066.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a710067.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a710068.htm
+
+
+
+(
+)
+<<virtual>> GetBufferPtr
+../../../../webviewer/34.jpg
+op365c7a71006d.htm
+
+
+
+(
+)
+)
+CGopherFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a71032a.htm
+class365c7a71032a.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a71033e.htm
+
+
+
+(
+)
+<<virtual>> ~CGopherFile
+../../../../webviewer/34.jpg
+op365c7a71033f.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710340.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a710342.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a71034a.htm
+
+
+
+(
+)
+)
+CHttpFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a71034b.htm
+class365c7a71034b.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a71035d.htm
+
+
+
+(
+)
+<<virtual>> ~CHttpFile
+../../../../webviewer/34.jpg
+op365c7a71035e.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710366.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710368.htm
+
+
+
+(
+)
+<<virtual, const>> GetFileURL
+../../../../webviewer/34.jpg
+op365c7a710369.htm
+
+
+
+(
+)
+)
+CInternetFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7102ee.htm
+class365c7a7102ee.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a7102f9.htm
+
+
+
+(
+)
+<<virtual>> ~CInternetFile
+../../../../webviewer/34.jpg
+op365c7a710302.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710303.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a710305.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a71030d.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a710310.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a710313.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a710316.htm
+
+
+
+(
+)
+<<virtual, const>> GetLength
+../../../../webviewer/34.jpg
+op365c7a710317.htm
+
+
+
+(
+)
+<<virtual>> ReadString
+../../../../webviewer/34.jpg
+op365c7a710318.htm
+
+
+
+(
+)
+<<virtual>> ReadString
+../../../../webviewer/34.jpg
+op365c7a71031a.htm
+
+
+
+(
+)
+<<virtual>> WriteString
+../../../../webviewer/34.jpg
+op365c7a710322.htm
+
+
+
+(
+)
+<<virtual>> SetLength
+../../../../webviewer/34.jpg
+op365c7a710324.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710326.htm
+
+
+
+(
+)
+)
+CMemFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a710072.htm
+class365c7a710072.txt
+
+
+(
+<<virtual>> ~CMemFile
+../../../../webviewer/34.jpg
+op365c7a710082.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710083.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a71008b.htm
+
+
+
+(
+)
+<<virtual, const>> GetPosition
+../../../../webviewer/34.jpg
+op365c7a71008d.htm
+
+
+
+(
+)
+<<virtual, const>> Duplicate
+../../../../webviewer/34.jpg
+op365c7a71008e.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a71008f.htm
+
+
+
+(
+)
+<<virtual>> SetLength
+../../../../webviewer/34.jpg
+op365c7a710097.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a710099.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a71009c.htm
+
+
+
+(
+)
+<<virtual>> LockRange
+../../../../webviewer/34.jpg
+op365c7a7100a1.htm
+
+
+
+(
+)
+<<virtual>> UnlockRange
+../../../../webviewer/34.jpg
+op365c7a7100a4.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a7100a7.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a7100a9.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a7100aa.htm
+
+
+
+(
+)
+<<virtual>> GetBufferPtr
+../../../../webviewer/34.jpg
+op365c7a7100ab.htm
+
+
+
+(
+)
+<<virtual>> Alloc
+../../../../webviewer/34.jpg
+op365c7a7100b7.htm
+
+
+
+(
+)
+<<virtual>> Realloc
+../../../../webviewer/34.jpg
+op365c7a7100b9.htm
+
+
+
+(
+)
+<<virtual>> Memcpy
+../../../../webviewer/34.jpg
+op365c7a7100bc.htm
+
+
+
+(
+)
+<<virtual>> Free
+../../../../webviewer/34.jpg
+op365c7a7100c0.htm
+
+
+
+(
+)
+<<virtual>> GrowFile
+../../../../webviewer/34.jpg
+op365c7a7100c2.htm
+
+
+
+(
+)
+)
+CMonikerFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a71012b.htm
+class365c7a71012b.txt
+
+
+(
+<<virtual>> ~CMonikerFile
+../../../../webviewer/34.jpg
+op365c7a71013f.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710140.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710141.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a710143.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a710149.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a71014a.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a71014d.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a710154.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a71015d.htm
+
+
+
+(
+)
+<<virtual>> PostBindToStream
+../../../../webviewer/34.jpg
+op365c7a710163.htm
+
+
+
+(
+)
+)
+COleStreamFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7100e6.htm
+class365c7a7100e6.txt
+
+
+(
+<<virtual>> ~COleStreamFile
+../../../../webviewer/34.jpg
+op365c7a7100fa.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a7100fb.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7100fc.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a710104.htm
+
+
+
+(
+)
+<<virtual, const>> GetPosition
+../../../../webviewer/34.jpg
+op365c7a710105.htm
+
+
+
+(
+)
+<<virtual, const>> GetStorageName
+../../../../webviewer/34.jpg
+op365c7a710106.htm
+
+
+
+(
+)
+<<virtual, const>> Duplicate
+../../../../webviewer/34.jpg
+op365c7a710107.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a71010d.htm
+
+
+
+(
+)
+<<virtual>> SetLength
+../../../../webviewer/34.jpg
+op365c7a710110.htm
+
+
+
+(
+)
+<<virtual, const>> GetLength
+../../../../webviewer/34.jpg
+op365c7a710112.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a710117.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a71011a.htm
+
+
+
+(
+)
+<<virtual>> LockRange
+../../../../webviewer/34.jpg
+op365c7a71011d.htm
+
+
+
+(
+)
+<<virtual>> UnlockRange
+../../../../webviewer/34.jpg
+op365c7a710122.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a710125.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a710126.htm
+
+
+
+(
+)
+)
+CRecentFileList ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a710370.htm
+class365c7a710370.txt
+
+
+(
+<<virtual>> ~CRecentFileList
+../../../../webviewer/34.jpg
+op365c7a71037a.htm
+
+
+
+(
+)
+<<virtual>> Remove
+../../../../webviewer/34.jpg
+op365c7a710384.htm
+
+
+
+(
+)
+<<virtual>> Add
+../../../../webviewer/34.jpg
+op365c7a710386.htm
+
+
+
+(
+)
+<<virtual>> UpdateMenu
+../../../../webviewer/34.jpg
+op365c7a710388.htm
+
+
+
+(
+)
+<<virtual>> ReadList
+../../../../webviewer/34.jpg
+op365c7a71038e.htm
+
+
+
+(
+)
+<<virtual>> WriteList
+../../../../webviewer/34.jpg
+op365c7a71038f.htm
+
+
+
+(
+)
+)
+CSharedFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7100c7.htm
+class365c7a7100c7.txt
+
+
+(
+<<virtual>> ~CSharedFile
+../../../../webviewer/34.jpg
+op365c7a7100db.htm
+
+
+
+(
+)
+<<virtual>> Alloc
+../../../../webviewer/34.jpg
+op365c7a7100dc.htm
+
+
+
+(
+)
+<<virtual>> Realloc
+../../../../webviewer/34.jpg
+op365c7a7100de.htm
+
+
+
+(
+)
+<<virtual>> Free
+../../../../webviewer/34.jpg
+op365c7a7100e1.htm
+
+
+
+(
+)
+)
+CSocketFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a710262.htm
+class365c7a710262.txt
+
+
+(
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a710277.htm
+
+
+
+(
+)
+<<virtual>> ~CSocketFile
+../../../../webviewer/34.jpg
+op365c7a710278.htm
+
+
+
+(
+)
+<<virtual, const>> AssertValid
+../../../../webviewer/34.jpg
+op365c7a710279.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a710280.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a710282.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a710285.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a71028c.htm
+
+
+
+(
+)
+<<virtual, const>> Duplicate
+../../../../webviewer/34.jpg
+op365c7a710290.htm
+
+
+
+(
+)
+<<virtual, const>> GetPosition
+../../../../webviewer/34.jpg
+op365c7a710291.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a710294.htm
+
+
+
+(
+)
+<<virtual>> SetLength
+../../../../webviewer/34.jpg
+op365c7a710297.htm
+
+
+
+(
+)
+<<virtual, const>> GetLength
+../../../../webviewer/34.jpg
+op365c7a710299.htm
+
+
+
+(
+)
+<<virtual>> LockRange
+../../../../webviewer/34.jpg
+op365c7a71029e.htm
+
+
+
+(
+)
+<<virtual>> UnlockRange
+../../../../webviewer/34.jpg
+op365c7a7102a1.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a7102a4.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a7102a5.htm
+
+
+
+(
+)
+)
+CStdioFile ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7102a8.htm
+class365c7a7102a8.txt
+
+
+(
+<<virtual>> ~CStdioFile
+../../../../webviewer/34.jpg
+op365c7a7102bd.htm
+
+
+
+(
+)
+<<virtual, const>> GetPosition
+../../../../webviewer/34.jpg
+op365c7a7102be.htm
+
+
+
+(
+)
+<<virtual>> Open
+../../../../webviewer/34.jpg
+op365c7a7102bf.htm
+
+
+
+(
+)
+<<virtual, const>> Duplicate
+../../../../webviewer/34.jpg
+op365c7a7102c8.htm
+
+
+
+(
+)
+<<virtual>> Seek
+../../../../webviewer/34.jpg
+op365c7a7102c9.htm
+
+
+
+(
+)
+<<virtual>> Read
+../../../../webviewer/34.jpg
+op365c7a7102cc.htm
+
+
+
+(
+)
+<<virtual>> Write
+../../../../webviewer/34.jpg
+op365c7a7102d1.htm
+
+
+
+(
+)
+<<virtual>> LockRange
+../../../../webviewer/34.jpg
+op365c7a7102d4.htm
+
+
+
+(
+)
+<<virtual>> UnlockRange
+../../../../webviewer/34.jpg
+op365c7a7102d7.htm
+
+
+
+(
+)
+<<virtual>> Abort
+../../../../webviewer/34.jpg
+op365c7a7102da.htm
+
+
+
+(
+)
+<<virtual>> Flush
+../../../../webviewer/34.jpg
+op365c7a7102db.htm
+
+
+
+(
+)
+<<virtual>> Close
+../../../../webviewer/34.jpg
+op365c7a7102dc.htm
+
+
+
+(
+)
+<<virtual>> WriteString
+../../../../webviewer/34.jpg
+op365c7a7102dd.htm
+
+
+
+(
+)
+<<virtual>> ReadString
+../../../../webviewer/34.jpg
+op365c7a7102e4.htm
+
+
+
+(
+)
+<<virtual>> ReadString
+../../../../webviewer/34.jpg
+op365c7a7102e7.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

@@ -1,0 +1,1 @@
+The COleConvertDialog class is used for the OLE Convert dialog box. Create an object of class COleConvertDialog when you want to call this dialog box. After a COleConvertDialog object has been constructed, you can use the m_cv structure to initialize the values or states of controls in the dialog box. The m_cv structure is of type OLEUICONVERT.

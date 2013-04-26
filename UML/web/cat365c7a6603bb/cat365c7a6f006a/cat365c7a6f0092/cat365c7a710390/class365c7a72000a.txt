@@ -1,0 +1,1 @@
+A CDBException object represents an exception condition arising from the database classes. The class includes two public data members you can use to determine the cause of the exception or to display a text message describing the exception. CDBException objects are constructed and thrown by member functions of the database classes. 

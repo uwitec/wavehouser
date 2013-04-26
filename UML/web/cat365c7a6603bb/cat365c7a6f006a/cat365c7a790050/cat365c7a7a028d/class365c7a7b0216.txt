@@ -1,0 +1,1 @@
+The CWaitCursor class provides a one-line way to show a wait cursor, which is usually displayed as an hourglass, while you're doing a lengthy operation. Good Windows programming practices require that you display a wait cursor whenever you're performing an operation that takes a noticeable amount of time.

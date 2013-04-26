@@ -1,0 +1,1 @@
+The CScrollView class is a CView with scrolling capabilities. 

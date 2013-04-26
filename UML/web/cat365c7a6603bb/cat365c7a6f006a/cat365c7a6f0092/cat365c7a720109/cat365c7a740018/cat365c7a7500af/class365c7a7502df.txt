@@ -1,0 +1,1 @@
+The COleLinksDialog object is used for the OLE Edit Links dialog box. Create an object of class COleLinksDialog when you want to call this dialog box. After a COleLinksDialog object has been constructed, you can use the m_el structure to initialize the values or states of controls in the dialog box. The m_el structure is of type OLEUIEDITLINKS.

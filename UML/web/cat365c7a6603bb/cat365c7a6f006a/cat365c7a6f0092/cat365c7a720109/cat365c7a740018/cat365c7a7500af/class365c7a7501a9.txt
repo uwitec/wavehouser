@@ -1,0 +1,1 @@
+The CFontDialog class allows you to incorporate a font-selection dialog box into your application. A CFontDialog object is a dialog box with a list of fonts that are currently installed in the system. The user can select a particular font from the list, and this selection is then reported back to the application.

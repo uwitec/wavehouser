@@ -1,0 +1,1 @@
+The MFC class CHttpConnection manages your connection to an HTTP server. HTTP is one of three Internet server protocols implemented by the MFC WinInet classes. 

@@ -1,0 +1,304 @@
+Main
+../../../../webviewer/18.jpg
+dgm365c91eb00d3.htm
+
+
+
+(
+)
+CArchiveException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a710398.htm
+class365c7a710398.txt
+
+
+(
+<<virtual>> ~CArchiveException
+../../../../webviewer/34.jpg
+op365c7a7103a3.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a7103ac.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a7103ae.htm
+
+
+
+(
+)
+)
+CDaoException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7103d4.htm
+class365c7a7103d4.txt
+
+
+(
+<<virtual>> ~CDaoException
+../../../../webviewer/34.jpg
+op365c7a720001.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a720002.htm
+
+
+
+(
+)
+)
+CDBException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a72000a.htm
+class365c7a72000a.txt
+
+
+(
+<<virtual>> BuildErrorString
+../../../../webviewer/34.jpg
+op365c7a72001e.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a720022.htm
+
+
+
+(
+)
+<<virtual>> ~CDBException
+../../../../webviewer/34.jpg
+op365c7a720026.htm
+
+
+
+(
+)
+)
+CException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7103b6.htm
+class365c7a7103b6.txt
+
+
+(
+<<virtual>> ~CException
+../../../../webviewer/34.jpg
+op365c7a7103c1.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a7103ca.htm
+
+
+
+(
+)
+<<virtual>> ReportError
+../../../../webviewer/34.jpg
+op365c7a7103ce.htm
+
+
+
+(
+)
+)
+CFileException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720028.htm
+class365c7a720028.txt
+
+
+(
+<<virtual>> ~CFileException
+../../../../webviewer/34.jpg
+op365c7a72003d.htm
+
+
+
+(
+)
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a72003e.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a720040.htm
+
+
+
+(
+)
+)
+CInternetException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720049.htm
+class365c7a720049.txt
+
+
+(
+<<virtual, const>> Dump
+../../../../webviewer/34.jpg
+op365c7a72005b.htm
+
+
+
+(
+)
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a72005d.htm
+
+
+
+(
+)
+)
+CMemoryException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720067.htm
+class365c7a720067.txt
+
+
+(
+<<virtual>> ~CMemoryException
+../../../../webviewer/34.jpg
+op365c7a720079.htm
+
+
+
+(
+)
+)
+CNotSupportedException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720082.htm
+class365c7a720082.txt
+
+
+(
+<<virtual>> ~CNotSupportedException
+../../../../webviewer/34.jpg
+op365c7a720096.htm
+
+
+
+(
+)
+)
+COleDispatchException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7200ea.htm
+class365c7a7200ea.txt
+
+
+(
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a7200fb.htm
+
+
+
+(
+)
+<<virtual>> ~COleDispatchException
+../../../../webviewer/34.jpg
+op365c7a720108.htm
+
+
+
+(
+)
+)
+COleException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7200c9.htm
+class365c7a7200c9.txt
+
+
+(
+<<virtual>> GetErrorMessage
+../../../../webviewer/34.jpg
+op365c7a7200dd.htm
+
+
+
+(
+)
+<<virtual>> ~COleException
+../../../../webviewer/34.jpg
+op365c7a7200e9.htm
+
+
+
+(
+)
+)
+CResourceException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a7200b4.htm
+class365c7a7200b4.txt
+
+
+(
+<<virtual>> ~CResourceException
+../../../../webviewer/34.jpg
+op365c7a7200c8.htm
+
+
+
+(
+)
+)
+CUserException ( MFC 6.0 )
+../../../../webviewer/17.jpg
+class365c7a720097.htm
+class365c7a720097.txt
+
+
+(
+<<virtual>> ~CUserException
+../../../../webviewer/34.jpg
+op365c7a7200ab.htm
+
+
+
+(
+)
+)
+Associations
+../../../../webviewer/assoccat.gif
+
+
+
+
+(
+)

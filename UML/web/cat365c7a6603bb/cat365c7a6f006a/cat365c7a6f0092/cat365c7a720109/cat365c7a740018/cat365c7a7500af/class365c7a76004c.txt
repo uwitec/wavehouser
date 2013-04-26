@@ -1,0 +1,1 @@
+Objects of class CPropertyPage represent individual pages of a property sheet, otherwise known as a tab dialog box.

@@ -1,0 +1,1 @@
+A COleVariant object encapsulates the VARIANT data type. This data type is used in OLE automation. Specifically, the DISPPARAMS structure contains a pointer to an array of VARIANT structures. A DISPPARAMS structure is used to pass parameters to IDispatch::Invoke.

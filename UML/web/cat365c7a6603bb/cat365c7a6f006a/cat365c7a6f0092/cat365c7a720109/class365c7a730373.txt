@@ -1,0 +1,1 @@
+Class CDocObjectServerItem, derived from COleServerItem, implements OLE server verbs specifically for DocObject servers. 

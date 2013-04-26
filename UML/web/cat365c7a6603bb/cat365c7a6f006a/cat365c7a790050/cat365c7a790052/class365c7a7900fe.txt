@@ -1,0 +1,1 @@
+CHttpFilterContext provides the tools that a CHttpFilter object needs to process data that passes through the filter. When the filter receives a request, a CHttpFilter object is created and initialized, and a CHttpFilterContext object is created. As the filter processes requests, it uses CHttpFilterContext member functions to perform tasks. 

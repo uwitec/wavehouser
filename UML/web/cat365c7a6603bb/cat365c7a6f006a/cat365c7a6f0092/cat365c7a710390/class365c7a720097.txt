@@ -1,0 +1,1 @@
+A CUserException is thrown to stop an end-user operation. Use CUserException when you want to use the throw/catch exception mechanism for application-specific exceptions. 'User' in the class name can be interpreted as 'my user did something exceptional that I need to handle.'

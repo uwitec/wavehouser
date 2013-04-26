@@ -1,0 +1,1 @@
+The CFileDialog class encapsulates the Windows common file dialog box. Common file dialog boxes provide an easy way to implement File Open and File Save As dialog boxes (as well as other file-selection dialog boxes) in a manner consistent with Windows standards.

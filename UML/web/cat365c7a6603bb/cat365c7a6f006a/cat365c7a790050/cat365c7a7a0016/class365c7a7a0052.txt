@@ -1,0 +1,3 @@
+The CRect class is similar to a Windows RECT structure. CRect also includes member functions to manipulate CRect objects and Windows RECT structures. 
+
+A CRect contains member variables that define the top-left and bottom-right points of a rectangle.

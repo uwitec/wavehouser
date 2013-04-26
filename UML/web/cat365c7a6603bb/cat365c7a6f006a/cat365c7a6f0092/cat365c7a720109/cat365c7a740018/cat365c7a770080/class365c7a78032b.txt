@@ -1,0 +1,12 @@
+A CMonthCalCtrl object encapsulates the functionality of a month calendar control. The month calendar control provides the user with a simple calendar interface, from which the user can select a date. The user can change the display by: 
+
+Scrolling backward and forward, from month to month.
+
+Clicking the Today text to display the current day (if the MCS_NOTODAY style is not used).
+
+Picking a month or a year from a pop-up menu. 
+You can customize the month calendar control by applying a variety of styles to the object when you create it. These styles are described inMonth Calendar Control Styles in the Platform SDK.
+
+The month calendar control can display more than one month, and it can indicate special days (such as holidays) by bolding the date.
+
+For more information on using the month calendar control, seeUsing CMonthCalCtrl in the Visual C++ Programmer’s Guide.

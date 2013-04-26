@@ -1,0 +1,1 @@
+A CEditView object is a view that, like the CEdit class, provides the functionality of a Windows edit control and can be used to implement simple text-editor functionality. In addition, the CEditView class provides functions for printing as well as 'find and replace'. 

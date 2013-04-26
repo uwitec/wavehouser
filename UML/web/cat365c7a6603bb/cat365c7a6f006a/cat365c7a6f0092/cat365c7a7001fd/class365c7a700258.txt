@@ -1,0 +1,1 @@
+The CFont class encapsulates a Windows graphics device interface (GDI) font and provides member functions for manipulating the font. To use a CFont object, construct a CFont object and attach a Windows font to it with CreateFont, CreateFontIndirect, CreatePointFont, or CreatePointFontIndirect, and then use the object's member functions to manipulate the font.

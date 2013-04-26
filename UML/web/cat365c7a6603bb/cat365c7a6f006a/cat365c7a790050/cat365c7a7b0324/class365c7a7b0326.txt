@@ -1,0 +1,1 @@
+The CTypedPtrArray class provides a type-safe 'wrapper' for objects of class CPtrArray or CObArray. When you use CTypedPtrArray rather than CPtrArray or CObArray, the C++ type-checking facility helps eliminate errors caused by mismatched pointer types.

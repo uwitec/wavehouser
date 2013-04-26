@@ -1,0 +1,1 @@
+CDocTemplate is an abstract base class that defines the basic functionality for document templates. You usually create one or more document templates in the implementation of your application's InitInstance function. A document template defines the relationships among three types of classes: a document class, a view class, and a frame window class.

@@ -1,0 +1,1 @@
+The CPaintDC class is a device-context class derived from CDC. It performs a CWnd::BeginPaint at construction time and CWnd::EndPaint at destruction time. 

@@ -1,0 +1,1 @@
+The purpose of the CPictureHolder class is implementation of a Picture property, which allows the user to display a picture in your control. With the stock Picture property, the developer can specify a bitmap, icon, or metafile for display.

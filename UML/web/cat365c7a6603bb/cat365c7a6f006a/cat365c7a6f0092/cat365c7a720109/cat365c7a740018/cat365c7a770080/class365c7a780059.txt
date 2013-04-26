@@ -1,0 +1,1 @@
+A 'progress bar control' is a window that an application can use to indicate the progress of a lengthy operation. It consists of a rectangle that is gradually filled, from left to right, with the system highlight color as an operation progresses.

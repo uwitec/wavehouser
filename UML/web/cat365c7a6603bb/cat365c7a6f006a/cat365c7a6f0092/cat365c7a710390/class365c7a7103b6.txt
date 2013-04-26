@@ -1,0 +1,1 @@
+CException is the base class for all exceptions in the Microsoft Foundation Class Library.

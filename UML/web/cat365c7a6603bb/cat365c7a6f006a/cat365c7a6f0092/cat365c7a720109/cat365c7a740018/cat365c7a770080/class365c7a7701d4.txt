@@ -1,0 +1,3 @@
+The CListBox class provides the functionality of a Windows list box. A list box displays a list of items, such as filenames, that the user can view and select. 
+
+In a single-selection list box, the user can select only one item. In a multiple-selection list box, a range of items can be selected. When the user selects an item, it is highlighted and the list box sends a notification message to the parent window.

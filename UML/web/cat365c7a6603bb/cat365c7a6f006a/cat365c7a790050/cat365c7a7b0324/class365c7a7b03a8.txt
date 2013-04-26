@@ -1,0 +1,1 @@
+The CTypedPtrMap class provides a type-safe 'wrapper' for objects of the pointer-map classes CMapPtrToPtr, CMapPtrToWord, CMapWordToPtr, and CMapStringToPtr. When you use CTypedPtrMap, the C++ type-checking facility helps eliminate errors caused by mismatched pointer types.

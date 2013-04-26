@@ -1,0 +1,1 @@
+A CStdioFile object represents a C run-time stream file as opened by the run-time function fopen. Stream files are buffered and can be opened in either text mode (the default) or binary mode.
