@@ -310,7 +310,7 @@ void CWarehouseManagerDlg::OnCheckSearchBtn()
 	}
 	CDialog_Update::UpdateDlg(m_checkList);
 
-	SetWindowText(_T("仓库管理系统-收支查询"));
+	SetWindowText(_T("仓库管理系统-出入库查询"));
 }
 
 
@@ -326,7 +326,7 @@ void CWarehouseManagerDlg::OnCheckStats()
 	}
 	CDialog_Update::UpdateDlg(m_checkStats);
 
-	SetWindowText(_T("仓库管理系统-收支统计"));
+	SetWindowText(_T("仓库管理系统-出入库统计"));
 }
 
 
@@ -373,7 +373,7 @@ void CWarehouseManagerDlg::OnOutCheck()
 		m_checkList_out->ShowWindow(SW_HIDE);
 	}
 	CDialog_Update::UpdateDlg(m_checkList_out);
-	SetWindowText(_T("仓库管理系统-导出收支信息"));
+	SetWindowText(_T("仓库管理系统-导出出入库信息"));
 }
 
 

@@ -114,7 +114,7 @@ void CDialog_Check_Stats::FormatSearchDates( const int &modal /*= 0*/ )
 					continue;
 				if(modal == 0 && m_searchDates[i].m_checkModal == m_searchDates[j].m_checkModal && m_searchDates[j].m_checkModal == -1) //名称
 				{
-					tmp.PieName = m_searchDates[j].m_checkModal == 1 ? _T("购进") :_T("支出");
+					tmp.PieName = m_searchDates[j].m_checkModal == 1 ? _T("入库") :_T("出库");
 					m_searchDates[j].m_checkModal = -1;
 					tmp.PieNum ++;					
 				}
@@ -154,7 +154,7 @@ void CDialog_Check_Stats::FormatSearchDates( const int &modal /*= 0*/ )
 				switch(modal)
 				{
 				case 0:
-					tmp.PieName = m_searchDates[i].m_checkModal == 1?_T("购进") :_T("支出");
+					tmp.PieName = m_searchDates[i].m_checkModal == 1?_T("入库") :_T("出库");
 					break;
 				case 1:
 					tmp.PieName = m_searchDates[i].m_material.m_name;

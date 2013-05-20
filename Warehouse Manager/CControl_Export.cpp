@@ -122,7 +122,7 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 	{
 		int m_checkModal;
 
-		string title = "序号,收支,材料名称,操作员,部门,数量,总额,日期,电话,详细信息\r";
+		string title = "序号,类型,材料名称,操作员,部门,数量,总额,日期,电话,详细信息\r";
 		outfile.write(title.c_str(),title.length());
 
 		char cTmp[10];
@@ -133,9 +133,9 @@ bool CControl_Export::ExportCheck( const vector<CDate_check> &dates )
 			string dateLine = cTmp;
 
 			if(dates[i].m_checkModal)
-				dateLine += ",采购,";
+				dateLine += ",入库,";
 			else
-				dateLine += ",支出,";
+				dateLine += ",出库,";
 
 			dateLine += dateChange.CStringtostring(dates[i].m_material.m_name);
 			dateLine += ",";
