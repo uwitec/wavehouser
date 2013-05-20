@@ -70,8 +70,8 @@ BOOL CDialog_Check_List::OnInitDialog()
 	InitComobox();
 
 	m_checkModal_ctrl.AddString(_T("全部"));
-	m_checkModal_ctrl.AddString(_T("购进"));
-	m_checkModal_ctrl.AddString(_T("支出"));
+	m_checkModal_ctrl.AddString(_T("入库"));
+	m_checkModal_ctrl.AddString(_T("出库"));
 	m_checkModal_ctrl.SetCurSel(0);
 
 
@@ -116,7 +116,7 @@ void CDialog_Check_List::InitList()
 	m_list.SetExtendedStyle(dwStyles|LVS_EX_FULLROWSELECT|LVS_EX_GRIDLINES);
 	
 	m_list.InsertColumn(0, _T( "序号" ),LVCFMT_LEFT, 50);
-	m_list.InsertColumn(1, _T( "收支" ),LVCFMT_LEFT, 50);
+	m_list.InsertColumn(1, _T( "类型" ),LVCFMT_LEFT, 50);
 	m_list.InsertColumn(2, _T( "材料名称" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(3, _T( "部门" ),LVCFMT_LEFT, 100);
 	m_list.InsertColumn(4, _T( "操作员" ),LVCFMT_LEFT, 100);
@@ -180,9 +180,9 @@ void CDialog_Check_List::ListCtrlShow()
 		tmp.Format(_T("%d"),i+1);
 		m_list.SetItemText(newRow,0,tmp);
 		if(m_searchDates[i].m_checkModal == 1)
-			m_list.SetItemText(newRow,1,_T("购进"));
+			m_list.SetItemText(newRow,1,_T("入库"));
 		else
-			m_list.SetItemText(newRow,1,_T("支出"));
+			m_list.SetItemText(newRow,1,_T("出库"));
 		m_list.SetItemText(newRow,2,m_searchDates[i].m_material.m_name);
 		m_list.SetItemText(newRow,3,m_searchDates[i].m_class.m_name);
 		m_list.SetItemText(newRow,4,m_searchDates[i].m_userInfo.m_name);

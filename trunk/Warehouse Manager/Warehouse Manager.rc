@@ -199,7 +199,7 @@ END
 
 IDD_DLG_CHECK DIALOGEX 0, 0, 361, 281
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "购进"
+CAPTION "入库"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     EDITTEXT        IDC_EDIT2,236,50,71,14,ES_AUTOHSCROLL
@@ -547,20 +547,20 @@ BEGIN
         MENUITEM SEPARATOR
         MENUITEM "材料统计",                        ID_32780
     END
-    POPUP "购进支出"
+    POPUP "出库入库"
     BEGIN
-        MENUITEM "添加购进",                        ID_32781
-        MENUITEM "添加支出",                        ID_32793
-        MENUITEM "收支查询",                        ID_32782
+        MENUITEM "添加入库",                        ID_32781
+        MENUITEM "添加出库",                        ID_32793
+        MENUITEM "出入库查询",                       ID_32782
         MENUITEM SEPARATOR
-        MENUITEM "收支统计",                        ID_32791
+        MENUITEM "出入库统计",                       ID_32791
     END
     POPUP "导出报表"
     BEGIN
         MENUITEM "导出部门信息",                      ID_32814
         MENUITEM "导出人员信息",                      ID_32786
         MENUITEM "导出材料信息",                      ID_32785
-        MENUITEM "导出收支信息",                      ID_32787
+        MENUITEM "导出出库入库",                      ID_32787
     END
     POPUP "系统设置"
     BEGIN
@@ -585,8 +585,8 @@ IDR_LIST_MENU2 MENU
 BEGIN
     POPUP "CLISTMENU2"
     BEGIN
-        MENUITEM "增加购进",                        ID_CLISTMENU2_ADDIN
-        MENUITEM "增加支出",                        ID_CLISTMENU2_ADDOUT
+        MENUITEM "增加入库",                        ID_CLISTMENU2_ADDIN
+        MENUITEM "增加出库",                        ID_CLISTMENU2_ADDOUT
         MENUITEM SEPARATOR
         MENUITEM "查看部门信息",                      ID_CLISTMENU2_SCLASS
         MENUITEM "查看操作员信息",                     ID_CLISTMENU2_SUSER

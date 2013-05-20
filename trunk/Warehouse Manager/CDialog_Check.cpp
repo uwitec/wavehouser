@@ -59,11 +59,11 @@ BOOL CDialog_Check::OnInitDialog()
 
 	if(m_checkModal)
 	{
-		SetWindowText(_T("购进"));
+		SetWindowText(_T("入库"));
 	}
 	else
 	{
-		SetWindowText(_T("支出"));
+		SetWindowText(_T("出库"));
 	}
 
 	InitComobox();
@@ -228,9 +228,9 @@ void CDialog_Check::OnBnClickedBtbSave()
 	if(m_date.m_userInfo.GetId().empty())
 	{
 		if(m_checkModal)
-			CRuntimeMessageBox::RunMessageBox("请输入正确的购进人员");
+			CRuntimeMessageBox::RunMessageBox("请输入正确的入库人员");
 		else
-			CRuntimeMessageBox::RunMessageBox("请输入正确的支出人员");
+			CRuntimeMessageBox::RunMessageBox("请输入正确的出库人员");
 
 		return;
 	}
@@ -250,7 +250,7 @@ void CDialog_Check::OnBnClickedBtbSave()
 	int haveNum = tmpc.VerCheckMaterial(m_date.m_material.GetId()) ;
 	if( !m_checkModal && haveNum < m_date.m_num)
 	{
-		CRuntimeMessageBox::RunMessageBox("保存失败：此材料库存不足，无法支出！");
+		CRuntimeMessageBox::RunMessageBox("保存失败：此材料库存不足，无法出库！");
 
 		return;
 	}
